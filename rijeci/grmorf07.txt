@@ -1,0 +1,23 @@
+word;meaning;note
+# riječi
+γάρ;jer, naime;grmorf07
+γίγνομαι, γενήσομαι, ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην;postati, roditi se;grmorf07
+οὖν;dakle;grmorf07
+παρά (+ gen., dat., ak.);uz, od;grmorf07
+ὁράω, ὄψομαι, εἶδον, ἑόρακα / ἑώρακα, ὤφθην, impf. ἑώρων;gledati;grmorf07
+ὥστε;tako da;grmorf07
+ἅπας ἅπασα ἅπαν;svekolik, cijeli;grmorf07
+παῖς παιδός, ὁ/ἡ;dijete, rob;grmorf07
+δόξα δόξης, ἡ;slava, misao;grmorf07
+νέος νέα νέον;mlad, nov;grmorf07
+# fraze
+ἀφικόμενος εἰς Αἴγυπτον;došavši u Egipat;grmorf07
+τὰ περὶ τὰς θυσίας;sve o prinošenju žrtava;grmorf07
+φιλοσοφίαν πρῶτος εἰς τοὺς ῞Ελληνας ἐκόμισεν;prvi je donio filozofiju među Grke;grmorf07
+αὐτῷ συνέβη;dogodilo mu se;grmorf07
+ἥδιον ὁρᾶν;radije gledati;grmorf07
+τοὺς παῖδας τοὺς αὑτῶν;svoju djecu;grmorf07
+ἔτι καὶ νῦν;još i sada;grmorf07
+μεγίστην δόξαν ἔχοντες;oni koji uživaju najveću slavu;grmorf07
+σιγῶντας θαυμάζουσιν;dive se onima koji šute;grmorf07
+τούτοις οὐχ οἷόν τ' ἀπιστεῖν;tome nije moguće ne vjerovati;grmorf07

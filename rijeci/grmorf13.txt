@@ -1,0 +1,23 @@
+word;meaning;note
+# riječi
+ἀπό (+ gen.);od;grmorf13
+οὔτε ... οὔτε;niti... niti;grmorf13
+ἄρχω, ἄρξω, ἦρξα, ἦργμαι, ἤρχθην;početi, vladati;grmorf13
+συμβαίνω, συμβήσομαι, συνέβην, συμβέβηκα;dogoditi se;grmorf13
+χρή, impf. χρῆν / ἐχρῆν, infin. χρῆναι;treba;grmorf13
+ὅπως;da (namjerni veznik);grmorf13
+σημεῖον σημείου, τό;znak;grmorf13
+τέλος τέλους, τό;svršetak, cilj, postignuće;grmorf13
+νύξ νυκτός, ἡ;noć;grmorf13
+οὐρανός –οῦ, ὁ;nebo;grmorf13
+ἔξω (+ gen.);izvan;grmorf13
+# fraze
+ἄρξαι τῆς ᾿Ασίας;zavladati Azijom;grmorf13
+οὔτε τέλος οὔτε ἀρχὴ ἐφαίνετο;nije se vidio ni kraj ni početak;grmorf13
+ἐξευρεῖν λύσιν τοῦ δεσμοῦ;pronaći način da se čvor razriješi;grmorf13
+διέκοψε τὸν δεσμὸν;presjekao je čvor;grmorf13
+αὐτός τε καὶ οἱ ἀμφ' αὐτὸν;on sam i njegova pratnja;grmorf13
+τῆς νυκτὸς ἐκείνης;one noći;grmorf13
+ἐξ οὐρανοῦ;s neba;grmorf13
+ἔθυε ᾿Αλέξανδρος τοῖς θεοῖς;Aleksandar je prinio žrtvu bogovima;grmorf13
+ἀπὸ τῆς ἁμάξης;od kola;grmorf13

@@ -1,0 +1,17 @@
+example ; example ; note
+κατά ; niz, kroz, po ; grmorf04
+ἐκ, ἐξ ; iz ; grmorf04
+πόλις πόλεως, ἡ ; grad ; grmorf04
+δύναμις δυνάμεως, ἡ ; sila, moć ; grmorf04
+βασιλεύς βασιλέως, ὁ ; kralj ; grmorf04
+ἔρχομαι, fut. εἶμι or ἐλεύσομαι, 2 aor. ἦλθον, ἐλήλυθα ; ići ; grmorf04
+ὀλίγος ὀλίγη ὀλίγον ; malen ; grmorf04
+ναῦς νεώς, ἡ ; brod ; grmorf04
+βάρβαρος –ον ; negrčki, stran  ; grmorf04
+ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι ; voditi ; grmorf04
+ἡ ἐν Μαραθῶνι μάχη ; bitka na Maratonskom polju ; grmorf04
+δουλωσόμενος ἦλθεν ; došao je da ih porobi ; grmorf04
+οἱ ᾿Αθηναῖοι ναυτικοὶ ἐγένοντο ; Atenjani su postali pomorska sila ; grmorf04
+οἵ ἀποστάντες βασιλέως ῞Ελληνες ; Grci koji su se pobunili protiv kralja ; grmorf04
+κατὰ γῆν ; na kopnu ; grmorf04
+ὀλίγον χρόνον ; kratko vrijeme ; grmorf04

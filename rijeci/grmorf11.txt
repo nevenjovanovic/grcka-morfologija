@@ -1,0 +1,23 @@
+word;meaning;note
+# riječi
+πᾶς πᾶσα πᾶν;svaki, svi;grmorf11
+ὑπό (+ gen., dat., ak.);od, pod;grmorf11
+ὅσος ὅση ὅσον;kolik;grmorf11
+φύω, φύσω, ἔφυσα;roditi;grmorf11
+φέρω, οἴσω, ἤνεγκα / ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην;nositi;grmorf11
+γένος γένους, τό;rod, pleme, vrsta;grmorf11
+τόπος τόπου, ὁ;mjesto;grmorf11
+τότε;tada;grmorf11
+ποταμός –οῦ, ὁ;rijeka;grmorf11
+παρέχω, παρέξω, παρέσχον, παρέσχηκα, impf. παρεῖχον;pružati, dati;grmorf11
+νῆσος νήσου, ἡ;otok;grmorf11
+# fraze
+πλεῖστα δὲ ἡ νῆσος αὐτὴ παρείχετο;a najviše je sam otok davao;grmorf11
+τὸ νῦν ὀνομαζόμενον μόνον;ono što se sada samo spominje;grmorf11
+τὸ γένος ἐκ γῆς ὀρυττόμενον;vrsta iskopavana iz zemlje;grmorf11
+κατὰ τόπους πολλοὺς τῆς νήσου;na mnogim mjestima otoka;grmorf11
+ὅσα ἐν τοῖς πεδίοις νέμεται;koliko ih pase po poljima;grmorf11
+ἀνθῶν ἢ καρπῶν;cvijeća ili plodova;grmorf11
+ἔτρεφεν εὖ;dobro ih je hranio;grmorf11
+τῷ ζῴῳ μεγίστῳ πεφυκότι καὶ πολυβορωτάτῳ;životinji po prirodi najvećoj i najproždrljivijoj;grmorf11
+ἐλεφάντων ἦν γένος πλεῖστον;vrlo brojna vrsta bili su slonovi;grmorf11

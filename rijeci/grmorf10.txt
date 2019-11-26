@@ -1,0 +1,26 @@
+word;meaning;note
+# riječi
+πρός (+ gen., dat., ak.);uz, prema;grmorf10
+δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην;davati;grmorf10
+χράομαι, χρήσομαι, ἐχρησάμην, κέχρημαι, ἐχρήσθην;trebati, upotrebljavati;grmorf10
+μόνον;samo;grmorf10
+ὄνομα ὀνόματος, τό;ime;grmorf10
+ἀκούω, ἀκούσομαι, ἤκουσα, ἀκήκοα, ἠκούσθην;slušati;grmorf10
+κόσμος κόσμου, ὁ;red, ukras, svijet;grmorf10
+πρᾶξις πράξεως, ἡ;djelovanje, rad;grmorf10
+ποιητής –οῦ, ὁ;pjesnik;grmorf10
+δηλόω, δηλώσω, ἐδήλωσα, δεδήλωκα, ἐδηλώθην;pokazati;grmorf10
+βούλομαι, βουλήσομαι, βεβούλημαι, ἐβουλήθην;htjeti;grmorf10
+τοιοῦτος τοιαύτη τοιοῦτο;takav;grmorf10
+# fraze
+πολλοὶ κόσμοι;mnogi ukrasi;grmorf10
+πλησιάζοντας τοὺς θεοὺς τοῖς ἀνθρώποις ποιῆσαι;učiniti da se bogovi približavaju ljudima;grmorf10
+τὰ τεταγμένα ὀνόματα;uobičajena imena;grmorf10
+πᾶσιν τοῖς εἴδεσιν;na sve načine;grmorf10
+οὐδὲν ἔξεστιν τῶν τοιούτων;nije moguće ništa od toga;grmorf10
+ἀναγκαῖόν ἐστιν χρῆσθαι;nužno je služiti se;grmorf10
+μετὰ μέτρων καὶ ῥυθμῶν;pomoću metra i ritma;grmorf10
+πρὸς τούτοις;k tome;grmorf10
+ἃ ἔχει χάριν;to je puno dražesti;grmorf10
+ψυχαγωγοῦσιν τοὺς ἀκούοντας;osvajaju slušaoce;grmorf10
+

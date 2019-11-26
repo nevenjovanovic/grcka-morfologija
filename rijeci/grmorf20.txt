@@ -1,0 +1,20 @@
+word;meaning;note
+# riječi
+ἐν (+ dat.);u;grmorf20
+γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην;spoznati;grmorf20
+κοινός –ή –όν;zajednički;grmorf20
+ἀληθής –ές;istinit;grmorf20
+πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην;slati;grmorf20
+στρατηγός –οῦ, ὁ;vojskovođa;grmorf20
+πρέσβυς πρέσβεως, ὁ;starac, poslanik;grmorf20
+μέλλω, μελλήσω, ἐμέλλησα;namjeravati;grmorf20
+# fraze
+οἱ τῶν ᾿Αθηναίων πρέσβεις;atenski poslanici;grmorf20
+ἄγοντες ἑξήκοντα τάλαντα;noseći šezdeset talenata;grmorf20
+παγωγὰ καὶ οὐκ ἀληθῆ;privlačno, a neistinito;grmorf20
+ἐν τῷ κοινῷ;u zajednici;grmorf20
+ναῦς ἑξήκοντα πέμπειν ἐς Σικελίαν;poslati šezdeset brodova na Siciliju;grmorf20
+᾿Αλκιβιάδης ὁ Κλεινίου;Alkibijad, Klinijin sin;grmorf20
+τἆλλα πρᾶξαι ἄριστα ᾿Αθηναίοις;ostalo učiniti kako je najbolje za Atenjane;grmorf20
+περὶ τῶν χρημάτων;o novcima;grmorf20
+ἅμα ἦρι;u proljeće;grmorf20

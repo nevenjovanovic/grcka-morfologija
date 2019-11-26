@@ -1,0 +1,24 @@
+word;meaning;note
+# riječi
+ἐάν (εἰ-ἄν);ako;grmorf09
+οὕτως;tako;grmorf09
+ἑαυτοῦ ἑαυτῆς ἑαυτοῦ;sebe;grmorf09
+δοκέω, δόξω, ἔδοξα;smatrati, čini se;grmorf09
+ἀνήρ ἀνδρός, ὁ;muž, čovjek;grmorf09
+ἐμός ἐμή ἐμόν;moj;grmorf09
+αἴτιος αἰτία αἴτιον;kriv;grmorf09
+γυνή γυναικός, ἡ;žena;grmorf09
+ὑπέρ (+ gen., ak.);iznad, preko;grmorf09
+πατήρ πατρός, ὁ;otac;grmorf09
+φίλος φίλη φίλον;drag, prijateljski;grmorf09
+# fraze
+ὦ ἄνδρες δικασταί;gospodo porotnici;grmorf09
+ἔδει αὐτοὺς ἀποθνῄσκειν;morali su umrijeti;grmorf09
+τὸν βίον τελευτᾶν;okončati život;grmorf09
+τὴν ἀδελφὴν τὴν ἐμὴν;moju sestru;grmorf09
+ὡς εἰκὸς ἦν;kako je priličilo;grmorf09
+τῇ γυναικὶ τῇ αὑτοῦ;svojoj ženi;grmorf09
+τιμωρεῖν ὑπὲρ αὑτοῦ;osvetiti se za njega;grmorf09
+τὸν πατέρα αὐτοῦ ἀπέκτεινε;ubio mu je oca;grmorf09
+ἐὰν γένηται αὐτῇ παιδίον;ako joj se rodi dijete;grmorf09
+ἐκείνη ἀφικνεῖται;ona dolazi;grmorf09

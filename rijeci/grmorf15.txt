@@ -1,0 +1,22 @@
+word;meaning;note
+# riječi
+γε;baš;grmorf15
+μόνος μόνη μόνον;jedini, sam;grmorf15
+νῦν, νυνί;sada;grmorf15
+γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην;pisati;grmorf15
+τοίνυν;stoga, nadalje;grmorf15
+ἀφαιρέω, ἀφαιρήσω, ἀφεῖλον, ἀφῄρηκα, ἀφῄρημαι, ἀφῃρέθην;oduzimati;grmorf15
+τύχη τύχης, ἡ;slučaj, sreća;grmorf15
+δέχομαι, δέξομαι, ἐδεξάμην, δέδεγμαι, ἐδέχθην;primati;grmorf15
+πατρίς πατρίδος, ἡ;domovina;grmorf15
+ἐκεῖ;tamo;grmorf15
+πυνθάνομαι, πεύσομαι, ἐπυθόμην, πέπυσμαι;pitati, čuti, saznati;grmorf15
+# fraze
+ἔστι τοίνυν τρία γένη;postoje, dakle, tri vrste;grmorf15
+εἰ Σωκράτης ἔνδον;je li Sokrat unutra;grmorf15
+εἰς χάρτην γράψαντες;napisavši na papir;grmorf15
+ξένους τινὰς ἐκεῖ περιμένων;čekajući ondje neke strance;grmorf15
+αὐτῷ γέγραφεν Ἀλκιβιάδης;pisao mu je Alkibijad;grmorf15
+ἐπιθυμῶν κατελθεῖν εἰς τὴν πατρίδα;želeći se vratiti u domovinu;grmorf15
+ἐπὶ ταῖς τραπέζαις;kod bankara;grmorf15
+παρὰ Τισσαφέρνῃ διατρίβων;boraveći kod Tisaferna;grmorf15

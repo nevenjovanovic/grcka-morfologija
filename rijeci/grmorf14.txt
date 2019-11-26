@@ -1,0 +1,23 @@
+word;meaning;note
+# riječi
+μή;ne (uz imperativ, konjunktiv itd.);grmorf14
+ἕτερος ἑτέρα ἕτερον;drugi;grmorf14
+σῶμα σώματος, τό;tijelo;grmorf14
+δύναμαι, δυνήσομαι, ἐδυνήθην, δεδύνημαι;moći;grmorf14
+οἶδα, infin. εἰδέναι, imper. ἴσθι, plupf. ᾔδειν;znati;grmorf14
+τέχνη τέχνης, ἡ;umijeće, vještina;grmorf14
+κρίνω, κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίθην;suditi;grmorf14
+ἔνθα;tamo;grmorf14
+δεσπότης –ου, ὁ;gospodar;grmorf14
+βλέπω, βλέψομαι, ἔβλεψα;gledati;grmorf14
+# fraze
+ὦ δέσποτα  Ἑρμῆ;gospodaru Hermo;grmorf14
+ἐγὼ θνητὸς αὐτὸς καὶ ἀγροῖκος ὢν;ja, sam smrtan i priprost;grmorf14
+δικαστὴς γενέσθαι;postati sudac;grmorf14
+τὰ τοιαῦτα κρίνειν;prosuđivati o takvim stvarima;grmorf14
+κατὰ τὴν τέχνην;u skladu s vještinom;grmorf14
+αὗται δὲ πᾶσαί τε ὁμοίως καλαὶ;a one su sve jednako lijepe;grmorf14
+οὐ γὰρ ἐθέλει ἀφίστασθαι;jer ne želi se udaljiti;grmorf14
+κἀκεῖνο καλὸν ὁρᾷ;gleda i ono lijepo;grmorf14
+καὶ ὅλον περιείληφέ με καὶ ἄχθομαι;i cijelog me obuzela i patim;grmorf14
+πάσαις ἀποδοὺς τὸ μῆλον;ako svakoj dam jabuku;grmorf14

@@ -1,0 +1,16 @@
+example ; example ; note
+εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι ; biti, postojati ; grmorf02
+ὅς ἥ ὅ ; koji ; grmorf02
+περί ; o, oko ; grmorf02
+θεός θεοῦ, ὁ/ἡ ; bog ; grmorf02
+ἄνθρωπος –ου, ὁ/ἡ ; čovjek ; grmorf02
+γῆ γῆς, ἡ ; zemlja ; grmorf02
+φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην ; pokazivati ; grmorf02
+δίκαιος δικαία δίκαιον ; pravedan ; grmorf02
+ὑπὸ πάντων ἀνθρώπων ἐπαινεῖσθαι ; biti hvaljen od svih ljudi  ; grmorf02
+χώρα ἀξία ἐπαινεῖσθαι ; zemlja vrijedna hvale ; grmorf02
+θεῶν ἔρις τε καὶ κρίσις ; spor i procjena bogova ; grmorf02
+ἐν ἐκείνῳ τῷ χρόνῳ ; u ono vrijeme ; grmorf02
+δίκην καὶ θεοὺς μόνον νομίζει ; jedini priznaje pravdu i bogove ; grmorf02
+ἡ πᾶσα γῆ ; čitava zemlja ; grmorf02
+ζῷα παντοδαπά ; svakojake životinje ; grmorf02

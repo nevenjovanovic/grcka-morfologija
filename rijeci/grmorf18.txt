@@ -1,0 +1,22 @@
+word;meaning;note
+# riječi
+ἐκεῖνος ἐκείνη ἐκεῖνον;onaj;grmorf18
+εἶτα;poslije;grmorf18
+πόλεμος πολέμου ὁ;rat;grmorf18
+ἀμφότερος ἀμφοτέρα ἀμφότερον;oba;grmorf18
+ἀποδίδωμι, ἀποδώσω, ἀπέδωκα, ἀποδέδωκα, ἀποδέδομαι, ἀπεδόθην;vratiti, prodati;grmorf18
+ἀναιρέω, ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρημαι, ἀνῃρέθην;dići;grmorf18
+ἥκω, ἥξω, pf. ἧκα;došao sam, ovdje sam;grmorf18
+διαφορά –ᾶς, ἡ;razlika;grmorf18
+φανερός –ά –όν;jasan;grmorf18
+παλαιός –ά –όν;star;grmorf18
+# fraze
+῾Ελένη πλέουσα ἐκ Τροίας;Helena koja plovi iz Troje;grmorf18
+χρησμοῦ τινος παλαιοῦ;nekog starog proročanstva;grmorf18
+τοῖς ξένοις;strancima;grmorf18
+τὴν διαφοράν ἄχρι πολέμου προελθοῦσαν;sukob koji je napredovao do rata;grmorf18
+ἀνεῖλεν ἀμφοτέροις ἡ Πυθία;Pitija je odredila oboma;grmorf18
+τῷ σοφωτάτῳ;najmudrijem;grmorf18
+πρὸς ἅπαντας Μιλησίους ἐπολέμησαν;zaratili su protiv svih Milećana;grmorf18
+πρὸς ἐκεῖνον ἧκεν;došao je k njemu;grmorf18
+ἐπὶ Θαλῆν τὸ δεύτερον ἀφίκετο;po drugi put je došao Talesu;grmorf18

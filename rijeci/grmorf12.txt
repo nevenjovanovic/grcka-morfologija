@@ -1,0 +1,24 @@
+word;meaning;note
+# riječi
+πολύς πολλή πολύ;mnogi;grmorf12
+κακός –ή –όν;loš;grmorf12
+μάλιστα;najviše, svakako;grmorf12
+πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην;raditi;grmorf12
+νόμος νόμου, ὁ;običaj, zakon;grmorf12
+σύν (+ dat.);s, sa;grmorf12
+μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα;učiti;grmorf12
+ἡδονή –ῆς, ἡ;užitak, radost;grmorf12
+ἄριστος ἀρίστη ἄριστον;najplemenitiji, najbolji;grmorf12
+ἀλήθεια ἀληθείας, ἡ;istina;grmorf12
+τιμάω, τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην;častiti;grmorf12
+αἰσχρός –ά –όν;ružan, sramotan;grmorf12
+# fraze
+μηδὲν αἰσχρὸν;ništa sramotno;grmorf12
+καὶ γὰρ ἂν τοὺς ἄλλους λάθῃς, σεαυτῷ συνειδήσεις.;Naime, ako se i sakriješ od drugih, ostat će ti na savjesti.;grmorf12
+τοῖς νόμοις πείθου.;Pokoravaj se zakonima!;grmorf12
+τὰς ἡδονὰς θήρευε τὰς μετὰ δόξης;Traži užitke vezane uz ugled.;grmorf12
+τὴν ἀλήθειαν ἀγνοοῦσιν;ne znaju istinu;grmorf12
+ἅπαντα δόκει ποιεῖν ὡς μηδένα λήσων;smatraj da ništa što činiš neće ostati ni od koga skriveno;grmorf12
+ταῦτα μὴ πράττων ἃ τοῖς ἄλλοις ἂν πράττουσιν ἐπιτιμῴης;ne radeći ono što bi zamjerio drugima ako rade;grmorf12
+᾿Εὰν ᾖς φιλομαθὴς, ἔσει πολυμαθής.;Ako budeš ljubitelj znanja, bit ćeš bogat znanjima.;grmorf12
+ἃ μὴ μεμάθηκας, προσλάμβανε ταῖς ἐπιστήμαις;što nisi naučio, stekni znanošću;grmorf12

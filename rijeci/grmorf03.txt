@@ -1,0 +1,18 @@
+example ; example ; note
+ἔχω, ἕξω / σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον ; imati ; grmorf03
+ὅστις ἥτις ὅ τι ; koji god ; grmorf03
+εἰ ; ako ; grmorf03
+ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην ; raditi ; grmorf03
+εἷς μία ἕν ; jedan ; grmorf03
+καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην ; zvati ; grmorf03
+δεῖ, δεήσει, impf. ἔδει ; treba ; grmorf03
+ὥσπερ ; kao što ; grmorf03
+μέρος μέρους, τό ; dio  ; grmorf03
+ὁ πάντων βασιλεὺς καὶ πατὴρ ; kralj i otac svega ; grmorf03
+ὅσα πράγματα ἔχω ; koliko imam posla ; grmorf03
+τὰ τῶν ἄλλων θεῶν ἔργα ; rad drugih bogova ; grmorf03
+πάντα ἐπισκοπεῖν ; sve nadzirati ; grmorf03
+οἵ κλέπτοντες ; oni koji kradu ; grmorf03
+πόθεν ὁ καπνὸς ἀνέρχεται ; odakle se diže dim ; grmorf03
+ἐν ᾿Ολυμπίᾳ ; u Olimpiji ; grmorf03
+ὑφ' ἕνα καιρὸν ; u isti tren ; grmorf03

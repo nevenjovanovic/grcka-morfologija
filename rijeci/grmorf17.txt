@@ -1,0 +1,26 @@
+word;meaning;note
+# riječi
+ἕκαστος ἑκάστη ἕκαστον;svaki;grmorf17
+ἵνα;da (namjerni veznik);grmorf17
+ἅμα (+ dat.);u isto vrijeme (prilog), zajedno s (prijedlog);grmorf17
+μηδέ;i ne;grmorf17
+ἥλιος ἡλίου, ὁ;sunce;grmorf17
+ἔοικα, ptc. εἰκώς;nalikovati, činiti se;grmorf17
+δίκη δίκης, ἡ;pravda, parnica, suđenje;grmorf17
+νικάω, νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην;pobijediti;grmorf17
+λανθάνω, λήσω, ἔλαθον, λέληθα;biti sakriven;grmorf17
+αἰτέω, αἰτήσω, ᾔτησα, ᾔτηκα, ᾔτημαι, ᾐτήθην;tražiti, moliti;grmorf17
+# fraze
+θρόνος ἔκειτο χρυσοῦς;stajao je zlatni stolac;grmorf17
+τοῖς εὐχομένοις;onima koji mole;grmorf17
+πανταχόθεν τῆς γῆς;sa svih strana svijeta;grmorf17
+διάφορα καὶ ποικίλα;raznorazne stvari;grmorf17
+ἐπήκουον τῶν εὐχῶν;slušao sam molitve;grmorf17
+῏Ω Ζεῦ;O, Zeuse!;grmorf17
+ταχέως ἀποθανεῖν;brzo umrijeti;grmorf17
+Εἴθε λάθοιμι ἐπιβουλεύσας τῷ ἀδελφῷ;Da se barem ne otkrije da radim bratu o glavi!;grmorf17
+Γένοιτό μοι νικῆσαι τὴν δίκην;Da mi uspije pobijediti u parnici!;grmorf17
+ὁ γεωργὸς ᾔτει ὑετόν;zemljoradnik je molio za kišu;grmorf17
+τὴν εὐχὴν ἑκάστην;svaku molitvu;grmorf17
+ἕτερον μὲν ἔδωκε, ἕτερον δ' ἀνένευσε;jedno bi dao, a drugo zanijekao;grmorf17
+

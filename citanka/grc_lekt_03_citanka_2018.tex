@@ -1,0 +1,231 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+\usepackage{fontspec}
+%\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Grčka morfologija 1.3 – čitanka}}
+\fancyhead[LO]{\itshape\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε Θε-μισ-το-κλῆς}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+
+
+\begin{document}
+
+\title{Grčka morfologija 1 – čitanka}
+\subtitle{Vježbe 41–60}
+\author{Odsjek za klasičnu filologiju\\
+Filozofski fakultet Sveučilišta u Zagrebu}
+\maketitle
+
+\clearpage
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter*{Predgovor}
+
+\section*{O ovoj čitanci}
+
+Ovo je treći i posljednji dio izbora komentiranih tekstova koji čine propisanu literaturu obaveznog kolegija \textit{Grčka morfologija 1}.
+
+Kao i u prvom i drugom dijelu, kratkim su odlomcima dodane tri vrste komentara. U uvodu su predstavljeni autor (kada se susreće prvi put) i tekst iz kojeg odlomak potječe. Nakon samog teksta slijede rečenice, raščlanjene i složene tako da povećaju sintaktičku i semantičku preglednost (posebno su istaknute konstrukcije genitiva apsolutnog i akuzativa, odnosno nominativa s infinitivom), te gramatički komentar uz njih. Potonji je komentar, opet, dvojak: za imenske riječi (član, imenice, pridjevi, zamjenice) donose se samo brojevi paragrafa koji upućuju studenta na relevantne dijelove \textit{Grčke gramatike} Augusta Musića i Nikole Majnarića, standardni školski priručnik za opis grčkog jezika; glagolski su oblici, međutim, identificirani vrlo detaljno – navedena je rječnička natuknica u kojoj se mogu naći, opisane su sve njihove gramatičke kategorije. Nepromjenjive riječi, poput priloga i veznika, nisu komentirane; studenti će ih naći u pomagalu poput \textit{Grčko-hrvatskog rječnika} Gorskoga i Majnarića, ili na internetskom rječničkom portalu \textit{Logeion} Sveučilišta u Chicagu.
+
+Zadatak je studenata da, uz pomoć komentara i referentne literature, kod kuće prirede svaki tekst – da ga na nastavi budu sposobni pročitati i prevesti na hrvatski, te identificirati i morfološki opisati imenske oblike koje susreću. Također, očekuje se da studenti nauče određeni broj riječi iz ovih tekstova, uz pomoć popisa i vježbi koje će naći na stranicama kolegija \textit{Grčka morfologija 1} Sustava učenja na daljinu Omega (Filozofski fakultet Sveučilišta u Zagrebu).
+
+\newpage
+
+Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Neven Jovanović, Vlado Rezar, Petra Šoštarić, Ninoslav Zubović.
+
+Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Bitbucket, na URL adresi \href{https://bitbucket.org/nevenjovanovic/hellenismos}{bitbucket.org/nevenjovanovic/hellenismos}.
+
+\medskip
+
+U Zagrebu, studeni 2018.
+
+\section*{Obavezna referentna literatura}
+
+\textit{Grčka morfologija 1}, elektronska verzija kolegija, Sustav učenja na daljinu Omega, Zagreb: Filozofski fakultet Sveučilišta u Zagrebu, pristupljeno 23. kolovoza 2018. na adresi \url{https://omega.ffzg.hr/course/view.php?id=1615}\\
+August Musić, Nikola Majnarić, \textit{Gramatika grčkoga jezika}, Zagreb (bilo koje izdanje)\\
+Oton Gorski, Niko Majnarić, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Stjepan Senc, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi \url{http://logeion.uchicago.edu/}\\
+
+
+\vspace*{\fill}
+
+\noindent Ovo djelo je ustupljeno pod Creative Commons licencom Imenovanje 3.0 nelokalizirana licenca. Da biste vidjeli primjerak te licence, posjetite \url{http://creativecommons.org/licenses/by/3.0/} ili pošaljite pismo na Creative Commons, PO Box 1866, Mountain View, CA 94042, SAD.
+
+\newpage
+
+
+%\mainmatter
+
+
+%\clearpage
+%\thispagestyle{empty}
+% start chapter numbering from 41:
+\setcounter{chapter}{40}
+
+\chapter{Diodor Sicilski, Knjižnica 1, 8, 5}
+
+\import{poglavlja3/}{pogl01-diodor-knjiznica.tex}
+
+\chapter{Aristotel, Retorika 1393a}
+
+\import{poglavlja3/}{pogl02-aristotel-retorika-1393a.tex}
+
+\chapter{Tukidid, Povijest, 1, 2}
+
+\import{poglavlja3/}{pogl03-tukidid-1-2.tex}
+
+\chapter{Herodot, Povijest 1, 41}
+
+\import{poglavlja3/}{pogl04-herodot-1-41.tex}
+
+\chapter{Ezop, Basne 9}
+
+\import{poglavlja3/}{pogl05-ezop-9.tex}
+
+\chapter{Heliodor, Etiopske priče 1, 2}
+
+\import{poglavlja3/}{pogl06-heliodor-aethiop-1.tex}
+
+\chapter{Tukidid, Povijest 2, 65}
+
+\import{poglavlja3/}{pogl07-tukidid-2-65.tex}
+
+\chapter{Izokrat, Panegirik 47}
+
+\import{poglavlja3/}{pogl08-izokrat-panegirik-47.tex}
+
+\chapter{Herodot, Povijest 2, 77, 12}
+
+\import{poglavlja3/}{pogl09-herodot-2-77.tex}
+
+\chapter{Tukidid, Povijest 6, 27}
+
+\import{poglavlja3/}{pogl10-tukidid-6-27.tex}
+
+\chapter{Antifont, O slozi, ulomak 14}
+
+\import{poglavlja3/}{pogl11-antifont-ulomak-14.tex}
+
+\chapter{Filostrat, Život Apolonija iz Tijane 5, 14}
+
+\import{poglavlja3/}{pogl12-filostrat-apolonije-5-14.tex}
+
+\chapter{Epiktet, Priručnik 1}
+
+\import{poglavlja3/}{pogl13-epiktet-prirucnik-1.tex}
+
+
+\chapter{Ksenofont, Uspomene na Sokrata 2, 4, 5}
+
+\import{poglavlja3/}{pogl14-ksen-memor-2-4-5.tex}
+
+
+\chapter{Ahilej Tacije, Zgode Leukipe i Klitofonta 6, 19}
+
+\import{poglavlja3/}{pogl15-ahilejt-6-19.tex}
+
+\chapter{Lizija, Olimpijski govor 1}
+
+\import{poglavlja3/}{pogl16-lizija-olimp-1.tex}
+
+%\chapter{Marko Aurelije, Razgovori sa samim sobom 2, 11}
+
+%\import{poglavlja3/}{pogl17-markaur-2-11.tex}
+
+\chapter{Plotin, Eneade 6, 7, 34}
+
+\import{poglavlja3/}{pogl18-plotin-eneade-6-7-34.tex}
+
+%\chapter{Marko Aurelije, Razgovori sa samim sobom 3, 1}
+
+%\import{poglavlja3/}{pogl19-markaur-3-1.tex}
+
+
+\chapter{Lukijan, San 9}
+
+\import{poglavlja3/}{pogl20-lukijan-san-9.tex}
+
+
+%\backmatter
+
+\tableofcontents
+
+\end{document}
+\clearpage
+\thispagestyle{empty}
+
+
+
+
+% kraj

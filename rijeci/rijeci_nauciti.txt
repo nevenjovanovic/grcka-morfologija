@@ -1,0 +1,50 @@
+riječ ; prijevod ; lekcija
+αὐτός αὐτή αὐτό ; on; isti ; grmorf01
+καί ; i ; grmorf01
+δέ ; a ; grmorf01
+οὗτος αὕτη τοῦτο ; ovaj ; grmorf01
+τις τι ; netko ; grmorf01
+οὐ, οὐκ, οὐχ ; ne ; grmorf01
+εἰς (+ ak.) ; u (smjer) ; grmorf01
+ἐπί ; na ; grmorf01
+φημί, φήσω, impf. ἔφην ; govoriti ; grmorf01
+λόγος λόγου, ὁ ; riječ ; grmorf01
+μέγας μεγάλη μέγα ; velik ; grmorf01
+λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην ; uzimati ; grmorf01
+ἀρχή ἀρχῆς, ἡ ; početak, vlast ; grmorf01
+μᾶλλον ; više, radije ; grmorf01
+εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι ; biti, postojati ; grmorf02
+ὅς ἥ ὅ ; koji ; grmorf02
+περί ; o, oko ; grmorf02
+θεός θεοῦ, ὁ/ἡ ; bog ; grmorf02
+ἄνθρωπος –ου, ὁ/ἡ ; čovjek ; grmorf02
+γῆ γῆς, ἡ ; zemlja ; grmorf02
+φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην ; pokazivati ; grmorf02
+δίκαιος δικαία δίκαιον ; pravedan ; grmorf02
+ἔχω, ἕξω / σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον ; imati ; grmorf03
+ὅστις ἥτις ὅ τι ; koji god ; grmorf03
+εἰ ; ako ; grmorf03
+ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην ; raditi ; grmorf03
+εἷς μία ἕν ; jedan ; grmorf03
+καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην ; zvati ; grmorf03
+δεῖ, δεήσει, impf. ἔδει ; treba ; grmorf03
+ὥσπερ ; kao što ; grmorf03
+μέρος μέρους, τό ; dio  ; grmorf03
+κατά ; niz, kroz, po ; grmorf04
+ἐκ, ἐξ ; iz ; grmorf04
+πόλις πόλεως, ἡ ; grad ; grmorf04
+δύναμις δυνάμεως, ἡ ; sila, moć ; grmorf04
+βασιλεύς βασιλέως, ὁ ; kralj ; grmorf04
+ἔρχομαι, fut. εἶμι or ἐλεύσομαι, 2 aor. ἦλθον, ἐλήλυθα ; ići ; grmorf04
+ὀλίγος ὀλίγη ὀλίγον ; malen ; grmorf04
+ναῦς νεώς, ἡ ; brod ; grmorf04
+βάρβαρος –ον ; negrčki, stran  ; grmorf04
+ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι ; voditi ; grmorf04
+ὦ ; o! ; grmorf05
+ψυχή ψυχῆς, ἡ ; duša ; grmorf05
+εὑρίσκω, εὑρήσω, ηὗρον ili εὗρον, ηὕρηκα ili εὕρηκα, εὕρημαι, εὑρέθην ; pronalaziti ; grmorf05
+ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην ; voditi ; grmorf05
+πρᾶγμα πράγματος, τό ; stvar, posao ; grmorf05
+ζῷον ζῴου, τό ; životinja ; grmorf05
+ἐνταῦθα ; ovdje, tada ; grmorf05
+κεῖμαι, κείσομαι ; ležati ; grmorf05

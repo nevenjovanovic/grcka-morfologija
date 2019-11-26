@@ -1,0 +1,417 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+\usepackage{fontspec}
+\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+\usepackage[symbol]{footmisc}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Čitanka za Grčku morfologiju 2}}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε Θε-μισ-το-κλῆς}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+
+
+\begin{document}
+
+\title{Čitanka za Grčku morfologiju 2}
+%\subtitle{Vježbe 41–60}
+\author{Odsjek za klasičnu filologiju\\
+Filozofski fakultet Sveučilišta u Zagrebu}
+\maketitle
+
+\clearpage
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter*{Predgovor}
+
+\section*{O ovoj čitanci}
+
+Ovaj izbor komentiranih tekstova čini propisanu literaturu obaveznog kolegija \textit{Grčka morfologija 2}.
+
+Kao i u kolegiju \textit{Grčka morfologija 1}, kratkim su odlomcima dodane tri vrste komentara. U uvodu su predstavljeni autor (kada se susreće prvi put), tekst iz kojeg odlomak potječe, i kontekst samog odlomka. Nakon teksta slijede rečenice, raščlanjene i složene tako da povećaju sintaktičku i semantičku preglednost, te gramatički komentar. Potonji je komentar, opet, dvojak. U skladu sa sadržajem ovog kolegija, za glagolske oblike donose se samo brojevi paragrafa koji upućuju studenta na relevantne dijelove \textit{Grčke gramatike} Augusta Musića i Nikole Majnarića, standardni školski priručnik za opis grčkog jezika. Ostatak komentara objašnjava gramatičke, sintaktičke i stvarne aspekte koji tekst čine teže razumljivima.
+
+Zadatak je studenata da, uz pomoć komentara i referentne literature, kod kuće prirede svaki tekst, tako da ga na nastavi budu sposobni pročitati i prevesti na hrvatski, te identificirati i morfološki opisati glagolske oblike koje susreću. Također, očekuje se i da studenti nauče određeni broj riječi iz ovih tekstova, uz pomoć popisa i vježbi koje će naći na stranicama kolegija \textit{Grčka morfologija 2} Sustava učenja na daljinu Omega (Filozofski fakultet Sveučilišta u Zagrebu).
+
+\newpage
+
+Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Neven Jovanović, Vlado Rezar, Petra Šoštarić, Ninoslav Zubović.
+
+Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Bitbucket, na URL adresi \href{https://bitbucket.org/nevenjovanovic/hellenismos}{bitbucket.org/nevenjovanovic/hellenismos}.
+
+\medskip
+
+U Zagrebu, prosinca 2018.
+
+\section*{Referentna literatura}
+
+Georg Autenrieth, \textit{A Homeric Dictionary for Schools and Colleges}. New York, Harper and Brothers, 1891.\\
+\textit{Grčka morfologija 2}, elektronska verzija kolegija, Sustav učenja na daljinu Omega, Zagreb: Filozofski fakultet Sveučilišta u Zagrebu, pristupljeno 23. kolovoza 2018. na adresi \url{https://omega.ffzg.hr/course/view.php?id=1615}\\
+Henry George Liddell, Robert Scott, \textit{An Intermediate Greek-English Lexicon. Founded upon the seventh edition of Liddell \& Scott's Greek-English Lexicon}. Oxford, Clarendon Press, 1889.\\
+\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi \url{http://logeion.uchicago.edu/}\\
+August Musić, Nikola Majnarić, \textit{Gramatika grčkoga jezika}, Zagreb (bilo koje izdanje)\\
+Oton Gorski, Niko Majnarić, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Stjepan Senc, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Library. Pristupljeno 23. prosinca 2018. na adresi \url{http://www.perseus.tufts.edu}\\
+
+
+\vspace*{\fill}
+
+\noindent Ovo djelo je ustupljeno pod Creative Commons licencom Imenovanje 3.0 nelokalizirana licenca. Da biste vidjeli primjerak te licence, posjetite \url{http://creativecommons.org/licenses/by/3.0/} ili pošaljite pismo na Creative Commons, PO Box 1866, Mountain View, CA 94042, SAD.
+
+\newpage
+
+
+%\mainmatter
+
+
+%\clearpage
+%\thispagestyle{empty}
+% start chapter numbering from 41:
+%\setcounter{chapter}{40}
+
+\chapter[Ἐπίκουρος Μενοικεῖ]{\textgreek[variant=ancient]{Ἐπιστολὴ Ἐπικούρου Μενοικεῖ,} 124–126}
+
+\import{grcmorf2poglavlja/}{tlg0537.tlg012:124-126.tex}
+
+\chapter[Ἀνδοκίδου Κατὰ Ἀλκιβιάδου]{\textgreek[variant=ancient]{Ἀνδοκίδου Κατὰ Ἀλκιβιάδου,} 1–2}
+
+\import{grcmorf2poglavlja/}{tlg0027.tlg004.perseus-grc1:1-2.tex}
+
+\chapter[Ξενοφῶντος Κύρου παιδεία]{\textgreek[variant=ancient]{Ξενοφῶντος Κύρου παιδεία Α} 2,8}
+
+\import{grcmorf2poglavlja/}{tlg0032.tlg007.perseus-grc2:1.2.8.tex}
+
+
+
+\chapter[Πλάτωνος Πρωταγόρας]{\textgreek[variant=ancient]{Πλάτωνος Πρωταγόρας} 325c-326a}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg022.perseus-grc2:325-326.tex}
+
+\chapter[Λουκιανοῦ Ἐνάλιος διάλογος]{\textgreek[variant=ancient]{Λουκιανοῦ Ἐνάλιος διάλογος} 2, 2}
+
+\import{grcmorf2poglavlja/}{tlg0062.tlg067.perseus-grc1:2.292-2.293.tex}
+
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Δ]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Δ} 48}
+
+\import{grcmorf2poglavlja/}{tlg0562.tlg001.perseus-grc1:4.48.tex}
+
+\chapter[Διοδώρου Βιβλιοθήκης ἱστορικής ΙΕ]{\textgreek[variant=ancient]{Διοδώρου Σικελιώτου \\Βιβλιοθήκης ἱστορικής ΙΕ,} 6, 1–2}
+
+\import{grcmorf2poglavlja/}{tlg0060.tlg001.perseus-grc3:15.6.1-15.6.2.tex}
+
+\chapter[Ἀριστοτέλους Ἠθικῶν Νικομαχείων Ι]{\textgreek[variant=ancient]{Ἀριστοτέλους Ἠθικῶν Νικομαχείων Ι,}\\ 1169b (9, 9)}
+
+\import{grcmorf2poglavlja/}{tlg0086.tlg010.perseus-grc1:1169b.tex}
+
+\chapter[Αἰσώπειος μῦθος 279]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 279 (349)}
+
+\import{grcmorf2poglavlja/}{tlg0096.tlg002.First1K-grc1:349.tex}
+
+\chapter[Ἀνδοκίδου Περὶ τῶν μυστηρίων]{\textgreek[variant=ancient]{Ἀνδοκίδου Περὶ τῶν μυστηρίων,} 97}
+
+\import{grcmorf2poglavlja/}{tlg0027.tlg001.perseus-grc1:97.tex}
+
+%\chapter[Δημοσθένους Ὀλυνθιακός Α]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Α,} 14–15}
+
+%\import{grcmorf2poglavlja/}{tlg0014.tlg001.perseus-grc1:14-15.tex}
+
+\chapter[Πολυβίου Ἱστορίων ΛΗ]{\textgreek[variant=ancient]{Πολυβίου ἱστορίων ΛΗ,} 22.1–22.3}
+
+\import{grcmorf2poglavlja/}{tlg0543.tlg001:38.22.1-22.3.tex}
+
+\chapter[Ἐγχειρίδιον Ἐπικτήτου 29]{\textgreek[variant=ancient]{Ἐγχειρίδιον Ἐπικτήτου} 29}
+
+\import{grcmorf2poglavlja/}{tlg0557.tlg002.perseus-grc1:29.tex}
+
+\chapter[Ξενοφῶντος Ἀπομνημονεύματα Σωκράτους]{\textgreek[variant=ancient]{Ξενοφῶντος Ἀπομνημονεύματα Σωκράτους Δ} 3,3–3,6}
+
+\import{grcmorf2poglavlja/}{tlg0032.tlg002.perseus-grc2:4.3.3-4.3.6.tex}
+
+\chapter[Ἀππιανοῦ Ῥωμαϊκῶν ΙΔ]{\textgreek[variant=ancient]{Ἀππιανοῦ Ἀλεξανδρέως Ῥωμαϊκῶν \\βιβλίον ΙΔ, Ἐμφυλίων Α} 116–117}
+
+\import{grcmorf2poglavlja/}{tlg0551.tlg017.perseus-grc2:1.14.116-1.14.117.tex}
+
+\chapter[Ἀντιφῶντος Κατὰ τῆς μητρυιᾶς]{\textgreek[variant=ancient]{Ἀντιφῶντος Φαρμακείας \\κατὰ τῆς μητρυιᾶς} 26–27}
+
+\import{grcmorf2poglavlja/}{tlg0028.tlg001.perseus-grc1:26-27.tex}
+
+\chapter[Πλουτάρχου Ἀλκιβιάδης]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, \\Ἀλκιβιάδης} 2.1–2.3}
+
+\import{grcmorf2poglavlja/}{tlg0007.tlg015.perseus-grc2:2.1-2.3.tex}
+
+\chapter[Λυσίου Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων]{\textgreek[variant=ancient]{Λυσίου Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων} 14–17}
+
+\import{grcmorf2poglavlja/}{tlg0540.tlg019.perseus-grc2:14-17.tex}
+
+
+\chapter[Δημοσθένους Ὀλυνθιακός Γ]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Γ,} 24–26}
+
+\import{grcmorf2poglavlja/}{tlg0014.tlg003.perseus-grc1:24-26.tex}
+
+\chapter[Ἱπποκράτους Περὶ ἱερῆς νούσου]{\textgreek[variant=ancient]{Ἱπποκράτους Περὶ ἱερῆς νούσου} 1}
+
+\import{grcmorf2poglavlja/}{tlg0627.tlg027.1st1K-grc1:1.tex}
+
+\chapter[Ἀρριανοῦ Ἀναβάσεως Ἀλεξάνδρου Ζ]{\textgreek[variant=ancient]{Ἀρριανοῦ Ἀναβάσεως Ἀλεξάνδρου \\Ζ α,} 4–6}
+
+\import{grcmorf2poglavlja/}{tlg0074.tlg001.perseus-grc1:7.1.4-7.1.6.tex}
+
+\chapter[Πλάτωνος Συμπόσιον]{\textgreek[variant=ancient]{Πλάτωνος Συμπόσιον} 203b–203e}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg011.perseus-grc2:203.tex}
+
+\chapter[Λόγγου Τῶν κατὰ Δάφνιν καὶ Χλόην]{\textgreek[variant=ancient]{Λόγγου Τῶν κατὰ Δάφνιν καὶ Χλόην λόγος Α} 13.4–6}
+
+\import{grcmorf2poglavlja/}{tlg0561.tlg001.perseus-grc2:1.13.4-1.13.6.tex}
+
+\chapter[Ἀριστοτέλους Ῥητορική Γ]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική Γ} 1408b}
+
+\import{grcmorf2poglavlja/}{tlg0086.tlg038.perseus-grc1:1408b.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Ζ]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Ζ} 5, 1–4}
+
+\import{grcmorf2poglavlja/}{tlg0003.tlg001.perseus-grc2:7.5.1-7.5.4.tex}
+
+\chapter[Ἡλιοδώρου Αἰϑιοπικὰ Ι]{\textgreek[variant=ancient]{Ἡλιοδώρου Αἰϑιοπικὰ Ι} 27}
+
+\import{grcmorf2poglavlja/}{tlg0658.tlg001.perseus-grc1:10.27.tex}
+
+\chapter[Λυσίου Ἐπιτάφιος]{\textgreek[variant=ancient]{Λυσίου Ἐπιτάφιος} 4–6}
+
+\import{grcmorf2poglavlja/}{tlg0540.tlg002.perseus-grc2:4-6.tex}
+
+\chapter[Χαρίτωνος Τὰ περὶ Χαιρέαν καὶ Καλλιρόην]{\textgreek[variant=ancient]{Χαρίτωνος Ἀφροδισιέως Τῶν περὶ Χαιρέαν καὶ Καλλιρόην ἐρωτικῶν διηγημάτων λόγοι ὀκτώ} 2.2}
+
+\import{grcmorf2poglavlja/}{tlg0554.tlg001.perseus-grc1:2.2.1-2.2.4.tex}
+
+\chapter[Δίωνος Κασσίου Ῥωμαϊκὴ ἱστορία ΞΒ 16]{\textgreek[variant=ancient]{Δίωνος Κασσίου Κοκκηιανοῦ Ῥωμαϊκὴ ἱστορία ΞΒ} 16}
+
+\import{grcmorf2poglavlja/}{tlg0385.tlg001.perseus-grc1:62b.16.tex}
+
+\chapter[Πολυβίου Ἱστορίων Δ]{\textgreek[variant=ancient]{Πολυβίου ἱστορίων Δ,} 31}
+
+\import{grcmorf2poglavlja/}{tlg0543.tlg001.perseus-grc2:4.31.3-4.31.8.tex}
+
+\chapter[Πλουτάρχου Πομπήϊος]{\textgreek[variant=ancient]{Πλουτάρχου Πομπήϊος} 40}
+
+\import{grcmorf2poglavlja/}{tlg0007.tlg045.perseus-grc2:40.1-40.3.tex}
+
+\chapter[Πλάτωνος Θεαίτητος]{\textgreek[variant=ancient]{Πλάτωνος Θεαίτητος} 325c-326a}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg006.perseus-grc2:173-174.tex}
+
+\chapter[Δίωνος Κασσίου Ῥωμαϊκὴ ἱστορία ΞΒ 16–17]{\textgreek[variant=ancient]{Δίωνος Κασσίου Κοκκηιανοῦ Ῥωμαϊκὴ ἱστορία ΞΒ} 16–17}
+
+\import{grcmorf2poglavlja/}{tlg0385.tlg001.perseus-grc1:62b.16.5-62b.17.tex}
+
+\chapter[Πλουτάρχου Περὶ ἀδολεσχίας  509D]{\textgreek[variant=ancient]{Πλουτάρχου Περὶ ἀδολεσχίας} 509D}
+
+\import{grcmorf2poglavlja/}{tlg0007.tlg101.perseus-grc1:509c.tex}
+
+\chapter[Πλάτωνος Πολιτεία]{\textgreek[variant=ancient]{Πλάτωνος Πολιτεία} 359-360}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg030.perseus-grc2:2.359-2.360.tex}
+
+\chapter[Ἐπικούρου Κύριαι δόξαι]{\textgreek[variant=ancient]{Ἐπικούρου Κύριαι δόξαι,} 1–5}
+
+\import{grcmorf2poglavlja/}{tlg0537.tlg013:1.tex}
+
+\chapter[Πλάτωνος Φαίδων]{\textgreek[variant=ancient]{Πλάτωνος Φαίδων} 113d-114c}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg004.perseus-grc2:113-114.tex}
+
+\chapter[Ἰσοκράτους Πρὸς Δημόνικον]{\textgreek[variant=ancient]{Ἰσοκράτους Πρὸς Δημόνικον} 24–25}
+
+\import{grcmorf2poglavlja/}{tlg0010.tlg007.perseus-grc2:24-25.tex}
+
+\chapter[Λουκιανοῦ Ἰκαρομένιππος]{\textgreek[variant=ancient]{Λουκιανοῦ Ἰκαρομένιππος ἢ Ὑπερνέφελος} 6}
+
+\import{grcmorf2poglavlja/}{tlg0062.tlg021.1st1K-grc1:6.tex}
+
+\chapter[Πλουτάρχου Περὶ φιλοπλουτίας]{\textgreek[variant=ancient]{Πλουτάρχου Περὶ φιλοπλουτίας} \\524D-524F}
+
+\import{grcmorf2poglavlja/}{tlg0007.tlg103.perseus-grc1:524d.tex}
+
+\chapter[Πλάτωνος Φαῖδρος]{\textgreek[variant=ancient]{Πλάτωνος Φαῖδρος} 259-260}
+
+\import{grcmorf2poglavlja/}{tlg0059.tlg012.perseus-grc2:259-260.tex}
+
+\chapter[Ἰσοκράτους Ἀρεοπαγιτικός]{\textgreek[variant=ancient]{Ἰσοκράτους Ἀρεοπαγιτικός} 43–45}
+
+\import{grcmorf2poglavlja/}{tlg0010.tlg018.perseus-grc2:43-45.tex}
+
+
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Δ 49]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Δ} 49}
+
+\import{grcmorf2poglavlja/}{tlg0562.tlg001.perseus-grc1:4.49.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Α]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Α} 22, 1–4}
+
+\import{grcmorf2poglavlja/}{tlg0003.tlg001.perseus-grc2:1.22.1-1.22.4.tex}
+
+\chapter[Πλουτάρχου Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ\dots]{\textgreek[variant=ancient]{Πλουτάρχου Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπ' ἀρετῇ} 77D}
+
+\import{grcmorf2poglavlja/}{tlg0007.tlg071.perseus-grc1:77d.tex}
+
+\chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον 27]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 27–28}
+
+\import{grcmorf2poglavlja/}{tlg0010.tlg009:27-28.tex}
+
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Ε 1]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Ε} 1}
+
+\import{grcmorf2poglavlja/}{tlg0562.tlg001.perseus-grc1:5.1.tex}
+
+\chapter[Δημοσθένους Περὶ τοῦ στεφάνου]{\textgreek[variant=ancient]{Δημοσθένους Ὑπὲρ Κτησιφῶντος περὶ τοῦ στεφάνου} 201–203}
+
+\import{grcmorf2poglavlja/}{tlg0014.tlg018.perseus-grc2:201-203.tex}
+
+% 48 dodaj: Aristotel Poetika NČ
+\chapter[Ἀριστοτέλους Περὶ ποιητικῆς]{\textgreek[variant=ancient]{Ἀριστοτέλους Περὶ ποιητικῆς,}\\ 1451b}
+
+\import{grcmorf2poglavlja/}{tlg0086.tlg034.1st1K-grc1:9.tex}
+
+% 49 dodaj: Ksenofont Efeški NČ
+\chapter[Ξενοφῶντος τοῦ Ἐφεσίου Ἐφεσιακῶν Α]{\textgreek[variant=ancient]{Ξενοφῶντος τοῦ Ἐφεσίου Ἐφεσιακῶν Α} 2,5–9}
+
+\import{grcmorf2poglavlja/}{tlg0641.tlg001:1.2.tex}
+
+% 50 Sekst Empirik NJ
+\chapter[Σέξτου τοῦ Ἐμπειρικοῦ Πυρρώνειαι\dots\ Γ 17–19]{\textgreek[variant=ancient]{Σέξτου τοῦ Ἐμπειρικοῦ Πυρρώνειαι ὑποτυπώσεις Γ} 17–19}
+
+\import{grcmorf2poglavlja/}{tlg0544.tlg001.opp-grc1:3.17-3.19.tex}
+
+%51
+
+\chapter[Ἀχιλλεὼς Τατίου Τῶν κατὰ Λευκίππην\dots]{\textgreek[variant=ancient]{Ἀχιλλεὼς Τατίου Τῶν κατὰ Λευκίππην καὶ Κλειτοφῶντα Α,} 17}
+
+\import{grcmorf2poglavlja/}{tlg0532.tlg001:1.17.tex}
+
+%52
+
+
+\chapter[Ἀριστοτέλους Ἠθικῶν Νικομαχείων Γ]{\textgreek[variant=ancient]{Ἀριστοτέλους Ἠθικῶν Νικομαχείων Γ,}\\ 1119a (11)}
+
+\import{grcmorf2poglavlja/}{tlg0086.tlg010.perseus-grc1:1119a.tex}
+
+
+%53
+
+\chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον 23]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 23–25}
+
+\import{grcmorf2poglavlja/}{tlg0010.tlg009:23-25.tex}
+
+%54
+
+\chapter[Ἐγχειρίδιον Ἐπικτήτου 31]{\textgreek[variant=ancient]{Ἐγχειρίδιον Ἐπικτήτου} 31}
+
+\import{grcmorf2poglavlja/}{tlg0557.tlg002.perseus-grc1:31.tex}
+
+%55
+
+\chapter[Λουκιανοῦ Ἀληθῶν διηγημάτων Β]{\textgreek[variant=ancient]{Λουκιανοῦ Ἀληθῶν διηγημάτων Β} 14–16}
+
+\import{grcmorf2poglavlja/}{tlg0062.tlg012.1st1K-grc1:2.14-2.16.tex}
+
+%56
+
+\chapter[Δημοκρίτου ἐκλογή ΡϞΑ]{\textgreek[variant=ancient]{Δημοκρίτου ἐκλογή ΡϞΑ (Περὶ εὐθυμίης)}}
+
+\import{grcmorf2poglavlja/}{tlg2037.tlg001:191.tex}
+
+
+
+%57
+
+\chapter[Γοργίου Ἐπιτάφιος]{\textgreek[variant=ancient]{Γοργίου Ἐπιταφίου ἐκλογή Ϛ}}
+
+\import{grcmorf2poglavlja/}{tlg0081.tlg007.1st1K-grc1:1-5.tex}
+
+%58
+
+\chapter[Ξενοφῶντος Συμπόσιον]{\textgreek[variant=ancient]{Ξενοφῶντος Συμπόσιον} 4,30–32}
+
+\import{grcmorf2poglavlja/}{tlg0032.tlg004.perseus-grc2:4.30-4.32.tex}
+
+%kraj semestra!
+
+
+%\backmatter
+
+\tableofcontents
+
+\end{document}
+\clearpage
+\thispagestyle{empty}
+
+
+
+
+% kraj

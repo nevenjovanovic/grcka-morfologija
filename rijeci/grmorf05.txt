@@ -1,0 +1,18 @@
+example ; example ; note
+# riječi
+ὦ ; o! ; grmorf05
+ψυχή ψυχῆς, ἡ ; duša ; grmorf05
+εὑρίσκω, εὑρήσω, ηὗρον ili εὗρον, ηὕρηκα ili εὕρηκα, εὕρημαι, εὑρέθην ; pronalaziti ; grmorf05
+ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην ; voditi ; grmorf05
+πρᾶγμα πράγματος, τό ; stvar, posao ; grmorf05
+ζῷον ζῴου, τό ; životinja ; grmorf05
+ἐνταῦθα ; ovdje, tada ; grmorf05
+κεῖμαι, κείσομαι ; ležati ; grmorf05
+# fraze
+ἐν συνόδῳ τῶν ἀλόγων ζῴων ; na skupštini životinja ; grmorf05
+αὐτῷ ἐκείνη ἔφη ; ona mu je rekla ; grmorf05
+ὦ πίθηκε ; o, majmune! ; grmorf05
+εὗρε θησαυρόν ; našla je blago ; grmorf05
+παρῄνει αὐτῷ λαβεῖν ; preporučila mu je da uzme ; grmorf05
+τοιαύτην ψυχὴν ἔχεις ; takvu imaš dušu ; grmorf05
+ᾐτιᾶτο τὴν ἀλώπεκα ; krivio je lisicu ; grmorf05

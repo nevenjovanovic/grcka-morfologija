@@ -1,0 +1,22 @@
+word;meaning;note
+# riječi
+ἐγώ ἐμοῦ, (pl.) ἡμεῖς, ἡμῶν;ja, mi;grmorf16
+ὅλος ὅλη ὅλον;cijeli;grmorf16
+πάσχω, πείσομαι, ἔπαθον, πέπονθα;trpjeti;grmorf16
+νομίζω, νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην;smatrati, običavati;grmorf16
+ἀδελφός –οῦ, ὁ;brat;grmorf16
+πολλάκις;često;grmorf16
+χρῆμα χρήματος, τό;novac, imovina, stvar;grmorf16
+ἕνεκα (iza genitiva);radi (prijedlog);grmorf16
+πάνυ;posve;grmorf16
+δεινός –ή –όν;strašan;grmorf16
+οἶκος οἴκου, ὁ;kuća;grmorf16
+# fraze
+ἐν τῷ οἴκῳ;u kući;grmorf16
+οἱ πάνυ πολλὰ ἔχοντες χρήματα;oni koji imaju vrlo mnogo imovine;grmorf16
+αἰσθάνομαι τυράννους τινάς;opažam pojedine tirane;grmorf16
+οἱ μὲν κλέπτουσιν, οἱ δὲ τοιχωρυχοῦσιν, οἱ δὲ ἀνδραποδίζονται;jedni kradu, drugi provaljuju, treći prodaju ljude u roblje;grmorf16
+χρημάτων ἕνεκα;radi novaca;grmorf16
+τούτους οἰκτίρω τῆς ἄγαν χαλεπῆς νόσου;žalim ih zbog odviše teške bolesti;grmorf16
+πολλὰ ἐσθίων;jedući mnogo;grmorf16
+ὅμοια πάσχειν;trpjeti jednako;grmorf16

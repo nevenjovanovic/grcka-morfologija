@@ -1,0 +1,20 @@
+word;meaning;note
+# riječi
+οὐδέ;i ne;grmorf19
+οἴομαι / οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην;misliti;grmorf19
+σαφής σαφές;jasan;grmorf19
+οἰκία οἰκίας, ἡ;kuća;grmorf19
+ἐάω, ἐάσω, εἴασα;dopustiti;grmorf19
+πειράω / πειράομαι, πειράσομαι, ἐπείρασα, πεπείραμαι, ἐπειράθην;pokušati, iskušati;grmorf19
+κτάομαι, κτήσομαι, ἐκτησάμην, κέκτημαι;stjecati;grmorf19
+μάλα;vrlo;grmorf19
+# fraze
+ἤκουσα δέ ποτε αὐτοῦ;jednom sam čuo od njega;grmorf19
+φίλων κτῆσίς τε καὶ χρείαν;stjecanje prijatelja i odnos prema njima;grmorf19
+φίλος σαφὴς καὶ ἀγαθός;pouzdan i dobar prijatelj;grmorf19
+τὰ ὄντα σῴζειν;čuvati ono što postoji;grmorf19
+ὃ μέγιστον ἀγαθὸν εἶναί φασιν;što je, kažu, najveće dobro;grmorf19
+καμνόντων φίλων;kad su prijatelji unesrećeni;grmorf19
+τοῖς οἰκέταις;ukućanima;grmorf19
+οὐδὲν ἐῶντες ἀθεράπευτον;ne ostavljajući ništa bez skrbi;grmorf19
+ἐπιμελείας δεόμενοι;kad trebaju pažnju;grmorf19

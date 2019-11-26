@@ -1,0 +1,436 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+%\usepackage{fontspec}
+%\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+
+\usepackage{graphicx}
+\graphicspath{ {./slike/} }
+
+\usepackage[all]{nowidow}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Grčki rečenični period}}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε Θε-μισ-το-κλῆς}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+\def\secondpage{\clearpage\null\vfill
+\pagestyle{empty}
+\begin{minipage}[b]{0.9\textwidth}
+\begin{center}
+\textit{Izdavač}\\
+Filozofski fakultet Sveučilišta u Zagrebu\\
+FF-Press\\
+Ivana Lučića 3, Zagreb
+
+\bigskip
+
+\textit{Za izdavača}\\
+prof.\ dr.\ Vesna Vlahović Štetić
+
+\bigskip
+
+\textit{Urednici}\\
+Nina Čengić\\
+Neven Jovanović
+
+\bigskip
+
+\textit{Recenzenti}\\
+NN\\
+NN
+
+\bigskip
+
+\textit{Lektor}\\
+Nina Čengić
+
+\bigskip
+
+Korekturu i računalni slog obavili autori
+
+\bigskip
+
+%ISBN 978-953-175-817-8
+
+\bigskip
+
+Ovo izdanje elektroničke knjige zaključeno je u rujnu 2019.
+
+%\bigskip
+
+%\includegraphics[scale=0.20]{ffpress-cb.png}
+
+
+\end{center}
+\footnotesize\raggedright
+\setlength{\parskip}{0.5\baselineskip}
+\noindent Ovo djelo je ustupljeno pod Creative Commons licencom Imenovanje 3.0 nelokalizirana licenca. Da biste vidjeli primjerak te licence, posjetite \url{http://creativecommons.org/licenses/by/3.0/} ili pošaljite pismo na Creative Commons, PO Box 1866, Mountain View, CA 94042, SAD. 
+\end{minipage}
+\vspace*{3\baselineskip}
+%\cleardoublepage
+\rfoot{\thepage}}
+
+\makeatletter
+\g@addto@macro{\secondpage}{\maketitle}
+\makeatother
+
+\begin{document}
+
+\title{Čitanka za kolegij Povijest grčkoga jezika: Grčki rečenični period klasičnoga i poklasičnoga razdoblja}
+%\subtitle{Vježbe 41–60}
+\author{Nina Čengić, Neven Jovanović}
+\date{}
+\secondpage
+
+
+\cleardoublepage
+\setcounter{page}{2}
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter*{Predgovor}
+\label{chap:predgovor}
+\addcontentsline{toc}{chapter}{\nameref{chap:predgovor}}
+
+\section*{O ovoj čitanci}
+
+Ovaj izbor komentiranih tekstova namijenjen je upoznavanju strukture grčke rečenice, i dio je literature obaveznog kolegija \textit{Povijest grčkoga jezika: Grčki rečenični period klasičnoga i poklasičnoga razdoblja}. Izbor uključuje autore poput Herodota i Ezopa, Platona, Ksenofonta i Tukidida, Aristotela, Lizije, Izokrata i Demostena, pa sve do Polibija, Marka Aurelija, Filostrata, Ahileja Tacija i Plotina; zastupljeni su historiografija i filozofska proza, govorništvo, pripovijesti, basne.
+
+Za uspješniji samostalni rad kratkim je odlomcima dodan uvod, u kojem su predstavljeni autor (kada se susreće prvi put) i tekst iz kojeg odlomak potječe.
+
+Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Bitbucket, na URL adresi \href{https://bitbucket.org/nevenjovanovic/hellenismos-g}{bitbucket.org/nevenjovanovic/hellenismos-g}.
+
+\medskip
+
+U Zagrebu, rujan 2019.
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+%\mainmatter
+\chapter[Αἰσώπειος μῦθος 216]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 216}
+
+\import{poglavlja/}{pogl01-ezop-216.tex}
+
+\chapter[Πλάτωνος Μενέξενος]{\textgreek[variant=ancient]{Πλάτωνος Μενέξενος} 237c}
+
+\import{poglavlja/}{pogl02-platon-meneksen237c.tex}
+
+\chapter[Λουκιανοῦ Δὶς κατηγορούμενος ]{\textgreek[variant=ancient]{Λουκιανοῦ Δὶς κατηγορούμενος } 2, 9}
+
+\import{poglavlja/}{pogl03-lukijan-dvaput-2-9.tex}
+
+
+\chapter[Θουκυδίδου Ἱστορίαι Α]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Α} 18, 1}
+
+\import{poglavlja/}{pogl04-tukidid-1-18-1.tex}
+
+
+\chapter[Αἰσώπειος μῦθος 83]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 83}
+
+\import{poglavlja/}{pogl05-ezop-83.tex}
+
+\chapter[Πλάτωνος Φαίδων]{\textgreek[variant=ancient]{Πλάτωνος Φαίδων} 85a}
+
+\import{poglavlja/}{pogl06-platon-fedon85a.tex}
+
+\chapter[Ἰσοκράτους Βούσιρις]{\textgreek[variant=ancient]{Ἰσοκράτους Βούσιρις} 28, 1}
+
+\import{poglavlja/}{pogl07-izokrat-buzirid28.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Ϛ]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Ϛ} 30, 1}
+
+\import{poglavlja/}{pogl08-tukidid-6-30-1.tex}
+
+\chapter[Λυσίου Κατὰ Ἀγοράτου]{\textgreek[variant=ancient]{Λυσίου Κατὰ Ἀγοράτου} 39}
+
+\import{poglavlja/}{pogl09-lizija-agorat-39-1.tex}
+
+\chapter[Ἰσοκράτους Εὐαγόρας]{\textgreek[variant=ancient]{Ἰσοκράτους Εὐαγόρας} 9}
+
+\import{poglavlja/}{pogl10-izokrat-euagora-9.tex}
+
+\chapter[Πλάτωνος Κριτίας]{\textgreek[variant=ancient]{Πλάτωνος Κριτίας} 114e}
+
+\import{poglavlja/}{pogl11-platon-kritija-114e.tex}
+
+\chapter[Ἰσοκράτους Πρὸς Δημόνικον]{\textgreek[variant=ancient]{Ἰσοκράτους Πρὸς Δημόνικον} 16}
+
+\import{poglavlja/}{pogl12-izokrat-demoniku-16.tex}
+
+\chapter[Ἀρριανοῦ Ἀναβάσεως Ἀλεξάνδρου Β]{\textgreek[variant=ancient]{Ἀρριανοῦ Ἀναβάσεως Ἀλεξάνδρου Β,} 3, 6}
+
+\import{poglavlja/}{pogl13-arijan-anabaza-2-3-6.tex}
+
+\chapter[Λουκιανοῦ Θεῶν διάλογοι]{\textgreek[variant=ancient]{Λουκιανοῦ Θεῶν διάλογοι Κ} 7}
+
+\import{poglavlja/}{pogl14-lukijan-razgovoribogova-20-7.tex}
+
+\chapter[Πλουτάρχου Περὶ ἀδολεσχίας]{\textgreek[variant=ancient]{Πλουτάρχου Περὶ ἀδολεσχίας} 513a}
+
+\import{poglavlja/}{pogl15-plutarh-obrbljavosti-513a.tex}
+
+\chapter[Ξενοφῶντος Συμπόσιον Δ]{\textgreek[variant=ancient]{Ξενοφῶντος Συμπόσιον Δ} 34, 4}
+
+\import{poglavlja/}{pogl16-ksenofont-simpozij-4-34-4.tex}
+
+\chapter[Λουκιανοῦ Ἰκαρομένιππος]{\textgreek[variant=ancient]{Λουκιανοῦ Ἰκαρομένιππος \\ἢ Ὑπερνέφελος} 25, 3}
+
+\import{poglavlja/}{pogl17-lukijan-ikaromenip-25-3.tex}
+
+\chapter[Πλουτάρχου Σόλων]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, Σόλων} 4, 3}
+
+\import{poglavlja/}{pogl18-plutarh-solon-4-3.tex}
+
+\chapter[Ξενοφῶντος Ἀπομνημονεύματα Β]{\textgreek[variant=ancient]{Ξενοφῶντος Ἀπομνημονεύματα Β} 4, 1}
+
+\import{poglavlja/}{pogl19-ksenofont-uspomene-2-4.tex}
+
+
+
+\chapter[Θουκυδίδου Ἱστορίαι Ϛ]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Ϛ} 8, 1}
+
+\import{poglavlja/}{pogl20-tukidid-6-8-1.tex}
+
+% 20
+
+\chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 35}
+
+\import{poglavlja/}{pogl01-izokrat-helena86.tex}
+
+\chapter[Λυσίου Ὑπὲρ τοῦ ἀδυνάτου]{\textgreek[variant=ancient]{Λυσίου Ὑπὲρ τοῦ ἀδυνάτου} 6, 2}
+
+\import{poglavlja/}{pogl02-lizija-invalid-6-2.tex}
+
+\chapter[Δημοσθένους Ὀλυνθιακός Α]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Α,} 15}
+
+\import{poglavlja/}{pogl03-demosten-olint1-15.tex}
+
+\chapter[Ψευδο-Ξενοφῶντος Ἀθηναίων πολιτεία Β]{\textgreek[variant=ancient]{Ψευδο-Ξενοφῶντος Ἀθηναίων πολιτεία \\Β} 14, 12}
+
+\import{poglavlja/}{pogl04-ps-ksen-2-14-2.tex}
+
+\chapter[Ἀριστοτέλους Ῥητορική]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική} 1393b}
+
+\import{poglavlja/}{pogl05-aristotel-retorika1393b.tex}
+
+\chapter[Αἰσώπειος μῦθος 1]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 1}
+
+\import{poglavlja/}{pogl06-ezop-basne1.tex}
+
+\chapter[Ἀριστοτέλους Ῥητορική]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική} 1358a}
+
+\import{poglavlja/}{pogl07-aristotel-retorika1358a.tex}
+
+\chapter[Γοργίου Ἑλένης ἐγκώμιον]{\textgreek[variant=ancient]{Γοργίου Ἑλένης ἐγκώμιον} 11, 13}
+
+\import{poglavlja/}{pogl08-gorgija-pohvala-11.tex}
+
+\chapter[Πολυβίου Ἱστορίων Γ]{\textgreek[variant=ancient]{Πολυβίου Ἱστορίων Γ,} 111, 3}
+
+\import{poglavlja/}{pogl09-polibije-povijest-3.tex}
+
+\chapter[Πλουτάρχου Θεμιστοκλῆς]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, \\Θεμιστοκλῆς} 2}
+
+\import{poglavlja/}{pogl10-plutarh-temistoklo-2.tex}
+
+\chapter[Λουκιανοῦ Κυνικός]{\textgreek[variant=ancient]{Λουκιανοῦ Κυνικός} 18}
+
+\import{poglavlja/}{pogl11-lukijan-cinik-18.tex}
+
+\chapter[Πλουτάρχου Δημοσθένης]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, \\Δημοσθένης} 11}
+
+\import{poglavlja/}{pogl12-plutarh-demosten-11.tex}
+
+\chapter[Ξενοφῶντος Ἀπομνημονεύματα Γ]{\textgreek[variant=ancient]{Ξενοφῶντος Ἀπομνημονεύματα Γ} 12, 4}
+
+\import{poglavlja/}{pogl13-ksenofont-uspomene-3-12.tex}
+
+\chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 18}
+
+\import{poglavlja/}{pogl14-izokrat-pohvalahelene-18.tex}
+
+\chapter[Δημοσθένους Ὀλυνθιακός Β]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Β,} 18}
+
+\import{poglavlja/}{pogl15-demosten-olintski2-18.tex}
+
+\chapter[Ἀριστοτέλους Ῥητορική]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική} 1394a}
+
+\import{poglavlja/}{pogl16-aristotel-retorika-1394a.tex}
+
+\chapter[Αἰσώπειος μῦθος 35]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 35}
+
+\import{poglavlja/}{pogl17-ezop-35.tex}
+
+\chapter[Γοργίου Ἑλένης ἐγκώμιον 11, 41]{\textgreek[variant=ancient]{Γοργίου Ἑλένης ἐγκώμιον} 11, 41}
+
+\import{poglavlja/}{pogl18-gorgija-pohvalahelene-11-41.tex}
+
+\chapter[Πλουτάρχου Ἀγεσίλαος]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, \\Ἀγεσίλαος} 6}
+
+\import{poglavlja/}{pogl19-plutarh-agesilaj-6.tex}
+
+\chapter[Πλουτάρχου Περὶ παίδων ἀγωγῆς]{\textgreek[variant=ancient]{Πλουτάρχου Περὶ παίδων ἀγωγῆς} 9}
+
+\import{poglavlja/}{pogl20-plutarh-liberiseducandis-2c.tex}
+
+%40
+\chapter[Διοδώρου Βιβλιοθήκης ἱστορικής Α]{\textgreek[variant=ancient]{Διοδώρου Σικελιώτου \\Βιβλιοθήκης ἱστορικής Α,} 8, 5}
+
+\import{poglavlja/}{pogl01-diodor-knjiznica.tex}
+
+\chapter[Ἀριστοτέλους Ῥητορική]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική} 1393a}
+
+\import{poglavlja/}{pogl02-aristotel-retorika-1393a.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Α 2]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Α} 2}
+
+\import{poglavlja/}{pogl03-tukidid-1-2.tex}
+
+\chapter[Ἡροδότου Ἱστορίαι Α 141]{\textgreek[variant=ancient]{Ἡροδότου Ἱστορίαι Α} 141}
+
+\import{poglavlja/}{pogl04-herodot-1-41.tex}
+
+\chapter[Αἰσώπειος μῦθος 9]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 9}
+
+\import{poglavlja/}{pogl05-ezop-9.tex}
+
+\chapter[Ἡλιοδώρου Αἰϑιοπικὰ Α]{\textgreek[variant=ancient]{Ἡλιοδώρου Αἰϑιοπικὰ Α} 2}
+
+\import{poglavlja/}{pogl06-heliodor-aethiop-1.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Β]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Β} 65}
+
+\import{poglavlja/}{pogl07-tukidid-2-65.tex}
+
+\chapter[Ἰσοκράτους Πανηγυρικός ]{\textgreek[variant=ancient]{Ἰσοκράτους Πανηγυρικός} 47}
+
+\import{poglavlja/}{pogl08-izokrat-panegirik-47.tex}
+
+\chapter[Ἡροδότου Ἱστορίαι Β]{\textgreek[variant=ancient]{Ἡροδότου Ἱστορίαι Β} 77, 12}
+
+\import{poglavlja/}{pogl09-herodot-2-77.tex}
+
+\chapter[Θουκυδίδου Ἱστορίαι Ϛ 27]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Ϛ} 27}
+
+\import{poglavlja/}{pogl10-tukidid-6-27.tex}
+
+\chapter[Λουκιανοῦ Περὶ τοῦ Ἐνυπνίου]{\textgreek[variant=ancient]{Λουκιανοῦ Περὶ τοῦ Ἐνυπνίου ἤτοι Βίος Λουκιανοῦ} 9}
+
+\import{poglavlja/}{pogl20-lukijan-san-9.tex}
+
+\chapter[Ἀντιφῶντος Περὶ ὁμονοίας]{\textgreek[variant=ancient]{Ἀντιφῶντος Περὶ ὁμονοίας} 14}
+
+\import{poglavlja/}{pogl11-antifont-ulomak-14.tex}
+
+\chapter[Φιλοστράτου Tὰ εἰς τὸν Τυανέα Ἀπολλώνιον Ε]{\textgreek[variant=ancient]{Φλαουίου Φιλοστράτου Tὰ εἰς τὸν Τυανέα Ἀπολλώνιον Ε} 14}
+
+\import{poglavlja/}{pogl12-filostrat-apolonije-5-14.tex}
+
+\chapter[Ἐγχειρίδιον Ἐπικτήτου]{\textgreek[variant=ancient]{Ἐγχειρίδιον Ἐπικτήτου} 1}
+
+\import{poglavlja/}{pogl13-epiktet-prirucnik-1.tex}
+
+\chapter[Ξενοφῶντος Ἀπομνημονεύματα Β]{\textgreek[variant=ancient]{Ξενοφῶντος Ἀπομνημονεύματα Β} 4, 5}
+
+\import{poglavlja/}{pogl14-ksen-memor-2-4-5.tex}
+
+\chapter[ Ἀχιλλέως Τατίου Tὰ κατὰ Λευκίππην καὶ Κλειτοφῶντα]{\textgreek[variant=ancient]{ Ἀχιλλέως Τατίου Tὰ κατὰ Λευκίππην καὶ Κλειτοφῶντα Α} 41}
+
+\import{poglavlja/}{pogl15-ahilejt-6-19.tex}
+
+\chapter[Λυσίου Ὀλυμπιακός]{\textgreek[variant=ancient]{Λυσίου Ὀλυμπιακός} 1}
+
+\import{poglavlja/}{pogl16-lizija-olimp-1.tex}
+
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Β]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Β} 11}
+
+\import{poglavlja/}{pogl17-markaur-2-11.tex}
+
+\chapter[Πλωτίνου Ἐννεάδες Ϛ]{\textgreek[variant=ancient]{Πλωτίνου Ἐννεάδες Ϛ} 7, 34}
+
+\import{poglavlja/}{pogl18-plotin-eneade-6-7-34.tex}
+
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Γ]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Γ} 1}
+
+\import{poglavlja/}{pogl19-markaur-3-1.tex}
+
+
+\end{document}
+\clearpage
+
+
+
+
+
+% kraj

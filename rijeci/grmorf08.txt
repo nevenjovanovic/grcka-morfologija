@@ -1,0 +1,23 @@
+word;meaning;note
+# riječi
+ἄλλος ἄλλη ἄλλο;drugi;grmorf08
+μετά (+ gen., ak.);nakon, sa;grmorf08
+εἶπον;reći;grmorf08
+δή;dakle;grmorf08
+πρῶτος πρώτη πρῶτον;prvi;grmorf08
+πλέω, πλεύσομαι, ἔπλευσα, πέπλευκα, πέπλευσμαι, ἐπλεύσθην;ploviti;grmorf08
+πλῆθος πλήθους, τό;mnoštvo;grmorf08
+εἶμι, infin. ἰέναι, ptc. ἰών, ἰοῦσα, ἰόν;ići ću;grmorf08
+καιρός καιροῦ, ὁ;pravi čas;grmorf08
+κίνδυνος κινδύνου, ὁ;opasnost;grmorf08
+# fraze
+ἅμα ἕῳ;u zoru;grmorf08
+ἐπλήρουν τὰς ναῦς;punili su brodove;grmorf08
+ἐν τῇ πόλει;u gradu;grmorf08
+ὁ ἄλλος ὅμιλος;ostalo mnoštvo;grmorf08
+προπέμποντες ἑταίρους;ispraćajući drugove;grmorf08
+μετ' ἐλπίδος;u nadi;grmorf08
+ὅτε ἐψηφίζοντο πλεῖν;kad su glasali za plovidbu;grmorf08
+διὰ τὸ πλῆθος;zbog obilja;grmorf08
+τῇ ὄψει ἀνεθάρσουν;prizor im je povratio hrabrost;grmorf08
+ἐπ' ἀξιόχρεων καὶ ἄπιστον διάνοιαν;na veličanstvenu i nevjerojatnu ideju;grmorf08

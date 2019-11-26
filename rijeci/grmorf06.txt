@@ -1,0 +1,19 @@
+word;meaning;note
+# riječi
+ὡς ; da, kad ; grmorf06
+διά;kroz, zbog;grmorf06
+ἀλλά;nego;grmorf06
+οὐδείς οὐδεμία οὐδέν;nijedan, ništa;grmorf06
+ἀγαθός –ή –όν;dobar;grmorf06
+ἡμέρα ἡμέρας, ἡ;dan;grmorf06
+καλός –ή –όν;lijep;grmorf06
+αἰσθάνομαι, αἰσθήσομαι, ᾐσθόμην, ᾔσθημαι;opaziti spoznati;grmorf06
+# fraze
+αἰσθάνονται ὅτι δεῖ αὐτοὺς ἀποθανεῖν;osjećaju da moraju umrijeti;grmorf06
+πλεῖστα καὶ κάλλιστα ᾄδουσι;pjevaju najviše i najljepše;grmorf06
+διὰ τὸ δέος τοῦ θανάτου;zbog straha od smrti;grmorf06
+τὰ ἐν ῞Αιδου ἀγαθά;dobre stvari u Hadu;grmorf06
+ἐγὼ καὶ αὐτὸς ἡγοῦμαι;ja i sam smatram;grmorf06
+παρὰ τοῦ δεσπότου;od gospodara;grmorf06
+τοῦ βίου ἀπαλλάττεσθαι;napustiti život;grmorf06
+οἱ κύκνοι;labudovi;grmorf06

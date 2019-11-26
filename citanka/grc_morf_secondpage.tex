@@ -1,0 +1,105 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[quiet]{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+%\usepackage{fontspec}
+%\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+
+\usepackage{graphicx}
+\graphicspath{ {./slike/} }
+
+\usepackage[all]{nowidow}
+
+%\usepackage{titling}
+%\newcommand{\subtitle}[1]{%
+%  \posttitle{%
+%    \par\end{center}
+%    \begin{center}\large#1\end{center}
+%    \vskip0.5em}%
+%}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+\def\secondpage{\clearpage\null\vfill
+\pagestyle{empty}
+\begin{minipage}[b]{0.9\textwidth}
+\begin{center}
+\textit{Izdavač}\\
+Filozofski fakultet Sveučilišta u Zagrebu\\
+FF-Press\\
+Ivana Lučića 3, Zagreb
+
+\bigskip
+
+\textit{Za izdavača}\\
+prof.\ dr.\ Vesna Vlahović Štetić
+
+\bigskip
+
+\textit{Urednici}\\
+Nina Čengić\\
+Neven Jovanović\\
+Nino Zubović
+
+\bigskip
+
+\textit{Recenzenti}\\
+NN\\
+NN
+
+\bigskip
+
+\textit{Lektor}\\
+Nina Čengić
+
+\bigskip
+
+Korekturu i računalni slog obavili autori
+
+\bigskip
+
+ISBN 978-953-175-817-8
+
+\bigskip
+
+Ovo izdanje elektroničke knjige zaključeno je u rujnu 2019.
+
+%\bigskip
+
+%\includegraphics[scale=0.20]{ffpress-cb.png}
+
+
+\end{center}
+\footnotesize\raggedright
+\setlength{\parskip}{0.5\baselineskip}
+\noindent Ovo djelo je ustupljeno pod Creative Commons licencom Imenovanje 3.0 nelokalizirana licenca. Da biste vidjeli primjerak te licence, posjetite \url{http://creativecommons.org/licenses/by/3.0/} ili pošaljite pismo na Creative Commons, PO Box 1866, Mountain View, CA 94042, SAD. 
+\end{minipage}
+\vspace*{3\baselineskip}
+%\cleardoublepage
+%\rfoot{\thepage}
+}
+
+\makeatletter
+\g@addto@macro{\secondpage}{\maketitle}
+\makeatother
+
+\begin{document}
+
+\title{Čitanka za Grčku morfologiju 1}
+%\subtitle{Vježbe 41–60}
+\author{Irena Bratičević, Nina Čengić, Neven Jovanović,\\Vlado Rezar, Petra Šoštarić, Ninoslav Zubović}
+\date{}
+\secondpage
+
+\end{document}

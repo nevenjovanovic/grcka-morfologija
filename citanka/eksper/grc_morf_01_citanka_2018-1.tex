@@ -1,0 +1,247 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+\defaultfontfeatures{Ligatures=TeX}
+
+%\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+
+%\pagestyle{headings}
+
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Čitanka za Grčku morfologiju 1}}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+
+
+\begin{document}
+
+\title{Čitanka za Grčku morfologiju 1}
+%\subtitle{Vježbe 41–60}
+\author{Irena Bratičević, Nina Čengić, Neven Jovanović,\\Vlado Rezar, Petra Šoštarić, Ninoslav Zubović}
+\date{}
+
+
+\clearpage
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter*{Predgovor}
+\label{chap:predgovor}
+\addcontentsline{toc}{chapter}{\nameref{chap:predgovor}}
+
+\section*{O ovoj čitanci}
+
+Ovaj izbor komentiranih tekstova namijenjen je upoznavanju studenata prve godine studija grčkog jezika i književnosti s autentičnom starogrčkom prozom, i dio je literature obaveznog kolegija \textit{Grčka morfologija 1}. Izbor uključuje autore poput Herodota i Ezopa, Platona, Ksenofonta i Tukidida, Aristotela, Lizije, Izokrata i Demostena, pa sve do Polibija, Marka Aurelija, Filostrata, Ahileja Tacija i Plotina; zastupljeni su historiografija i filozofska proza, govorništvo, pripovijesti, basne.
+
+Zadatak je studenata da samostalno prirede svaki tekst – da ga na nastavi budu sposobni pročitati i prevesti na hrvatski, te identificirati i morfološki opisati imenske oblike koje susreću.
+
+Za uspješniji samostalni rad kratkim su odlomcima dodane tri vrste komentara. U uvodu su predstavljeni autor (kada se susreće prvi put) i tekst iz kojeg odlomak potječe. Nakon grčkog odlomka slijede njegove rečenice, ovaj put raščlanjene i složene tako da povećaju sintaktičku i semantičku preglednost; posebno su istaknute konstrukcije genitiva apsolutnog i akuzativa, odnosno nominativa s infinitivom. Treći komentar donosi gramatička objašnjenja uz rečenice. Objašnjenja su ovdje dvojaka. Za imenske riječi (član, imenice, pridjevi, zamjenice) donose se samo brojevi paragrafa koji upućuju na relevantne dijelove \textit{Grčke gramatike} Augusta Musića i Nikole Majnarića, standardnog školskog priručnika za opis grčkog jezika. Glagolski su oblici, međutim, identificirani vrlo detaljno – naveden je njihov rječnički oblik i opisane su sve gramatičke kategorije. 
+
+Nepromjenjive riječi, poput priloga i veznika, najčešće nisu komentirane; studenti će ih naći u pomagalu poput \textit{Grčko-hrvatskog rječnika} Gorskoga i Majnarića, ili na internetskom rječničkom portalu \textit{Logeion} Sveučilišta u Chicagu. U istim će referentnim pomagalima studenti tražiti i značenja imenskih riječi.
+
+\newpage
+
+Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Neven Jovanović, Vlado Rezar, Petra Šoštarić, Ninoslav Zubović.
+
+Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Bitbucket, na URL adresi \href{https://bitbucket.org/nevenjovanovic/hellenismos-g}{bitbucket.org/nevenjovanovic/hellenismos-g}.
+
+\medskip
+
+U Zagrebu, rujan 2018. – rujan 2019.
+
+\newpage
+
+
+
+\section*{Upute za rad}
+
+\begin{enumerate}[label=\alph*)]
+\item brojevi paragrafa (npr.\ §~127) upućuju na odgovarajući dio Musićeve gramatike koji obrađuje morfologiju imena ili sintaksu
+\item glagoli su navedeni u rječničkom obliku i morfološki analizirani
+\item članovi konstrukcije genitiva apsolutnog (GA) potcrtani su \\
+\uuline{dvjema crtama}
+\item članovi konstrukcije akuzativa s infinitivom (A+I) potcrtani su \\ \underline{jednom crtom}
+\item nepromjenjive riječi (poput priloga i veznika) koje nisu komentirane potražite u rječniku
+\end{enumerate}
+
+
+\section*{Obavezna referentna literatura}
+
+Oton Gorski, Niko Majnarić, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+\textit{Grčka morfologija 1}, elektronska verzija kolegija, Sustav učenja na daljinu Omega, Zagreb: Filozofski fakultet Sveučilišta u Zagrebu, pristupljeno 23. kolovoza 2018. na adresi \url{https://omega.ffzg.hr/course/view.php?id=1615}\\
+\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi \url{http://logeion.uchicago.edu/}\\
+August Musić, Nikola Majnarić, \textit{Gramatika grčkoga jezika}, Zagreb (bilo koje izdanje)\\
+Stjepan Senc, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Library. Pristupljeno 23. prosinca 2018. na adresi \url{http://www.perseus.tufts.edu}\\
+
+\chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 35}
+
+\section*{O tekstu}
+
+Na početku Izokratova govora \textit{Pohvala Helene} stoji duži uvod u kojem se autor osvrće na pomodnu, sofističku retoriku svojega vremena, zalažući se za govorništvo koje će odabirom vjerodostojnih tema i njihovim ozbiljnim tretmanom biti istinski korisno u izobrazbi mladih za građanske dužnosti. Sam panegirik Heleni kronološki slijedi njezin životopis: od priče o božanskom podrijetlu koje Helena vuče od Zeusa, preko Tezejeve otmice te povratka uz pomoć Kastora i Polideuka, do Parisova suda i otmice; nastavlja se pohvalom Helenine ljepote i stjecanja besmrtnosti, a završava njezinom simboličnom ulogom u ujedinjenju svih Grka i u njihovoj pobjedi nad barbarima. U ovdje odabranom odlomku prikazan je učinak Helenine ljepote na Tezeja, koji ju je, budući da je bila premlada za udaju, oteo i doveo iz Lakedemona u Atiku. Tim odlomkom započinje digresija u pohvalu Tezeja; on metaforički predstavlja veličinu i sjaj grada Atene.
+
+%\newpage
+
+\section*{Pročitajte naglas grčki tekst.}
+Isoc. Helenae encomium 18
+%Naslov prema izdanju
+
+\medskip
+
+{\large
+\begin{greek}
+\noindent Θησεὺς, ὁ λεγόμενος μὲν Αἰγέως γενόμενος δ' ἐκ Ποσειδῶνος, ἰδὼν αὐτὴν οὔπω μὲν ἀκμάζουσαν, ἤδη δὲ τῶν ἄλλων διαφέρουσαν, τοσοῦτον ἡττήθη τοῦ κάλλους, ὁ κρατεῖν τῶν ἄλλων εἰθισμένος, ὥσθ' ὑπαρχούσης αὐτῷ καὶ πατρίδος μεγίστης καὶ βασιλείας ἀσφαλεστάτης ἡγησάμενος οὐκ ἄξιον εἶναι ζῆν ἐπὶ τοῖς παροῦσιν ἀγαθοῖς ἄνευ τῆς πρὸς ἐκείνην οἰκειότητος, ἐπειδὴ παρὰ τῶν κυρίων οὐχ οἷός τ' ἦν αὐτὴν λαβεῖν, ἀλλ' ἐπέμενον τήν τε τῆς παιδὸς ἡλικίαν καὶ τὸν χρησμὸν τὸν παρὰ τῆς Πυθίας, ὑπεριδὼν τὴν ἀρχὴν τὴν Τυνδάρεω καὶ καταφρονήσας τῆς ῥώμης τῆς Κάστορος καὶ Πολυδεύκους καὶ πάντων τῶν ἐν Λακεδαίμονι δεινῶν ὀλιγωρήσας, βίᾳ λαβὼν αὐτὴν εἰς Ἄφιδναν τῆς Ἀττικῆς κατέθετο.
+
+\end{greek}
+
+}
+
+\section*{Analiza i komentar}
+
+%1
+
+{\large
+\begin{greek}
+\noindent Θησεὺς, \\
+\tabto{2em} ὁ λεγόμενος μὲν Αἰγέως \\
+\tabto{2em} γενομένος δ' ἐκ Ποσειδῶνος, \\
+ἰδὼν αὐτὴν \\
+\tabto{2em} οὔπω μὲν ἀκμάζουσαν, \\
+\tabto{2em} ἤδη δὲ τῶν ἄλλων διαφέρουσαν\\
+τοσοῦτον ἡττήθη τοῦ κάλλους, \\
+ὁ κρατεῖν τῶν ἄλλων εἰθισμένος, \\
+\tabto{2em} ὥσθ' \\
+\tabto{4em} \uuline{ὑπαρχούσης} αὐτῷ \\
+\tabto{6em} \uuline{καὶ πατρίδος μεγίστης} \\
+\tabto{6em} \uuline{καὶ βασιλείας ἀσφαλεστάτης} \\
+\tabto{2em} ἡγησάμενος \\
+\tabto{4em} \underline{οὐκ ἄξιον εἶναι ζῆν} \\
+\tabto{6em} ἐπὶ τοῖς παροῦσιν ἀγαθοῖς \\
+\tabto{6em} ἄνευ τῆς πρὸς ἐκείνην οἰκειότητος\\
+
+\end{greek}
+}
+
+\begin{description}[noitemsep]
+\item[Θησεὺς] §~175
+\item[ὁ λεγόμενος] λέγω reći; n. sg. m. r. ptc. prez. medpas.
+\item[Αἰγέως] §~175
+\item[μὲν\dots\ δ(ὲ)] doduše\dots\ ali\dots; suprotni veznik §~515.2, §~519.7
+\item[γενομένος] γίγνομαι postati, biti; n. sg. m. r. ptc. aor.
+\item[ἐκ Ποσειδῶνος] §~131
+\item[ἰδὼν] ὁράω vidjeti; n. sg. m. r. ptc. aor. akt.
+\item[αὐτὴν] §~207; sc.\ Helenu
+\item[οὔπω μὲν\dots\ ἤδη δὲ] još ne\dots\ a već\dots
+\item[ἀκμάζουσαν] ἀκμάζω biti u cvijetu ljepote; a. sg. ž. r. ptc. prez. akt.
+\item[διαφέρουσαν] διαφέρω τινός biti različit od koga, nadmašivati koga; a. sg. ž. r. ptc. prez. akt.
+\item[τῶν ἄλλων] §~212
+\item[τοσοῦτον] §~213.4; u korelaciji s ὥστε uvodi posljedičnu rečenicu
+\item[ἡττήθη] ἡσσάομαι (ἡττάομαι) τινός biti svladan  od koga ili čega, ne moći odoljeti čemu; 3. l. sg. ind. aor. pas.
+\item[τοῦ κάλλους] §~153
+\item[ὁ\dots\ εἰθισμένος] ἐθίζω naviknuti; n. sg. m. r. ptc. perf. medpas. εἰθισμένος + inf. navikao na što
+\item[κρατεῖν] κρατέω τινός vladati nad kime; inf. prez. akt.
+\item[τῶν ἄλλων] §~212
+\item[ὥσθ'] ὥστε, posljedični veznik §~473; aspiracija dentala zbog ispadanja vokala §~74; predikat posljedične rečenice nalazi se na samom kraju odlomka (κατέθετο)
+\item[ὑπαρχούσης] ὑπάρχω τινί pripadati komu; g. sg. ž. r. ptc. prez. akt.; konstrukcija GA
+\item[αὐτῷ] §~207
+\item[πατρίδος] §~123
+\item[μεγίστης] §~200
+\item[βασιλείας] §~90
+\item[ἀσφαλεστάτης] §~198
+\item[ἡγησάμενος] ἡγέομαι voditi; misliti, držati; n. sg. m. r. ptc. aor. med.; glagol uvodi konstrukciju A+I
+\item[ἄξιον] §~103
+\item[εἶναι] εἰμί biti; inf. prez. akt.
+\item[ἄξιον εἶναι] imenski predikat, Smyth 909
+\item[ζῆν] ζάω živjeti; inf. prez. akt.
+\item[ἐπί\dots\ ἀγαθοῖς] §~436.B; §~103
+\item[τοῖς\dots\ ἀγαθοῖς] supstantiviranje članom §~373
+\item[παροῦσιν] πάρειμι biti prisutan, biti u čijoj vlasti; d. pl. sr. r. ptc. prez. akt.
+\item[ἄνευ τῆς\dots\ οἰκειότητος] §~417; §~123; οἰκειότης πρός τινα zajedništvo, veza s kim
+\item[πρὸς ἐκείνην] §~213
+
+\end{description}
+
+%3 itd
+
+{\large
+\begin{greek}
+\noindent ἐπειδὴ \\
+\tabto{2em} παρὰ τῶν κυρίων \\
+οὐχ οἷός τ' ἦν \\
+\tabto{2em} αὐτὴν λαβεῖν, \\
+ἀλλ' ἐπέμενον \\
+\tabto{2em} τήν τε τῆς παιδὸς ἡλικίαν \\
+\tabto{2em} καὶ τὸν χρησμὸν τὸν παρὰ τῆς Πυθίας\\
+ὑπεριδὼν \\
+\tabto{2em} τὴν ἀρχὴν τὴν Τυνδάρεω \\
+καὶ καταφρονήσας \\
+\tabto{2em} τῆς ῥώμης τῆς Κάστορος καὶ Πολυδεύκους \\
+\tabto{2em} καὶ πάντων τῶν ἐν Λακεδαίμονι δεινῶν \\
+ὀλιγωρήσας\\
+βίᾳ λαβὼν αὐτὴν \\
+\tabto{2em} εἰς Ἄφιδναν τῆς Ἀττικῆς κατέθετο.\\
+
+\end{greek}
+}
+
+\begin{description}[noitemsep]
+\item[ἐπειδή] veznik uvodi vremensku rečenicu §~487
+\item[παρὰ τῶν κυρίων] §~434.A; §~82
+\item[οἷός τ' ἦν] οἷός τε εἰμί moći
+\item[ἦν] εἰμί biti; 3. l. sg. impf. akt.
+\item[αὐτὴν] §~207
+\item[λαβεῖν] λαμβάνω uzeti, ugrabiti, oteti; inf. aor. akt.
+\item[ἐπέμενον] ἐπιμένω čekati; 3. l. pl. impf. akt.; promjena subjekta, subjekt su sad Helenini čuvari ili skrbnici (οἱ κύριοι)
+\item[τήν\dots\ ἡλικίαν] §~90
+\item[τῆς παιδὸς] §~127
+\item[τὸν χρησμὸν] §~82
+\item[παρὰ τῆς Πυθίας] §~434.A, §~90
+\item[ὑπεριδὼν] ὑπεροράω prezreti; n. sg. m. r. ptc. aor. akt.
+\item[τὴν ἀρχὴν] §~90
+\item[Τυνδάρεω] §~111
+\item[καταφρονήσας] καταφρονέω τινός ne obazirati se na što; n. sg. m. r. ptc. aor. akt.
+\item[τῆς ῥώμης] §~90
+\item[Κάστορος] §~146
+\item[Πολυδεύκους] §~153
+\item[τῆς Κάστορος καὶ Πολυδεύκους] atributni položaj §~375
+\item[πάντων] §~193
+\item[τῶν\dots\ δεινῶν] §~103; τὰ δεινά strahote, opasnosti; supstantiviranje članom §~373
+\item[ἐν Λακεδαίμονι] §~131; atributni položaj §~375
+\item[ὀλιγωρήσας] ὀλιγωρέω τινός ne mariti za što; n. sg. m. r. ptc. aor. akt.
+\item[βίᾳ] §~90; instrumentalni dativ §~414
+\item[λαβὼν] λαμβάνω uzeti, ugrabiti; n. sg. m. r. ptc. aor. akt.
+\item[αὐτὴν] §~207
+\item[εἰς Ἄφιδναν] §~90
+\item[τῆς Ἀττικῆς] §~90; partitivni genitiv §~395
+\item[κατέθετο] κατατίθημι smjestiti, skloniti; 3. l. sg. ind. aor. med.
+
+\end{description}
+
+
+
+
+%%%%%%%%%%%%%%%%
+%\backmatter
+
+\tableofcontents
+
+
+\end{document}
