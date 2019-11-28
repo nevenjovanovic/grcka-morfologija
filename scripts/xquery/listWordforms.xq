@@ -14,7 +14,7 @@ return (
 
 Script name: listWordforms.xq
 ", 
-"Total wordforms (Unicode NFC normalized): " || $n || "
+"Total lemmata (Unicode NFC normalized): " || $n || "
 
 ", 
 "Wordform | Count" ,
