@@ -30,7 +30,7 @@
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
    <sentence id="1" document_id="" subdoc="" span="">
-      <word id="1" form="῎Ιωνες" lemma="῎Ιωνες" postag="n-p---mn-" relation="" head="2"/>
+      <word id="1" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head="2"/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="4" form="Αἰολέες" lemma="Αἰολεύς" postag="n-p---mn-" relation="" head=""/>
@@ -142,7 +142,7 @@
       <word id="4" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="5" form="λόγον" lemma="λόγος" postag="n-s---ma-" relation="" head=""/>
       <word id="6" form="τοῖσι" lemma="ὁ" postag="l-p---md-" relation="" head=""/>
-      <word id="7" form="῎Ιωσι" lemma="Ἴωνες" postag="n-p---md-" relation="" head=""/>
+      <word id="7" form="Ἴωσι" lemma="Ἴωνες" postag="n-p---md-" relation="" head=""/>
       <word id="8" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="9" form="τοῖσι" lemma="ὁ" postag="l-p---md-" relation="" head=""/>
       <word id="10" form="Αἰολεῦσι" lemma="Αἰολεύς" postag="n-p---md-" relation="" head=""/>
@@ -153,7 +153,7 @@
       <word id="15" form="ὅτι" lemma="ὅτι2" postag="c--------" relation="" head=""/>
       <word id="16" form="δὴ" lemma="δή" postag="d--------" relation="" head="17"/>
       <word id="17" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
-      <word id="18" form="῎Ιωνες" lemma="῎Ιωνες" postag="n-p---mn-" relation="" head=""/>
+      <word id="18" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head=""/>
       <word id="19" form="πρότερον" lemma="πρότερον" postag="d-------c" relation="" head=""/>
       <word id="20" form="αὐτοῦ" lemma="αὐτός" postag="p-s---mg-" relation="" head=""/>
       <word id="21" form="Κύρου" lemma="Κῦρος" postag="n-s---mg-" relation="" head=""/>
