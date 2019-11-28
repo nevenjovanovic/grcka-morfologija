@@ -103,7 +103,7 @@
       <word id="44" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="45" form="προπολεμῆσαι" lemma="προπολεμέω" postag="v--ana---" relation="" head=""/>
       <word id="46" form="τῆς" lemma="ὁ" postag="l-s---fg-" relation="" head=""/>
-      <word id="47" form="Ἐλλάδος" lemma="Ἐλλάς" postag="n-s---fg-" relation="" head=""/>
+      <word id="47" form="῾Ελλάδος" lemma="῾Ελλάς" postag="n-s---fg-" relation="" head=""/>
       <word id="48" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="49" form="ἀπωτάτω" lemma="ἀπωτάτω" postag="d-------s" relation="" head=""/>
       <word id="50" form="διαβάντα" lemma="διαβαίνω" postag="v-sapama-" relation="" head=""/>

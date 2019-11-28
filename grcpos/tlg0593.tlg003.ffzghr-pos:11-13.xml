@@ -198,7 +198,7 @@
       <word id="11" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="12" form="ἔρωτα" lemma="ἔρως" postag="n-s---ma-" relation="" head=""/>
       <word id="13" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
-      <word id="14" form="Ἐλένην" lemma="Ἐλένη" postag="n-s---fa-" relation="" head=""/>
+      <word id="14" form="῾Ελένην" lemma="῾Ελένη" postag="n-s---fa-" relation="" head=""/>
       <word id="15" form="λαβών" lemma="λαμβάνω" postag="v-sapamn-" relation="" head=""/>
       <word id="16" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="17" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>
@@ -254,7 +254,7 @@
       <word id="29" form="γενέσθαι" lemma="γίγνομαι" postag="v--anm---" relation="" head=""/>
       <word id="30" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="31" form="τῆς" lemma="ὁ" postag="l-s---fg-" relation="" head=""/>
-      <word id="32" form="Ἐλένης" lemma="Ἐλένη" postag="n-s---fg-" relation="" head=""/>
+      <word id="32" form="῾Ελένης" lemma="῾Ελένη" postag="n-s---fg-" relation="" head=""/>
       <word id="33" form="εἰς" lemma="εἰς" postag="r--------" relation="" head=""/>
       <word id="34" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
       <word id="35" form="Τροίαν" lemma="Τροία" postag="n-s---fa-" relation="" head=""/>
