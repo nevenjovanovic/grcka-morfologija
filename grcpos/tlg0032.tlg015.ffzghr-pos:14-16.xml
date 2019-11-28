@@ -51,7 +51,7 @@
       <word id="12" form="ποιεῖν" lemma="ποιέω" postag="v--pna---" relation="" head=""/>
       <word id="13" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="14" form="κακῶς" lemma="κακῶς" postag="d-------p" relation="" head=""/>
-      <word id="15" form="," lemma="punc1" postag="u--------" relation="AuxX" head="16"/>
+      <word id="15" form="," lemma="punc1" postag="u--------" relation="AuxX" head=""/>
       <word id="16" form="εἰ" lemma="εἰ" postag="c--------" relation="" head=""/>
       <word id="17" form="ἐβούλοντο" lemma="βούλομαι" postag="v3piie---" relation="" head=""/>
       <word id="18" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>

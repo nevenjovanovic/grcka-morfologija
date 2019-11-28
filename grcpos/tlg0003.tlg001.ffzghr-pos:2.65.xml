@@ -129,7 +129,7 @@
       <word id="14" form="εἵλοντο" lemma="αἱρέω" postag="v3paim---" relation="" head=""/>
       <word id="15" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="16" form="πάντα" lemma="πᾶς" postag="a-p---na-" relation="" head=""/>
-      <word id="17" form="τὰ" lemma="ὁ" postag="l-p---na-" relation="" head="18"/>
+      <word id="17" form="τὰ" lemma="ὁ" postag="l-p---na-" relation="" head=""/>
       <word id="18" form="πράγματα" lemma="πρᾶγμα" postag="n-p---na-" relation="" head=""/>
       <word id="19" form="ἐπέτρεψαν" lemma="ἐπιτρέπω" postag="v3paia---" relation="" head=""/>
       <word id="20" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
@@ -149,7 +149,7 @@
       <word id="34" form="ἡ" lemma="ὁ" postag="l-s---fn-" relation="" head=""/>
       <word id="35" form="ξύμπασα" lemma="σύμπας" postag="a-s---fn-" relation="" head=""/>
       <word id="36" form="πόλις" lemma="πόλις" postag="n-s---fn-" relation="" head=""/>
-      <word id="37" form="προσεδεῖτο" lemma="προσδέομαι" postag="v3siie---" relation="" head="38"/>
+      <word id="37" form="προσεδεῖτο" lemma="προσδέομαι" postag="v3siie---" relation="" head=""/>
       <word id="38" form="πλείστου" lemma="πλεῖστος" postag="a-s---ng-" relation="" head=""/>
       <word id="39" form="ἄξιον" lemma="ἄξιος" postag="a-s---ma-" relation="" head=""/>
       <word id="40" form="νομίζοντες" lemma="νομίζω" postag="v-pppamn-" relation="" head=""/>

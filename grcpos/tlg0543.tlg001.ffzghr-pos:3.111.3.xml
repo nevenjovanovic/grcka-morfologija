@@ -178,7 +178,7 @@
       <word id="15" form="ἀγαθῶν" lemma="ἀγαθός" postag="a-p---ng-" relation="" head=""/>
       <word id="16" form="κατὰ" lemma="κατά" postag="r--------" relation="" head=""/>
       <word id="17" form="τὰς" lemma="ὁ" postag="l-p---fa-" relation="" head=""/>
-      <word id="18" form="ἡμετέρας" lemma="ἡμέτερος" postag="p-p---fa-" relation="" head="16"/>
+      <word id="18" form="ἡμετέρας" lemma="ἡμέτερος" postag="p-p---fa-" relation="" head=""/>
       <word id="19" form="ἐπαγγελίας" lemma="ἐπαγγελία" postag="n-p---fa-" relation="" head=""/>
       <word id="20" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="21" form="ἀψευστούντων" lemma="ἀψευστέω" postag="v-pppamg-" relation="" head=""/>
@@ -267,6 +267,6 @@
       <word id="11" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="14" document_id="" subdoc="" span="">
-      <word id="1" form="’" lemma="" postag="" relation="" head=""/>
+      <word id="1" form="’" lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
 </treebank>

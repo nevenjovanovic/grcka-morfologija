@@ -53,7 +53,7 @@
       <word id="21" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="22" form="οὐκ" lemma="οὐ" postag="d--------" relation="" head=""/>
       <word id="23" form="ἄδηλον" lemma="ἄδηλος" postag="a-s---nn-" relation="" head=""/>
-      <word id="24" form="οὐδ'" lemma="οὐδέ" postag="c--------" relation="" head="6"/>
+      <word id="24" form="οὐδ'" lemma="οὐδέ" postag="c--------" relation="" head=""/>
       <word id="26" form="ὀλίγοις" lemma="ὀλίγος" postag="a-p---md-" relation="" head=""/>
       <word id="27" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>

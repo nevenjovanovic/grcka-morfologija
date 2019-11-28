@@ -211,7 +211,7 @@
       <word id="4" form="καταφλεχθέντες" lemma="καταφλέγω" postag="v-pappmn-" relation="" head=""/>
       <word id="5" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="6" form="νεοττοὶ" lemma="νεοσσός" postag="n-p---mn-" relation="" head=""/>
-      <word id="7" form="—" lemma="" postag="" relation="" head=""/>
+      <word id="7" form="—" lemma="punc1" postag="u--------" relation="" head=""/>
       <word id="8" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="9" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="10" form="ἦσαν" lemma="εἰμί" postag="v3piia---" relation="" head=""/>
@@ -219,7 +219,7 @@
       <word id="12" form="ἀτελεῖς" lemma="ἀτελής" postag="a-p---mn-" relation="" head=""/>
       <word id="13" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="14" form="πτηνοὶ" lemma="πτηνός" postag="a-p---mn-" relation="" head=""/>
-      <word id="15" form="—" lemma="" postag="" relation="" head=""/>
+      <word id="15" form="—" lemma="punc1" postag="u--------" relation="" head=""/>
       <word id="16" form="ἐπὶ" lemma="ἐπί" postag="r--------" relation="" head=""/>
       <word id="17" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
       <word id="18" form="γῆν" lemma="γῆ" postag="n-s---fa-" relation="" head=""/>

@@ -30,7 +30,7 @@
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
    <sentence id="1" document_id="" subdoc="" span="">
-      <word id="1" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head="2"/>
+      <word id="1" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="4" form="Αἰολέες" lemma="Αἰολεύς" postag="n-p---mn-" relation="" head=""/>
@@ -151,7 +151,7 @@
       <word id="13" form="ἔλεξε" lemma="λέγω3" postag="v3saia---" relation="" head=""/>
       <word id="14" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="15" form="ὅτι" lemma="ὅτι2" postag="c--------" relation="" head=""/>
-      <word id="16" form="δὴ" lemma="δή" postag="d--------" relation="" head="17"/>
+      <word id="16" form="δὴ" lemma="δή" postag="d--------" relation="" head=""/>
       <word id="17" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="18" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head=""/>
       <word id="19" form="πρότερον" lemma="πρότερον" postag="d-------c" relation="" head=""/>
