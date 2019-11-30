@@ -44,6 +44,28 @@ declare function local:urnstring(
   $lang),"#")
 };
 
+declare function local:makeciteblocks(){
+  "
+#!citecollections
+
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:cite:grcmorfverbs.2019a:#Linguistic annotations of Ancient Greek words#urn:cite2:cite:grcmorfverbs.2019a.label:##CC BY 4.0
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:cite:grcmorfverbs.2019a.urn:#Linguistic Annotations#Cite2Urn#
+urn:cite2:cite:grcmorfverbs.2019a.label:#Linguistic Annotation#String#
+
+#!citedata
+urn#label
+urn:cite2:cite:grcmorfverbs.2019a:hasProperty#Has morphological annotation
+urn:cite2:cite:grcmorfverbs.2019a:isPropertyOf#Is morphological property of a linguistic unit
+urn:cite2:cite:grcmorfverbs.2019a:hasLemma#Is a form of the lexical unit
+urn:cite2:cite:grcmorfverbs.2019a:isLemmaOf#Is lexical unit of a form
+
+"
+};
+
 declare function local:makectsdataline($doc,$cts1,$tag){
 for $s in $doc/*:sentence
 let $cts2 := $s/@id/string()
@@ -157,6 +179,7 @@ local:makectscatalog(
 local:makeurn($doc, $cts1 || $cts2),
 local:makeurnpostag($doc, $cts1a || $cts2),
 local:makeurnlemma($doc, $cts1b || $cts2),
+local:makeciteblocks(),
 local:makerelations(),
 local:makectspair($doc, $cts1t, $cts1p),
 local:makectspairlemma($doc,$cts1t,$cts1l)
