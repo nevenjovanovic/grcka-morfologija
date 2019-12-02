@@ -143,7 +143,7 @@
       <word id="72" form="δυνάμενον" lemma="δύναμαι" postag="v-sppema-" relation="" head=""/>
       <word id="73" form="θεραπεύων" lemma="θεραπεύω" postag="v-sppamn-" relation="" head=""/>
       <word id="74" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
-      <word id="75" form="λαγὼ" lemma="λαγὼ" postag="n-s---mg-" relation="" head=""/>
+      <word id="75" form="λαγὼ" lemma="λαγῶς" postag="n-s---mg-" relation="" head=""/>
       <word id="76" form="βίον" lemma="βίος" postag="n-s---ma-" relation="" head=""/>
       <word id="77" form="ζῶν" lemma="ζάω" postag="v-sppamn-" relation="" head=""/>
       <word id="78" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
