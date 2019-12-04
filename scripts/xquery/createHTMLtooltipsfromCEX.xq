@@ -286,7 +286,7 @@ return ( element div {
   local:getmorphology($doc,$cts1,$cts2)
 },
 element div {
-  attribute id { "text "},
+  attribute id { "text"},
   element div {
     attribute class { "ohco2_versionCorpus"},
 element div {

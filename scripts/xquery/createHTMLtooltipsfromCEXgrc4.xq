@@ -205,6 +205,7 @@ element span {
            attribute class {"fumorph_formType"},
            $postag
          }, 
+         element br {},
          element span {
            attribute class {"fumorph_info"},
            local:formatmorph(
@@ -218,6 +219,7 @@ element span {
 local:getcropos($postag,$pos8grc,8))
 )
          },
+         element br {},
          element span {
            attribute class {"fumorph_info2"},
            $texturn
@@ -286,7 +288,7 @@ return ( element div {
   local:getmorphology($doc,$cts1,$cts2)
 },
 element div {
-  attribute id { "text"},
+  attribute id { "text-grc"},
   element div {
     attribute class { "ohco2_versionCorpus"},
 element div {
@@ -322,9 +324,6 @@ element div {
       }
     },    
     element div {
-      attribute class {"ohco2_passageGroup ohco2_stanza"},
-      element div {
-        attribute class {"ohco2_passageGroup  ohco2_tokenized"},
         element span {
           attribute class {"ohco2_passageComponent ohco2_displayPassage"},
           attribute data-ctsurn { $cts1t },
@@ -346,5 +345,4 @@ element div {
       }
     }
   }
-}
 )

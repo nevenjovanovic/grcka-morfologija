@@ -119,27 +119,27 @@ declare function local:makerelations(){
 "
 };
 
-let $name := "Somnium sive vita Luciani 9 cum commento"
-let $urn0 := "urn:cite2:cex:unizghr.ffzghrpos:lucianisomnium"
+let $name := "Fragmentum 14 cum commento"
+let $urn0 := "urn:cite2:cex:unizghr.ffzghrpos:antiphonfragmentum"
 let $license := "Creative Commons Attribution 4.0 International (CC BY 4.0)  <https://creativecommons.org/licenses/by/4.0/>"
-let $citsch := "paragraph,sentence,word"
-let $grpname := "Lucianus Samosatensis"
-let $worktitle := "Somnium sive vita Luciani 9"
-let $verlabel := "Ex editione Caroli Jacobitz (1896) in collectione OGL"
+let $citsch := "paragraphus,sententia,membrum"
+let $grpname := "Isocrates"
+let $worktitle := "Fragmentum 14"
+let $verlabel := "Ex editione Friderici Blass (1892) in collectione OGL"
 let $exemplarlabel := "tokenized"
 let $exemplarlabel2 := "morphological properties"
 let $exemplarlabel3 := "lemmatized"
 let $online := "true"
 let $lang := "grc"
 
-let $urn := "tlg0062.tlg029"
+let $urn := "tlg1147.tlg001"
 let $db := "grc-morf-pos"
 for $doc in collection($db)//*:treebank
 where matches(db:path($doc),$urn)
-let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":9.xml",".token:")
-let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":9.xml",".postag:")
-let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":9.xml",".lemma:")
-let $cts2 := "9"
+let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".token:")
+let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".postag:")
+let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".lemma:")
+let $cts2 := "14"
 let $cts1t := $cts1 || $cts2
 let $cts1p := $cts1a || $cts2
 let $cts1l := $cts1b || $cts2
