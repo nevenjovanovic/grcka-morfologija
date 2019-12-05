@@ -10,9 +10,9 @@ license#Creative Commons Attribution 4.0 International (CC BY 4.0)  <https://cre
 
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 
-urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.token:#paragraphus,sententia,membrum#Isocrates#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#tokenized#true#grc
-urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.postag:#paragraphus,sententia,membrum#Isocrates#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#morphological properties#true#grc
-urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.lemma:#paragraphus,sententia,membrum#Isocrates#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#lemmatized#true#grc
+urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.token:#paragraphus,sententia,membrum#Antiphon#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#tokenized#true#grc
+urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.postag:#paragraphus,sententia,membrum#Antiphon#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#morphological properties#true#grc
+urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.lemma:#paragraphus,sententia,membrum#Antiphon#Fragmentum 14#Ex editione Friderici Blass (1892) in collectione OGL#lemmatized#true#grc
 #!ctsdata
 urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.token:14.1.1#Ἰδὼν
 urn:cts:greekLit:tlg1147.tlg001.ffzghr-pos.token:14.1.2#ἀνὴρ
