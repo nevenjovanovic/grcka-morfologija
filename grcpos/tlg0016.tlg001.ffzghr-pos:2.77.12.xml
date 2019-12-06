@@ -23,7 +23,7 @@
       <address>petar.stjepan.soldo@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/Petar%20Soldo</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.4" span="">
       <word id="1" form="Ἀρτοφαγέουσι" lemma="ἀρτοφαγέω" postag="v3ppia---" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἐκ" lemma="ἐκ" postag="r--------" relation="" head=""/>
@@ -38,7 +38,7 @@
       <word id="12" form="ὀνομάζουσι" lemma="ὀνομάζω" postag="v3ppia---" relation="" head=""/>
       <word id="13" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.4" span="">
       <word id="1" form="Οἴνῳ" lemma="οἶνος" postag="n-s---md-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἐκ" lemma="ἐκ" postag="r--------" relation="" head=""/>
@@ -47,7 +47,7 @@
       <word id="6" form="διαχρέωνται" lemma="διαχράομαι" postag="v3ppse---" relation="" head=""/>
       <word id="7" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="3" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.4" span="">
       <word id="1" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>
       <word id="2" form="γάρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="σφί" lemma="σφεῖς" postag="p-p---md-" relation="" head=""/>
@@ -58,7 +58,7 @@
       <word id="8" form="ἄμπελοι" lemma="ἄμπελος" postag="n-p---fn-" relation="" head=""/>
       <word id="9" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="4" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.4" span="">
       <word id="1" form="Ἰχθύων" lemma="ἰχθύς" postag="n-p---mg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
@@ -76,7 +76,7 @@
       <word id="15" form="τεταριχευμένους" lemma="ταριχεύω" postag="v-prpema-" relation="" head=""/>
       <word id="16" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.5" span="">
       <word id="1" form="ὀρνίθων" lemma="ὄρνις" postag="n-p---mg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="τούς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
@@ -95,7 +95,7 @@
       <word id="16" form="προταριχεύσαντες" lemma="προταριχεύω" postag="v-papamn-" relation="" head=""/>
       <word id="17" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="6" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.77.5" span="">
       <word id="1" form="τὰ" lemma="ὁ" postag="l-p---nn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἄλλα" lemma="ἄλλος" postag="p-p---nn-" relation="" head=""/>
@@ -123,7 +123,7 @@
       <word id="25" form="σιτέονται" lemma="σιτέομαι" postag="v3ppie---" relation="" head=""/>
       <word id="26" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="7" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.78.1"  span="">
       <word id="1" form="Ἐν" lemma="ἐν" postag="r--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="τῇσι" lemma="ὁ" postag="l-p---fd-" relation="" head=""/>
@@ -170,7 +170,7 @@
       <word id="44" form="λέγει" lemma="λέγω1" postag="v3spia---" relation="" head=""/>
       <word id="45" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="8" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.78.1"  span="">
       <word id="1" form="Ἐς" lemma="εἰς" postag="r--------" relation="" head=""/>
       <word id="2" form="τοῦτον" lemma="οὗτος" postag="p-s---ma-" relation="" head=""/>
       <word id="3" form="ὁρέων" lemma="ὁράω" postag="v-sppamn-" relation="" head=""/>
@@ -180,14 +180,14 @@
       <word id="7" form="τέρπεο" lemma="τέρπω" postag="v2spme---" relation="" head=""/>
       <word id="8" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="9" document_id="" subdoc="" span="">
+   <sentence id="3" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.78.1" span="">
       <word id="1" form="ἔσεαι" lemma="εἰμί" postag="v2sfim---" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="ἀποθανὼν" lemma="ἀποθνήσκω" postag="v-sapamn-" relation="" head=""/>
       <word id="4" form="τοιοῦτος" lemma="τοιοῦτος" postag="p-s---mn-" relation="" head=""/>
       <word id="5" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="10" document_id="" subdoc="" span="">
+   <sentence id="4" document_id="tlg0016.tlg001.opp-grc1:" subdoc="2.78.1" span="">
       <word id="1" form="Ταῦτα" lemma="οὗτος" postag="p-p---na-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="c--------" relation="" head=""/>
       <word id="3" form="παρὰ" lemma="παρά" postag="r--------" relation="" head=""/>
