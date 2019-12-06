@@ -181,16 +181,16 @@ declare function local:formatmorph($sequence){
 ), ", "), ", $", ""), "_", " ")
 };
 
-declare function local:getmorphology($doc,$cts1,$cts2){
+declare function local:getmorphology($doc,$cts1){
 for $s in $doc/*:sentence
-let $cts3 := $s/@id/string()
+let $cts3 := $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts4 := $w/@id/string() 
   let $form := $w/@form/string()
   let $lemma := $w/@lemma/string()
   let $postag := $w/@postag/string()
-  let $textid := $cts2 || "-" || $cts3 || "-" || $cts4
-  let $texturn := $cts1 || $cts2 || "." || $cts3 || "." || $cts4
+  let $textid := replace(($cts3 || "-" || $cts4), "\.", "-")
+  let $texturn := $cts1 || $cts3 || "." || $cts4
 return element span {
   attribute id { $textid },
 element span {
@@ -232,11 +232,11 @@ declare function local:getcropos($postag,$posmap,$n){
 
 declare function local:makectsdataline($doc,$cts1,$tag){
 for $s in $doc/*:sentence
-let $cts2 := $s/@id/string()
+let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := $w/@*[name()=$tag]/string()
-return $cts1 || "." || $cts2 || "." || $cts3 || "#" || $value
+return $cts1 || $cts2 || "." || $cts3 || "#" || $value
 };
 
 declare function local:makeurn($doc, $cts1){
@@ -257,13 +257,13 @@ declare function local:makeurnlemma($doc, $cts1){
 return ($header, $data)
 };
 
-let $name := "Fragmentum 14 cum commento"
-let $urn0 := "urn:cite2:cex:unizghr.ffzghrpos:antiphonfragmentum"
+let $name := "Historiae 2, 77, 12 cum commento"
+let $urn0 := "urn:cite2:cex:unizghr.ffzghrpos:herodotushistoriae"
 let $license := "Creative Commons Attribution 4.0 International (CC BY 4.0)  <https://creativecommons.org/licenses/by/4.0/>"
-let $citsch := "paragraphus,sententia,membrum"
-let $grpname := "Antiphon"
-let $worktitle := "Fragmentum 14"
-let $verlabel := "Ex editione Friderici Blass (1892) in collectione OGL"
+let $citsch := "liber,caput,paragraphus,sententia,membrum"
+let $grpname := "Herodotus"
+let $worktitle := "Historiae"
+let $verlabel := "Ex editione Augustus Chapman Merriam (1885) in collectione OGL"
 let $exemplarlabel := "tokenized"
 let $exemplarlabel2 := "morphological properties"
 let $exemplarlabel3 := "lemmatized"
@@ -271,20 +271,18 @@ let $online := "true"
 let $online2 := "online"
 let $lang := "grc"
 
-let $urn := "tlg1147.tlg001"
+let $urn := "tlg0016.tlg001.ffzghr-pos:2.77.12.xml"
 
 let $db := "grc-morf-pos"
-for $doc in collection($db)//*:treebank
-where matches(db:path($doc),$urn)
-let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".token:")
-let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".postag:")
-let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":14.xml",".lemma:")
-let $cts2 := "14"
-let $cts1t := $cts1 || $cts2
-let $cts1p := $cts1a || $cts2
+for $doc in db:open($db,$urn)//*:treebank
+let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".token:")
+let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".postag:")
+let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".lemma:")
+let $cts1t := $cts1
+let $cts1p := $cts1a
 return ( element div {
   attribute class {"fumorph_morphologyRecords"},
-  local:getmorphology($doc,$cts1,$cts2)
+  local:getmorphology($doc,$cts1)
 },
 element div {
   attribute id { "text-grc"},
@@ -326,9 +324,9 @@ element div {
         element span {
           attribute class {"ohco2_passageComponent ohco2_displayPassage"},
           attribute data-ctsurn { $cts1t },
-          $cts2
+          $cts1
         },
-        for $u in local:makeurn($doc, $cts1 || $cts2) 
+        for $u in local:makeurn($doc, $cts1) 
         let $urn1 := substring-before($u, "#")
         let $token1 := substring-after($u, "#")
         return element span {

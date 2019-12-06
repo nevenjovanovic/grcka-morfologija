@@ -68,29 +68,29 @@ urn:cite2:cite:grcmorfverbs.2019a:isLemmaOf#Is lexical unit of a form
 
 declare function local:makectsdataline($doc,$cts1,$tag){
 for $s in $doc/*:sentence
-let $cts2 := $s/@id/string()
+let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := $w/@*[name()=$tag]/string()
-return $cts1 || "." || $cts2 || "." || $cts3 || "#" || $value
+return $cts1 || $cts2 || "." || $cts3 || "#" || $value
 };
 
 declare function local:makectspair($doc,$cts1,$cts1a){
 for $s in $doc/*:sentence
-let $cts2 := $s/@id/string()
+let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := "urn:cite2:cite:grcmorfverbs.2019a:hasProperty"
-return string-join(($cts1, $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a, $cts2, $cts3),".")
+return string-join(($cts1 || $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a || $cts2, $cts3),".")
 };
 
 declare function local:makectspairlemma($doc,$cts1,$cts1a){
 for $s in $doc/*:sentence
-let $cts2 := $s/@id/string()
+let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := "urn:cite2:cite:grcmorfverbs.2019a:hasLemma"
-return string-join(($cts1, $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a, $cts2, $cts3),".")
+return string-join(($cts1 || $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a || $cts2, $cts3),".")
 };
 
 declare function local:makeurn($doc, $cts1){
@@ -132,17 +132,16 @@ let $exemplarlabel3 := "lemmatized"
 let $online := "true"
 let $lang := "grc"
 
-let $urn := "tlg0016.tlg001"
+let $urn := "tlg0016.tlg001.ffzghr-pos:2.77.12.xml"
 let $db := "grc-morf-pos"
 for $doc in collection($db)//*:treebank
 where matches(db:path($doc),$urn)
 let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".token:")
 let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".postag:")
 let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".lemma:")
-let $cts2 := "2.77.12"
-let $cts1t := $cts1 || $cts2
-let $cts1p := $cts1a || $cts2
-let $cts1l := $cts1b || $cts2
+let $cts1t := $cts1
+let $cts1p := $cts1a
+let $cts1l := $cts1b
 let $urnword := local:urnstring(
   $cts1,
   $citsch,
@@ -176,9 +175,9 @@ local:makecitelibrary($name,$urn0,$license),
 local:makectscatalog(
   ( $urnword , $urnpostag , $urnlemma )
 ),
-local:makeurn($doc, $cts1 || $cts2),
-local:makeurnpostag($doc, $cts1a || $cts2),
-local:makeurnlemma($doc, $cts1b || $cts2),
+local:makeurn($doc, $cts1),
+local:makeurnpostag($doc, $cts1a),
+local:makeurnlemma($doc, $cts1b),
 local:makeciteblocks(),
 local:makerelations(),
 local:makectspair($doc, $cts1t, $cts1p),
