@@ -124,7 +124,7 @@ let $exemplarlabel3 := "lemmatized"
 let $online := "true"
 let $lang := "grc"
 
-let $urn := "tlg0016.tlg001.ffzghr-pos:2.77.12.xml"
+let $urn := "tlg0016.tlg001.ffzghr-pos:1.141.xml"
 let $db := "grc-morf-pos"
 for $doc in db:open($db,$urn)//*:treebank
 let $name := $doc/*:bibl/*:name/string()
@@ -135,9 +135,9 @@ let $license := $doc/*:bibl/*:license/string()
 let $worktitle := $doc/*:bibl/*:worktitle/string()
 let $verlabel := $doc/*:bibl/*:verlabel/string()
 let $exemplarlabel := $doc/*:bibl/*:exemplarlabel/string()
-let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".token:")
-let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".postag:")
-let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":2.77.12.xml",".lemma:")
+let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".token:")
+let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".postag:")
+let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".lemma:")
 let $cts1t := $cts1
 let $cts1p := $cts1a
 let $cts1l := $cts1b
