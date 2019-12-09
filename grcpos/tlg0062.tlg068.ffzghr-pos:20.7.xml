@@ -35,7 +35,7 @@
       <online>true</online>
       <lang>grc</lang>
    </bibl>
-   <sentence id="1" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="1" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="Πῶς" lemma="πῶς2" postag="d--------" relation="" head=""/>
       <word id="2" form="ἂν" lemma="ἄν1" postag="d--------" relation="" head=""/>
       <word id="3" form="οὖν" lemma="οὖν" postag="d--------" relation="" head=""/>
@@ -72,7 +72,7 @@
       <word id="34" form="ἀστικῶν" lemma="ἀστικός" postag="a-p---mg-" relation="" head=""/>
       <word id="35" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="2" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="τὸ" lemma="ὁ" postag="l-s---nn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἐμόν" lemma="ἐμός" postag="a-s---nn-" relation="" head=""/>
@@ -96,7 +96,7 @@
       <word id="21" form="τέχνην" lemma="τέχνη" postag="n-s---fa-" relation="" head=""/>
       <word id="22" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="3" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="αὗται" lemma="οὗτος" postag="p-p---fn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="πᾶσαί" lemma="πᾶς" postag="a-p---fn-" relation="" head=""/>
@@ -121,7 +121,7 @@
       <word id="22" form="ἀποσπάσας" lemma="ἀποσπάω" postag="v-sapamn-" relation="" head=""/>
       <word id="23" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="4" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="ἐθέλει" lemma="ἐθέλω" postag="v3spia---" relation="" head=""/>
@@ -143,7 +143,7 @@
       <word id="19" form="ἐπαινεῖ" lemma="ἐπαινέω" postag="v3spia---" relation="" head=""/>
       <word id="20" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="5" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="κἂν" lemma="κἄν" postag="c--------" relation="" head=""/>
       <word id="2" form="ἐπ'" lemma="ἐπί" postag="r--------" relation="" head=""/>
       <word id="3" form="ἄλλο" lemma="ἄλλος" postag="p-s---na-" relation="" head=""/>
@@ -162,7 +162,7 @@
       <word id="16" form="παραλαμβάνεται" lemma="παραλαμβάνω" postag="v3spie---" relation="" head=""/>
       <word id="17" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="6" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="6" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="ὅλως" lemma="ὅλως" postag="d-------p" relation="" head=""/>
       <word id="3" form="περικέχυταί" lemma="περιχέω" postag="v3srie---" relation="" head=""/>
@@ -191,7 +191,7 @@
       <word id="26" form="σώματι" lemma="σῶμα" postag="n-s---nd-" relation="" head=""/>
       <word id="27" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="7" document_id="tlg0062.tlg068.opp-grc2" subdoc="20.7" span="">
+   <sentence id="7" document_id="tlg0062.tlg068.opp-grc2:" subdoc="20.7" span="">
       <word id="1" form="δοκῶ" lemma="δοκέω" postag="v1spia---" relation="" head=""/>
       <word id="2" form="δ'" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἄν" lemma="ἄν1" postag="d--------" relation="" head=""/>

@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Herodoti Historiae 1.141.1-1.141.3</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:herodotushistoriae</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>liber,caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Herodotus</grpname>
+      <worktitle>Historiae</worktitle>
+      <verlabel>Ex editione a Carolo Hude recognita (1927) in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0016.tlg001.ffzghr-pos:" subdoc="1.141.1" span="">
       <word id="1" form="Ἴωνες" lemma="Ἴωνες" postag="n-p---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -62,7 +74,7 @@
       <word id="30" form="κατήκοοι" lemma="κατήκοος" postag="a-p---mn-" relation="" head=""/>
       <word id="31" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0016.tlg001.ffzghr-pos:" subdoc="1.141.1" span="">
       <word id="1" form="῾Ο" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="ἀκούσας" lemma="ἀκούω" postag="v-sapamn-" relation="" head=""/>
@@ -90,7 +102,7 @@
       <word id="25" form="γῆν" lemma="γῆ" postag="n-s---fa-" relation="" head=""/>
       <word id="26" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0016.tlg001.ffzghr-pos:" subdoc="1.141.2" span="">
       <word id="1" form="῾Ως" lemma="ὡς" postag="c--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="ψευσθῆναι" lemma="ψεύδω" postag="v--anp---" relation="" head=""/>
@@ -120,7 +132,7 @@
       <word id="27" form="ἰχθῦς" lemma="ἰχθύς" postag="n-p---ma-" relation="" head=""/>
       <word id="28" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0016.tlg001.ffzghr-pos:" subdoc="1.141.2" span="">
       <word id="1" form="Παύεσθέ" lemma="παύω" postag="v2ppme---" relation="" head=""/>
       <word id="2" form="μοι" lemma="ἐγώ" postag="p1s---md-" relation="" head=""/>
       <word id="3" form="ὀρχεόμενοι" lemma="ὀρχέομαι" postag="v-pppemn-" relation="" head=""/>
@@ -135,7 +147,7 @@
       <word id="12" form="ὀρχεόμενοι" lemma="ὀρχέομαι" postag="v-pppemn-" relation="" head=""/>
       <word id="13" form="." lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0016.tlg001.ffzghr-pos:" subdoc="1.141.3" span="">
       <word id="1" form="Κῦρος" lemma="Κῦρος" postag="n-s---mn-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="τοῦτον" lemma="οὗτος" postag="p-s---ma-" relation="" head=""/>

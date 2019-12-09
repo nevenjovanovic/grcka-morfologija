@@ -30,7 +30,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="2"
-      document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1"
+      document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1:"
              subdoc="2"
              span="">
       <word id="1" form="ἐγὼ" lemma="ἐγώ" postag="p1s---mn-" relation="" head=""/>
@@ -57,7 +57,7 @@
       <word id="22" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="3"
-             document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1"
+             document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1:"
              subdoc="2"
              span="">
       <word id="1" form="ᾧ" lemma="ὅς" postag="p-s---md-" relation="" head=""/>
@@ -98,7 +98,7 @@
       <word id="36" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="4"
-             document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1"
+             document_id="urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1:"
              subdoc="2"
              span="">
       <word id="1" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>

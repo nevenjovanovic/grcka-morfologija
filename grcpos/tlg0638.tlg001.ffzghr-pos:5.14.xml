@@ -41,7 +41,7 @@
       <online>true</online>
       <lang>grc</lang>
    </bibl>
-   <sentence id="1" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="Ἄρξαι" lemma="ἄρχω" postag="v--ana---" relation="" head=""/>
       <word id="2" form="δ’" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="αὐτῶν" lemma="αὐτός" postag="p-p---ng-" relation="" head=""/>
@@ -56,7 +56,7 @@
       <word id="12" form="μυθολογία" lemma="μυθολογία" postag="n-s---fn-" relation="" head=""/>
       <word id="13" form=";" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
    </sentence>
-   <sentence id="2" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="νὴ" lemma="νή" postag="d-------_" relation="" head=""/>
       <word id="2" form="Δί’" lemma="Ζεύς" postag="n-s---ma-" relation="" head=""/>
       <word id="3" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
@@ -70,7 +70,7 @@
       <word id="11" form="ἐπαινοῦσι" lemma="ἐπαινέω" postag="v3ppia---" relation="" head=""/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="3" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="δὴ" lemma="δή" postag="d--------" relation="" head=""/>
@@ -79,7 +79,7 @@
       <word id="6" form="ἡγῇ" lemma="ἡγέομαι" postag="v2spie---" relation="" head=""/>
       <word id="7" form=";" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
    </sentence>
-   <sentence id="4" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="4" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="μυθολόγον" lemma="μυθόλογος" postag="n-s---ma-" relation="" head=""/>
       <word id="2" form="εἶπε" lemma="λέγω" postag="v3saia---" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -87,7 +87,7 @@
       <word id="5" form="πάντα" lemma="πᾶς" postag="d-------_" relation="" head=""/>
       <word id="6" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="5" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="πότεροι" lemma="πότερος" postag="a-p---mn_" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="σοφοὶ" lemma="σοφός" postag="a-p---mn-" relation="" head=""/>
@@ -95,7 +95,7 @@
       <word id="5" form="μύθων" lemma="μῦθος" postag="n-p---mg-" relation="" head=""/>
       <word id="6" form=";" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
    </sentence>
-   <sentence id="6" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="6" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="2" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
       <word id="3" form="ποιητῶν" lemma="ποιητής" postag="n-p---mg-" relation="" head=""/>
@@ -107,7 +107,7 @@
       <word id="9" form="ᾄδονται" lemma="ᾄδω" postag="v3ppie---" relation="" head=""/>
       <word id="10" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="7" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="7" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="δὴ" lemma="δή" postag="d--------" relation="" head=""/>
@@ -115,7 +115,7 @@
       <word id="5" form="τί" lemma="τίς" postag="p-s---nn-" relation="" head=""/>
       <word id="6" form=";" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
    </sentence>
-   <sentence id="8" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="8" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="βάτραχοι" lemma="βάτραχος" postag="n-p---mn-" relation="" head=""/>
       <word id="2" form="ἔφη" lemma="φημί" postag="v3siia---" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -129,7 +129,7 @@
       <word id="11" form="παιδίοις" lemma="παίδιον" postag="n-p---nd-" relation="" head=""/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="9" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="9" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="μὴν" lemma="μήν" postag="d-------_" relation="" head=""/>
       <word id="3" form="ἔφη" lemma="φημί" postag="v3siia---" relation="" head=""/>
@@ -146,7 +146,7 @@
       <word id="14" form="φαίνονται" lemma="φαίνω" postag="v3ppie---" relation="" head=""/>
       <word id="15" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="10" document_id="urn:cts:greekLit:tlg0638.tlg001" subdoc="5.14" span="">
+   <sentence id="10" document_id="urn:cts:greekLit:tlg0638.tlg001.ffzghr-pos:" subdoc="5.14" span="">
       <word id="1" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>

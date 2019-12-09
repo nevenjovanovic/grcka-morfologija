@@ -30,7 +30,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="6"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="πρὸς" lemma="πρός" postag="r--------" relation="" head=""/>
@@ -61,7 +61,7 @@
       <word id="26" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="7"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="ἦν" lemma="εἰμί" postag="v3siia---" relation="" head=""/>
@@ -81,7 +81,7 @@
       <word id="15" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="8"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="Ἀλέξανδρος" lemma="Ἀλέξανδρος" postag="n-s---mn-" relation="" head=""/>
@@ -128,7 +128,7 @@
       <word id="42" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="9"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="Ἀριστόβουλος" lemma="Ἀριστόβουλος" postag="n-s---mn-" relation="" head=""/>
@@ -162,7 +162,7 @@
       <word id="29" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="10"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="ὅπως" lemma="ὅπως" postag="c--------" relation="" head=""/>
@@ -181,7 +181,7 @@
       <word id="14" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="11"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="ἀπηλλάγη" lemma="ἀπαλλαξείω" postag="v3saip---" relation="" head=""/>
@@ -209,7 +209,7 @@
       <word id="23" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="12"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -228,7 +228,7 @@
       <word id="14" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="13"
-             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1"
+             document_id="urn:cts:greekLit:tlg0074.tlg001.perseus-grc1:"
              subdoc="2.3"
              span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
