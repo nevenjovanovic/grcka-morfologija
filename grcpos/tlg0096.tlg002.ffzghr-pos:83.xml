@@ -30,7 +30,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="1"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
+             document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
              subdoc="83"
              span="">
       <word id="1" form="Ἀλώπηξ" lemma="ἀλώπηξ" postag="n-s---fn-" relation="" head=""/>
@@ -39,8 +39,8 @@
       <word id="4" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
-             subdoc=""
+      document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
+             subdoc="83"
              span="">
       <word id="1" form="Ἐν" lemma="ἐν" postag="r--------" relation="" head=""/>
       <word id="2" form="συνόδῳ" lemma="σύνοδος2" postag="n-s---fd-" relation="" head=""/>
@@ -58,8 +58,8 @@
       <word id="14" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="3"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
-             subdoc=""
+      document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
+             subdoc="83"
              span="">
       <word id="1" form="ἀλώπηξ" lemma="ἀλώπηξ" postag="n-s---fn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
@@ -100,8 +100,8 @@
       <word id="37" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="4"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
-             subdoc=""
+      document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
+             subdoc="83"
              span="">
       <word id="1" form="Τοῦ" lemma="ὁ" postag="p-s---mg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
@@ -127,10 +127,9 @@
       <word id="22" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="5"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
-             subdoc=""
+      document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
+             subdoc="83"
              span="">
-      <word id="1" form="&#34;" lemma="" postag="u--------" relation="" head=""/>
       <word id="2" form="ὦ" lemma="ὦ" postag="i--------" relation="" head=""/>
       <word id="3" form="πίθηκε" lemma="πίθηκος" postag="n-s---mv-" relation="" head=""/>
       <word id="4" form="," lemma="" postag="u--------" relation="" head=""/>
@@ -146,10 +145,9 @@
       <word id="14" form=";" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="6"
-             document_id="urn:cts:greekLit:tlg0096.tlg002.First1K-grc1"
-             subdoc=""
+      document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:"
+             subdoc="83"
              span="">
-      <word id="1" form="“" lemma="" postag="u--------" relation="" head=""/>
       <word id="2" form="Οὕτως" lemma="οὕτως" postag="d--------" relation="" head=""/>
       <word id="3" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="4" form="τοῖς" lemma="ὁ" postag="l-p---nd-" relation="" head=""/>
