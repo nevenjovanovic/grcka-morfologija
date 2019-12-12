@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="grc"
+          version="1.5"
+          direction="ltr"
+          format="aldt">
+   <date>2018-08-26T12:18:42Z</date>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+  </annotator>
+   <annotator>
+      <short>nevenjovanovic</short>
+      <name>Neven Jovanović</name>
+      <address>filologanoga@gmail.com</address>
+      <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
+  </annotator>
+   <bibl>
+      <name>Thucydidis Historiae 1.18.1-3</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:thucydideshistoriae</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>liber,caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Thucydides</grpname>
+      <worktitle>Historiae</worktitle>
+      <verlabel>ex editione Henry Stuart Jones (1942)</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.1"
+             span="">
+      <word id="1" form="μετὰ" lemma="μετά" postag="r--------" relation="" head=""/>
+      <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
+      <word id="3" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
+      <word id="4" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
+      <word id="5" form="τυράννων" lemma="τύραννος" postag="n-p---mg-" relation="" head=""/>
+      <word id="6" form="κατάλυσιν" lemma="κατάλυσις" postag="n-s---fa-" relation="" head=""/>
+      <word id="7" form="ἐκ" lemma="ἐκ" postag="r--------" relation="" head=""/>
+      <word id="8" form="τῆς" lemma="ὁ" postag="l-s---fg-" relation="" head=""/>
+      <word id="9" form="Ἑλλάδος" lemma="Ἑλλάς" postag="n-s---fg-" relation="" head=""/>
+      <word id="10" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>
+      <word id="11" form="πολλοῖς" lemma="πολύς" postag="a-p---nd-" relation="" head=""/>
+      <word id="12" form="ἔτεσιν" lemma="ἔτος" postag="n-p---nd-" relation="" head=""/>
+      <word id="13" form="ὕστερον" lemma="ὕστερον" postag="d-------c" relation="" head=""/>
+      <word id="14" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="15" form="ἡ" lemma="ὁ" postag="l-s---fn-" relation="" head=""/>
+      <word id="16" form="ἐν" lemma="ἐν" postag="r--------" relation="" head=""/>
+      <word id="17" form="Μαραθῶνι" lemma="Μαραθών" postag="n-s---md-" relation="" head=""/>
+      <word id="18" form="μάχη" lemma="μάχη" postag="n-s---fn-" relation="" head=""/>
+      <word id="19" form="Μήδων" lemma="Μῆδος" postag="n-p---mg-" relation="" head=""/>
+      <word id="20" form="πρὸς" lemma="πρός" postag="r--------" relation="" head=""/>
+      <word id="21" form="Ἀθηναίους" lemma="Ἀθήναιος" postag="n-p---ma-" relation="" head=""/>
+      <word id="22" form="ἐγένετο" lemma="γίγνομαι" postag="v3saim---" relation="" head=""/>
+      <word id="23" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.2"
+             span="">
+      <word id="1" form="δεκάτῳ" lemma="δέκατος" postag="a-s---nd-" relation="" head=""/>
+      <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
+      <word id="3" form="ἔτει" lemma="ἔτος" postag="n-s---nd-" relation="" head=""/>
+      <word id="4" form="μετ᾽" lemma="μετά" postag="r--------" relation="" head=""/>
+      <word id="5" form="αὐτὴν" lemma="αὐτός" postag="p-s---fa-" relation="" head=""/>
+      <word id="6" form="αὖθις" lemma="αὖθις" postag="d--------" relation="" head=""/>
+      <word id="7" form="ὁ" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
+      <word id="8" form="βάρβαρος" lemma="βάρβαρος" postag="a-s---mn-" relation="" head=""/>
+      <word id="9" form="τῷ" lemma="ὁ" postag="l-s---md-" relation="" head=""/>
+      <word id="10" form="μεγάλῳ" lemma="μέγας" postag="a-s---mdp" relation="" head=""/>
+      <word id="11" form="στόλῳ" lemma="στόλος" postag="n-s---md-" relation="" head=""/>
+      <word id="12" form="ἐπὶ" lemma="ἐπί" postag="r--------" relation="" head=""/>
+      <word id="13" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
+      <word id="14" form="Ἑλλάδα" lemma="Ἑλλάς" postag="n-s---fa-" relation="" head=""/>
+      <word id="15" form="δουλωσόμενος" lemma="δουλόω" postag="v-sfpmmn-" relation="" head=""/>
+      <word id="16" form="ἦλθεν" lemma="ἔρχομαι" postag="v3saia---" relation="" head=""/>
+      <word id="17" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="2"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.2"
+             span="">
+      <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="2" form="μεγάλου" lemma="μέγας" postag="a-s---mgp" relation="" head=""/>
+      <word id="3" form="κινδύνου" lemma="κίνδυνος" postag="n-s---mg-" relation="" head=""/>
+      <word id="4" form="ἐπικρεμασθέντος" lemma="ἐπικρεμάννυμι" postag="v-sappmg-" relation="" head=""/>
+      <word id="5" form="οἵ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="6" form="τε" lemma="τε" postag="c--------" relation="" head=""/>
+      <word id="7" form="Λακεδαιμόνιοι" lemma="Λακεδαιμόνιος" postag="a-p---mn-" relation="" head=""/>
+      <word id="8" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
+      <word id="9" form="ξυμπολεμησάντων" lemma="συμπολεμέω" postag="v-papamg-" relation="" head=""/>
+      <word id="10" form="Ἑλλήνων" lemma="Ἕλλην" postag="n-p---mg-" relation="" head=""/>
+      <word id="11" form="ἡγήσαντο" lemma="ἡγέομαι" postag="v3paim---" relation="" head=""/>
+      <word id="12" form="δυνάμει" lemma="δύναμις" postag="n-s---fd-" relation="" head=""/>
+      <word id="13" form="προύχοντες" lemma="προέχω" postag="v-pppamn-" relation="" head=""/>
+      <word id="14" form="," lemma="" postag="u--------" relation="" head=""/>
+      <word id="15" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="16" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="17" form="Ἀθηναῖοι" lemma="Ἀθηναῖος" postag="a-p---mn-" relation="" head=""/>
+      <word id="18" form="ἐπιόντων" lemma="ἔπειμι2" postag="v-pppamg-" relation="" head=""/>
+      <word id="19" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
+      <word id="20" form="Μήδων" lemma="Μῆδος" postag="n-p---mg-" relation="" head=""/>
+      <word id="21" form="διανοηθέντες" lemma="διανοέομαι" postag="v-papemn-" relation="" head=""/>
+      <word id="22" form="ἐκλιπεῖν" lemma="ἐκλείπω" postag="v--ana---" relation="" head=""/>
+      <word id="23" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
+      <word id="24" form="πόλιν" lemma="πόλις" postag="n-s---fa-" relation="" head=""/>
+      <word id="25" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="26" form="ἀνασκευασάμενοι" lemma="ἀνασκευάζω" postag="v-papmmn-" relation="" head=""/>
+      <word id="27" form="ἐς" lemma="εἰς" postag="r--------" relation="" head=""/>
+      <word id="28" form="τὰς" lemma="ὁ" postag="l-p---fa-" relation="" head=""/>
+      <word id="29" form="ναῦς" lemma="ναῦς" postag="n-p---fa-" relation="" head=""/>
+      <word id="30" form="ἐσβάντες" lemma="εἰσβαίνω" postag="v-papamn-" relation="" head=""/>
+      <word id="31" form="ναυτικοὶ" lemma="ναυτικός" postag="a-p---mn-" relation="" head=""/>
+      <word id="32" form="ἐγένοντο" lemma="γίγνομαι" postag="v3paim---" relation="" head=""/>
+      <word id="33" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="3"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.2"
+             span="">
+      <word id="1" form="κοινῇ" lemma="κοινῇ" postag="d--------" relation="" head=""/>
+      <word id="2" form="τε" lemma="τε" postag="c--------" relation="" head=""/>
+      <word id="3" form="ἀπωσάμενοι" lemma="ἀπωθέω" postag="v-papmmn-" relation="" head=""/>
+      <word id="4" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
+      <word id="5" form="βάρβαρον" lemma="βάρβαρος" postag="a-s---ma-" relation="" head=""/>
+      <word id="6" form="," lemma="" postag="u--------" relation="" head=""/>
+      <word id="7" form="ὕστερον" lemma="ὕστερον" postag="d-------c" relation="" head=""/>
+      <word id="8" form="οὐ" lemma="οὐ" postag="d--------" relation="" head=""/>
+      <word id="9" form="πολλῷ" lemma="πολλῷ" postag="d-------p" relation="" head=""/>
+      <word id="10" form="διεκρίθησαν" lemma="διακρίνω" postag="v3paip---" relation="" head=""/>
+      <word id="11" form="πρός" lemma="πρός" postag="r--------" relation="" head=""/>
+      <word id="12" form="τε" lemma="τε" postag="c--------" relation="" head=""/>
+      <word id="13" form="Ἀθηναίους" lemma="Ἀθηναῖος" postag="a-p---ma-" relation="" head=""/>
+      <word id="14" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="15" form="Λακεδαιμονίους" lemma="Λακεδαιμόνιος" postag="a-p---ma-" relation="" head=""/>
+      <word id="16" form="οἵ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="17" form="τε" lemma="τε" postag="c--------" relation="" head=""/>
+      <word id="18" form="ἀποστάντες" lemma="ἀφίστημι" postag="v-papmmnp" relation="" head=""/>
+      <word id="19" form="βασιλέως" lemma="βασιλεύς" postag="n-s---mg-" relation="" head=""/>
+      <word id="20" form="Ἕλληνες" lemma="Ἕλλην" postag="n-p---mn-" relation="" head=""/>
+      <word id="21" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="22" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="23" form="ξυμπολεμήσαντες" lemma="συμπολεμέω" postag="v-papamn-" relation="" head=""/>
+      <word id="24" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="4"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.2"
+             span="">
+      <word id="1" form="δυνάμει" lemma="δύναμις" postag="n-s---fd-" relation="" head=""/>
+      <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
+      <word id="3" form="ταῦτα" lemma="οὗτος" postag="p-p---nn-" relation="" head=""/>
+      <word id="4" form="μέγιστα" lemma="μέγας" postag="a-p---nns" relation="" head=""/>
+      <word id="5" form="διεφάνη" lemma="διαφαίνω" postag="v3saip---" relation="" head=""/>
+      <word id="6" form="·" lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="5"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.2"
+             span="">
+      <word id="1" form="ἴσχυον" lemma="ἰσχύω" postag="v3piia---" relation="" head=""/>
+      <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
+      <word id="3" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="4" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
+      <word id="5" form="κατὰ" lemma="κατά" postag="r--------" relation="" head=""/>
+      <word id="6" form="γῆν" lemma="γῆ" postag="n-s---fa-" relation="" head=""/>
+      <word id="7" form="," lemma="" postag="u--------" relation="" head=""/>
+      <word id="8" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="9" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
+      <word id="10" form="ναυσίν" lemma="ναῦς" postag="n-p---fd-" relation="" head=""/>
+      <word id="11" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="1.18.3"
+             span="">
+      <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="2" form="ὀλίγον" lemma="ὀλίγος" postag="a-s---ma-" relation="" head=""/>
+      <word id="3" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
+      <word id="4" form="χρόνον" lemma="χρόνος" postag="n-s---ma-" relation="" head=""/>
+      <word id="5" form="ξυνέμεινεν" lemma="συμμένω" postag="v3saia---" relation="" head=""/>
+      <word id="6" form="ἡ" lemma="ὁ" postag="l-s---fn-" relation="" head=""/>
+      <word id="7" form="ὁμαιχμία" lemma="ὁμαιχμία" postag="n-s---fn-" relation="" head=""/>
+      <word id="8" form="," lemma="" postag="u--------" relation="" head=""/>
+      <word id="9" form="ἔπειτα" lemma="ἔπειτα" postag="d--------" relation="" head=""/>
+      <word id="10" form="διενεχθέντες" lemma="διαφέρω" postag="v-pappmn-" relation="" head=""/>
+      <word id="11" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
+      <word id="12" form="Λακεδαιμόνιοι" lemma="Λακεδαιμόνιος" postag="a-p---mn-" relation="" head=""/>
+      <word id="13" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
+      <word id="14" form="Ἀθηναῖοι" lemma="Ἀθηναῖος" postag="a-p---mn-" relation="" head=""/>
+      <word id="15" form="ἐπολέμησαν" lemma="πολεμέω" postag="v3paia---" relation="" head=""/>
+      <word id="16" form="μετὰ" lemma="μετά" postag="r--------" relation="" head=""/>
+      <word id="17" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
+      <word id="18" form="ξυμμάχων" lemma="σύμμαχος" postag="a-p---mg-" relation="" head=""/>
+      <word id="19" form="πρὸς" lemma="πρός" postag="r--------" relation="" head=""/>
+      <word id="20" form="ἀλλήλους" lemma="ἀλλήλων" postag="p-p---ma-" relation="" head=""/>
+      <word id="21" form="." lemma="" postag="u--------" relation="" head=""/>
+   </sentence>
+</treebank>

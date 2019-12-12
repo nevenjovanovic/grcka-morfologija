@@ -4,7 +4,7 @@
           version="1.5"
           direction="ltr"
           format="aldt">
-   <date>2018-09-03 08:46:33 +0000</date>
+   <date>2018-09-03T08:46:33Z</date>
    <annotator>
       <short/>
       <name/>
@@ -17,10 +17,22 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
+   <bibl>
+      <name>Thucydidis Historiae 6.8.1-2</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:thucydideshistoriae</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>liber,caput,sententia,membrum</citscheme>
+      <grpname>Thucydides</grpname>
+      <worktitle>Historiae</worktitle>
+      <verlabel>ex editione Henry Stuart Jones (1942)</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
    <sentence id="1"
-             document_id="urn:cts:greekLit:tlg0003.tlg001.perseus-grc2"
-             subdoc=""
-             span="6.8.1">
+      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="6.8"
+             span="">
       <word id="1" form="τοῦ" lemma="ὁ" postag="l-s---ng-" relation="" head=""/>
       <word id="2" form="δ᾽" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἐπιγιγνομένου" lemma="ἐπιγίγνομαι" postag="v-sppeng-" relation="" head=""/>
@@ -59,9 +71,9 @@
       <word id="36" form="." lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-             document_id="urn:cts:greekLit:tlg0003.tlg001.perseus-grc2"
-             subdoc=""
-             span="6.8.2">
+      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+             subdoc="6.8"
+             span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="3" form="Ἀθηναῖοι" lemma="Ἀθηναῖος" postag="n-p---mn-" relation="" head=""/>
