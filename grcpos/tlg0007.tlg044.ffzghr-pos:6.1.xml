@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-01-10 12:11:43 UTC</date>
+   <date>2019-01-10T12:11:43Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Plutarchi Agesilaus 6.1-6.3</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:plutarchusagesilaus</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Plutarchus</grpname>
+      <worktitle>Agesilaus</worktitle>
+      <verlabel>Ex editione Gregorii N. Vernardakes, in aedibus B. G. Teubneri, Lipsiae, 1891, in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0007.tlg044.ffzghr-pos:" subdoc="6.1" span="">
       <word id="1" form="Τοῦ" lemma="ὁ" postag="l-s---mg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="Ἀγησιλάου" lemma="Ἀγησίλαος" postag="n-s---mg-" relation="" head=""/>
@@ -56,7 +68,7 @@
       <word id="24" form="θαλάσσης" lemma="θάλασσα" postag="n-s---fg-" relation="" head=""/>
       <word id="25" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0007.tlg044.ffzghr-pos:" subdoc="6.1" span="">
       <word id="1" form="ὁ" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="Λύσανδρος" lemma="Λύσανδρος" postag="n-s---mn-" relation="" head=""/>
@@ -115,7 +127,7 @@
       <word id="56" form="παρασκευήν" lemma="παρασκευή" postag="n-s---fa-" relation="" head=""/>
       <word id="57" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0007.tlg044.ffzghr-pos:" subdoc="6.2" span="">
       <word id="1" form="ἅμα" lemma="ἅμα" postag="d--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="τοῖς" lemma="ὁ" postag="l-p---md-" relation="" head=""/>
@@ -132,7 +144,7 @@
       <word id="14" form="αἰτεῖσθαι" lemma="αἰτέω" postag="v--pne---" relation="" head=""/>
       <word id="15" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0007.tlg044.ffzghr-pos:" subdoc="6.2" span="">
       <word id="1" form="παρελθὼν" lemma="παρέρχομαι" postag="v-sapamn-" relation="" head=""/>
       <word id="2" form="οὖν" lemma="οὖν" postag="d--------" relation="" head=""/>
       <word id="3" form="εἰς" lemma="εἰς" postag="r--------" relation="" head=""/>
@@ -166,7 +178,7 @@
       <word id="31" form="δύναμιν" lemma="δύναμις" postag="n-s---fa-" relation="" head=""/>
       <word id="32" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0007.tlg044.ffzghr-pos:" subdoc="6.3" span="">
       <word id="1" form="συμπράττοντος" lemma="συμπράσσω" postag="v-sppamg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="τοῦ" lemma="ὁ" postag="l-s---mg-" relation="" head=""/>

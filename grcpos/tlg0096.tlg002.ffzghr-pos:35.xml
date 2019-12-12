@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-01-03 11:04:07 UTC</date>
+   <date>2019-01-03T11:04:07Z</date>
    <annotator>
       <short/>
       <name/>
@@ -98,7 +98,7 @@
       <word id="22" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="5" document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:" subdoc="35" span="">
-      <word id="1" form="ὕστερον" lemma="ὕστερον" postag="d-------_" relation="" head=""/>
+      <word id="1" form="ὕστερον" lemma="ὕστερον" postag="d--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="παρατεθείσης" lemma="παρατίθημι" postag="v-sappfg-" relation="" head=""/>
       <word id="4" form="αὐτοῖς" lemma="αὐτός" postag="p-p---md-" relation="" head=""/>
@@ -151,7 +151,7 @@
    </sentence>
    <sentence id="8" document_id="urn:cts:greekLit:tlg0096.tlg002.ffzghr-pos:" subdoc="35" span="">
       <word id="1" form="„" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
-      <word id="2" form="ἀλλ'" lemma="ἀλλά" postag="d-------_" relation="" head=""/>
+      <word id="2" form="ἀλλ'" lemma="ἀλλά" postag="d--------" relation="" head=""/>
       <word id="4" form="ἀποτάσσομαί" lemma="ἀποτάσσω" postag="v1spie---" relation="" head=""/>
       <word id="5" form="σου" lemma="σύ" postag="p2s----g-" relation="" head=""/>
       <word id="6" form="τῇ" lemma="ὁ" postag="l-s---fd-" relation="" head=""/>
