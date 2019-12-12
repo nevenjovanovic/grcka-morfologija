@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-01-07 11:34:01 UTC</date>
+   <date>2019-01-07T11:34:01Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Plutarchi Themistocles 2.1-2</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:plutarchusthemistocles</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Plutarchus</grpname>
+      <worktitle>Themistocles</worktitle>
+      <verlabel>Ex editione Gregorii N. Vernardakes, in aedibus B. G. Teubneri, Lipsiae, 1891, in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0007.tlg010.ffzghr-pos:" subdoc="2.1" span="">
       <word id="1" form="ἔτι" lemma="ἔτι" postag="d--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="παῖς" lemma="παῖς" postag="n-s---mn-" relation="" head=""/>
@@ -53,7 +65,7 @@
       <word id="21" form="πολιτικός" lemma="πολιτικός" postag="a-s---mn-" relation="" head=""/>
       <word id="22" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0007.tlg010.ffzghr-pos:" subdoc="2.1" span="">
       <word id="1" form="ἐν" lemma="ἐν" postag="r--------" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="ταῖς" lemma="ὁ" postag="l-p---fd-" relation="" head=""/>
@@ -85,9 +97,9 @@
       <word id="29" form="ἑαυτόν" lemma="ἑαυτοῦ" postag="p-s---ma-" relation="" head=""/>
       <word id="30" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="3" document_id="urn:cts:greekLit:tlg0007.tlg010.ffzghr-pos:" subdoc="2.1" span="">
       <word id="1" form="ἦσαν" lemma="εἰμί" postag="v3piia---" relation="" head=""/>
-      <word id="2" form="δʼ" lemma="δέ" postag="d-------_" relation="" head=""/>
+      <word id="2" form="δʼ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="οἱ" lemma="ὁ" postag="l-p---mn-" relation="" head=""/>
       <word id="4" form="λόγοι" lemma="λόγος" postag="n-p---mn-" relation="" head=""/>
       <word id="5" form="κατηγορία" lemma="κατηγορία" postag="n-s---fn-" relation="" head=""/>
@@ -98,7 +110,7 @@
       <word id="10" form="παίδων" lemma="παῖς" postag="n-p---mg-" relation="" head=""/>
       <word id="11" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0007.tlg010.ffzghr-pos:" subdoc="2.2" span="">
       <word id="1" form="ὅθεν" lemma="ὅθεν" postag="d--------" relation="" head=""/>
       <word id="2" form="εἰώθει" lemma="ἔθω" postag="v3slia---" relation="" head=""/>
       <word id="3" form="λέγειν" lemma="λέγω3" postag="v--pna---" relation="" head=""/>
@@ -123,7 +135,7 @@
       <word id="22" form="κακόν" lemma="κακός" postag="a-s---nn-" relation="" head=""/>
       <word id="23" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0007.tlg010.ffzghr-pos:" subdoc="2.2" span="">
       <word id="1" form="ἐπεὶ" lemma="ἐπεί" postag="c--------" relation="" head=""/>
       <word id="2" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="3" form="τῶν" lemma="ὁ" postag="l-p---fg-" relation="" head=""/>
