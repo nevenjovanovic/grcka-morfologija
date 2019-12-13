@@ -4,7 +4,7 @@
           version="1.5"
           direction="ltr"
           format="aldt">
-   <date>2018-09-03 08:41:17 +0000</date>
+   <date>2018-09-03T08:41:17Z</date>
    <annotator>
       <short/>
       <name/>
@@ -17,10 +17,22 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
+   <bibl>
+      <name>Xenophontis Memorabilia, 2.4.1-2.4.3</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:xenophonmemorabilia</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>liber,caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Xenophon</grpname>
+      <worktitle>Memorabilia</worktitle>
+      <verlabel>Ex editione E. C. Marchant, 1921, in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
    <sentence id="1"
-             document_id="urn:cts:greekLit:tlg0032.tlg002.perseus-grc2"
-             subdoc=""
-             span="2.4.1">
+             document_id="urn:cts:greekLit:tlg0032.tlg002.ffzghr-pos:"
+             subdoc="2.4.1"
+             span="">
       <word id="1" form="ἤκουσα" lemma="ἀκούω" postag="v1saia---" relation="" head=""/>
       <word id="2" form="δέ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ποτε" lemma="ποτέ" postag="d--------" relation="" head=""/>
@@ -46,9 +58,9 @@
       <word id="23" form="." lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-             document_id="urn:cts:greekLit:tlg0032.tlg002.perseus-grc2"
-             subdoc=""
-             span="2.4.2">
+             document_id="urn:cts:greekLit:tlg0032.tlg002.ffzghr-pos:"
+             subdoc="2.4.1"
+             span="">
       <word id="1" form="τοῦτο" lemma="οὗτος" postag="p-s---na-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
@@ -70,9 +82,9 @@
       <word id="19" form="·" lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="3"
-             document_id="urn:cts:greekLit:tlg0032.tlg002.perseus-grc2"
-             subdoc=""
-             span="2.4.3">
+             document_id="urn:cts:greekLit:tlg0032.tlg002.ffzghr-pos:"
+             subdoc="2.4.1"
+             span="">
       <word id="1" form="ἐπιμελομένους" lemma="ἐπιμελέομαι" postag="v-pppema-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="παντὸς" lemma="πᾶς" postag="a-s---ng-" relation="" head=""/>
@@ -86,10 +98,10 @@
       <word id="11" form="κτήσεως" lemma="κτῆσις" postag="n-s---fg-" relation="" head=""/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
-   <sentence id="4"
-             document_id="urn:cts:greekLit:tlg0032.tlg002.perseus-grc2"
-             subdoc=""
-             span="2.4.4">
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0032.tlg002.ffzghr-pos:"
+             subdoc="2.4.2"
+             span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="οἰκίας" lemma="οἰκία" postag="n-p---fa-" relation="" head=""/>
@@ -137,10 +149,10 @@
       <word id="45" form="σῴζωνται" lemma="σώζω" postag="v3ppse---" relation="" head=""/>
       <word id="46" form="." lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
-   <sentence id="5"
-             document_id="urn:cts:greekLit:tlg0032.tlg002.perseus-grc2"
-             subdoc=""
-             span="2.4.5">
+   <sentence id="1"
+             document_id="urn:cts:greekLit:tlg0032.tlg002.ffzghr-pos:"
+             subdoc="2.4.3"
+             span="">
       <word id="1" form="ἀλλὰ" lemma="ἀλλά" postag="c--------" relation="" head=""/>
       <word id="2" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="3" form="καμνόντων" lemma="κάμνω" postag="v-pppamg-" relation="" head=""/>

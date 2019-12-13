@@ -4,7 +4,7 @@
           version="1.5"
           direction="ltr"
           format="aldt">
-   <date>2018-09-02 09:30:24 +0000</date>
+   <date>2018-09-02T09:30:24Z</date>
    <annotator>
       <short/>
       <name/>
@@ -30,7 +30,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="2"
-             document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+             document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
              subdoc="4.34"
              span="">
       <word id="1" form="ὅτι" lemma="ὅτι2" postag="c--------" relation="" head=""/>
@@ -58,7 +58,7 @@
       <word id="23" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="1"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.35"
              span="">
       <word id="1" form="ὁρῶ" lemma="ὁράω" postag="v1spia---" relation="" head=""/>
@@ -117,7 +117,7 @@
       <word id="54" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="1"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.36"
              span="">
       <word id="1" form="αἰσθάνομαι" lemma="αἰσθάνομαι" postag="v1spim---" relation="" head=""/>
@@ -139,7 +139,7 @@
       <word id="17" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.36"
              span="">
       <word id="1" form="διʼ" lemma="διά" postag="r--------" relation="" head=""/>
@@ -161,7 +161,7 @@
       <word id="17" form="·" lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="3"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.36"
              span="">
       <word id="1" form="τύραννοι" lemma="τύραννος" postag="n-p---mn-" relation="" head=""/>
@@ -189,7 +189,7 @@
       <word id="23" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="1"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.37"
              span="">
       <word id="1" form="τούτους" lemma="οὗτος" postag="p-p---ma-" relation="" head=""/>
@@ -206,7 +206,7 @@
       <word id="12" form="." lemma="" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-      document_id="urn:cts:greekLit:tlg0032.tlg004.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0032.tlg004.ffzghr-pos:"
       subdoc="4.37"
              span="">
       <word id="1" form="ὅμοια" lemma="ὅμοιος" postag="a-p---na-" relation="" head=""/>

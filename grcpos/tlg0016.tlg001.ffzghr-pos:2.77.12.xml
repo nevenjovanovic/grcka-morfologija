@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-11-29 16:43:08 UTC</date>
+   <date>2019-11-29T16:43:08Z</date>
    <annotator>
       <short/>
       <name/>
@@ -27,7 +27,7 @@
       <name>Herodoti Historiae 2.77</name>
       <urn>urn:cite2:tb:unizghr.ffzghrpos:herodotushistoriae</urn>
       <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
-      <citscheme>liber,caput,sententia,membrum</citscheme>
+      <citscheme>liber,caput,paragraphus,sententia,membrum</citscheme>
       <grpname>Herodotus</grpname>
       <worktitle>Historiae</worktitle>
       <verlabel>Ex editione a Carolo Hude recognita (1927) in collectione OGL</verlabel>
