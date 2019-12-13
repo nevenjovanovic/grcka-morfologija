@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-11-30 18:29:29 UTC</date>
+   <date>2019-11-30T18:29:29Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+    <bibl>
+        <name>Isocratis Panegyricus, 47-49</name>
+        <urn>urn:cite2:tb:unizghr.ffzghrpos:isocratespanegyricus</urn>
+        <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+        <citscheme>caput,sententia,membrum</citscheme>
+        <grpname>Isocrates</grpname>
+        <worktitle>Panegyricus</worktitle>
+        <verlabel>Ex editione George Norlin, 1980-1986, in collectione OGL</verlabel>
+        <exemplarlabel>tokenized</exemplarlabel>
+        <online>true</online>
+        <lang>grc</lang>
+    </bibl>
+    <sentence id="1" document_id="urn:cts:greekLit:tlg0010.tlg011.ffzghr-pos:" subdoc="47-49" span="">
       <word id="1" form="Φιλοσοφίαν" lemma="φιλοσοφία" postag="n-s---fa-" relation="" head=""/>
       <word id="2" form="τοίνυν" lemma="τοίνυν" postag="d--------" relation="" head=""/>
       <word id="3" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
