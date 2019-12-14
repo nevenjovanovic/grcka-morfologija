@@ -50,7 +50,7 @@
         <word id="15" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
         <word id="16" form="Ἕλληνας" lemma="Ἕλλην" postag="n-p---ma-" relation="" head=""/>
         <word id="17" form="ἐκόμισε" lemma="κομίζω" postag="v3saia---" relation="" head=""/>
-        <word id="18" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="18" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="19" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
         <word id="20" form="τὰ" lemma="ὁ" postag="l-p---na-" relation="" head=""/>
         <word id="21" form="περὶ" lemma="περί" postag="r--------" relation="" head=""/>
@@ -67,9 +67,9 @@
         <word id="32" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
         <word id="33" form="ἄλλων" lemma="ἄλλος" postag="p-p---mg-" relation="" head=""/>
         <word id="34" form="ἐσπούδασεν" lemma="σπουδάζω" postag="v3saia---" relation="" head=""/>
-        <word id="35" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="35" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="36" form="ἡγούμενος" lemma="ἡγέομαι" postag="v-sppmmn-" relation="" head=""/>
-        <word id="37" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="37" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="38" form="εἰ" lemma="εἰ" postag="c--------" relation="" head=""/>
         <word id="39" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
         <word id="40" form="μηδὲν" lemma="μηδείς" postag="p-s---na-" relation="" head=""/>
@@ -81,7 +81,7 @@
         <word id="46" form="παρὰ" lemma="παρά" postag="r--------" relation="" head=""/>
         <word id="47" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
         <word id="48" form="θεῶν" lemma="θεός" postag="n-p---mg-" relation="" head=""/>
-        <word id="49" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="49" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="50" form="ἀλλʼ" lemma="ἀλλά" postag="c--------" relation="" head=""/>
         <word id="51" form="οὖν" lemma="οὖν" postag="d--------" relation="" head=""/>
         <word id="52" form="παρά" lemma="παρά" postag="r--------" relation="" head=""/>
@@ -92,7 +92,7 @@
         <word id="57" form="τούτων" lemma="οὗτος" postag="p-p---ng-" relation="" head=""/>
         <word id="58" form="μάλιστʼ" lemma="μάλα" postag="d-------s" relation="" head=""/>
         <word id="59" form="εὐδοκιμήσειν" lemma="εὐδοκιμέω" postag="v--fna---" relation="" head=""/>
-        <word id="60" form="." lemma="" postag="u--------" relation="" head=""/>
+        <word id="60" form="." lemma="punc1" postag="u--------" relation="" head=""/>
     </sentence>
     <sentence id="1"
         document_id="urn:cts:greekLit:tlg0010.tlg010.ffzghr-pos:"
@@ -102,7 +102,7 @@
         <word id="2" form="αὐτῷ" lemma="αὐτός" postag="p-s---md-" relation="" head=""/>
         <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
         <word id="4" form="συνέβη" lemma="συμβαίνω" postag="v3saia---" relation="" head=""/>
-        <word id="5" form="·" lemma="" postag="u--------" relation="" head=""/>
+        <word id="5" form="·" lemma="punc1" postag="u--------" relation="" head=""/>
     </sentence>
     <sentence id="2"
         document_id="urn:cts:greekLit:tlg0010.tlg010.ffzghr-pos:"
@@ -114,7 +114,7 @@
         <word id="4" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
         <word id="5" form="ἄλλους" lemma="ἄλλος" postag="p-p---ma-" relation="" head=""/>
         <word id="6" form="ὑπερέβαλεν" lemma="ὑπερβάλλω" postag="v3saia---" relation="" head=""/>
-        <word id="7" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="7" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="8" form="ὥστε" lemma="ὥστε" postag="c--------" relation="" head=""/>
         <word id="9" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
         <word id="10" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
@@ -124,7 +124,7 @@
         <word id="14" form="αὐτοῦ" lemma="αὐτός" postag="p-s---mg-" relation="" head=""/>
         <word id="15" form="μαθητὰς" lemma="μαθητής" postag="n-p---ma-" relation="" head=""/>
         <word id="16" form="εἶναι" lemma="εἰμί" postag="v--pna---" relation="" head=""/>
-        <word id="17" form="," lemma="" postag="u--------" relation="" head=""/>
+        <word id="17" form="," lemma="punc1" postag="u--------" relation="" head=""/>
         <word id="18" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
         <word id="19" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
         <word id="20" form="πρεσβυτέρους" lemma="πρέσβυς" postag="a-p---mac" relation="" head=""/>
@@ -140,7 +140,7 @@
         <word id="30" form="τῶν" lemma="ὁ" postag="l-p---ng-" relation="" head=""/>
         <word id="31" form="οἰκείων" lemma="οἰκεῖος" postag="a-p---ng-" relation="" head=""/>
         <word id="32" form="ἐπιμελουμένους" lemma="ἐπιμελέομαι" postag="v-pppema-" relation="" head=""/>
-        <word id="33" form="." lemma="" postag="u--------" relation="" head=""/>
+        <word id="33" form="." lemma="punc1" postag="u--------" relation="" head=""/>
     </sentence>
     <sentence id="3"
         document_id="urn:cts:greekLit:tlg0010.tlg010.ffzghr-pos:"
@@ -152,7 +152,7 @@
         <word id="4" form="οἷόν" lemma="οἷος" postag="a-s---nn-" relation="" head=""/>
         <word id="5" form="τʼ" lemma="τε" postag="c--------" relation="" head=""/>
         <word id="6" form="ἀπιστεῖν" lemma="ἀπιστέω" postag="v--pna---" relation="" head=""/>
-        <word id="7" form="·" lemma="" postag="u--------" relation="" head=""/>
+        <word id="7" form="·" lemma="punc1" postag="u--------" relation="" head=""/>
     </sentence>
     <sentence id="4"
         document_id="urn:cts:greekLit:tlg0010.tlg010.ffzghr-pos:"
@@ -178,6 +178,6 @@
         <word id="18" form="μεγίστην" lemma="μέγας" postag="a-s---fas" relation="" head=""/>
         <word id="19" form="δόξαν" lemma="δόξα" postag="n-s---fa-" relation="" head=""/>
         <word id="20" form="ἔχοντας" lemma="ἔχω" postag="v-pppama-" relation="" head=""/>
-        <word id="21" form="." lemma="" postag="u--------" relation="" head=""/>
+        <word id="21" form="." lemma="punc1" postag="u--------" relation="" head=""/>
     </sentence>
 </treebank>
