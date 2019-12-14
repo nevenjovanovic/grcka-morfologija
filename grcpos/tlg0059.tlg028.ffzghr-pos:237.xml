@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2018-08-22 20:16:25 +0000</date>
+   <date>2018-08-22T20:16:25Z</date>
    <annotator>
       <short/>
       <name/>
@@ -35,7 +35,7 @@
       <online>true</online>
       <lang>grc</lang>
    </bibl>
-   <sentence id="9" document_id="urn:cts:greekLit:tlg0059.tlg028.perseus-grc2:" subdoc="237" span="">
+   <sentence id="9" document_id="urn:cts:greekLit:tlg0059.tlg028.ffzghr-pos:" subdoc="237" span="">
       <word id="1" form="῎Εστι" lemma="εἰμί" postag="v3spia---" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἀξία" lemma="ἄξιος" postag="a-s---fn-" relation="" head=""/>
@@ -67,7 +67,7 @@
       <word id="29" form="θεοφιλής" lemma="θεοφιλής" postag="a-s---fn-" relation="" head=""/>
       <word id="30" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="10" document_id="urn:cts:greekLit:tlg0059.tlg028.perseus-grc2:" subdoc="237" span="">
+   <sentence id="10" document_id="urn:cts:greekLit:tlg0059.tlg028.ffzghr-pos:" subdoc="237" span="">
       <word id="1" form="μαρτυρεῖ" lemma="μαρτυρέω" postag="v3spia---" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ἡμῶν" lemma="ἐγώ" postag="p1p---mg-" relation="" head=""/>
@@ -85,7 +85,7 @@
       <word id="15" form="κρίσις" lemma="κρίσις" postag="n-s---fn-" relation="" head=""/>
       <word id="16" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="11" document_id="urn:cts:greekLit:tlg0059.tlg028.perseus-grc2:" subdoc="237" span="">
+   <sentence id="11" document_id="urn:cts:greekLit:tlg0059.tlg028.ffzghr-pos:" subdoc="237" span="">
       <word id="1" form="ἣν" lemma="ὅς" postag="p-s---fa-" relation="" head=""/>
       <word id="2" form="δὴ" lemma="δή" postag="d--------" relation="" head=""/>
       <word id="3" form="θεοὶ" lemma="θεός" postag="n-p---mn-" relation="" head=""/>

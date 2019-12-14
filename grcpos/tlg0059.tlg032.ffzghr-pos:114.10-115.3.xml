@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2018-08-31 11:35:16 +0000</date>
+   <date>2018-08-31T11:35:16Z</date>
    <annotator>
       <short/>
       <name/>
@@ -30,13 +30,13 @@
       <citscheme>paragraphus,sententia,membrum</citscheme>
       <grpname>Plato</grpname>
       <worktitle>Critias</worktitle>
-      <verlabel>ex editione ab Joh Burnet recognita (1902)</verlabel>
+      <verlabel>ex editione ab John Burnet recognita (1902)</verlabel>
       <exemplarlabel>tokenized</exemplarlabel>
       <online>true</online>
       <lang>grc</lang>
    </bibl>
    <sentence id="10"
-             document_id="urn:cts:greekLit:tlg0059.tlg032.perseus-grc2"
+             document_id="urn:cts:greekLit:tlg0059.tlg032.ffzghr-pos:"
              subdoc="114"
              span="">
       <word id="1" form="Πλεῖστα" lemma="πλεῖστος" postag="a-p---na-" relation="" head=""/>
@@ -68,7 +68,7 @@
       <word id="27" form="νῦν" lemma="νῦν" postag="d--------" relation="" head=""/>
       <word id="28" form="ὀνομαζόμενον" lemma="ὀνομάζω" postag="v-sppenn-" relation="" head=""/>
       <word id="29" form="μόνον" lemma="μόνον" postag="d-------p" relation="" head=""/>
-      <word id="30" form="—" lemma="" postag="" relation="" head=""/>
+      <word id="30" form="—" lemma="punc1" postag="u--------" relation="AuxK" head=""/>
       <word id="31" form="τότε" lemma="τότε" postag="d--------" relation="" head=""/>
       <word id="32" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="33" form="πλέον" lemma="πλέος" postag="a-s---nn-" relation="" head=""/>
@@ -93,7 +93,7 @@
       <word id="52" form="τοῖς" lemma="ὁ" postag="l-p---nd-" relation="" head=""/>
       <word id="53" form="τότε" lemma="τότε" postag="d--------" relation="" head=""/>
       <word id="54" form="ὄν" lemma="εἰμί" postag="v-sppann-" relation="" head=""/>
-      <word id="55" form="—" lemma="" postag="" relation="" head=""/>
+      <word id="55" form="—" lemma="punc1" postag="u--------" relation="AuxK" head=""/>
       <word id="56" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="57" form="ὅσα" lemma="ὅσος" postag="a-p---na-" relation="" head=""/>
       <word id="58" form="ὕλη" lemma="ὕλη" postag="n-s---fn-" relation="" head=""/>
@@ -121,7 +121,7 @@
       <word id="80" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="1"
-      document_id="urn:cts:greekLit:tlg0059.tlg032.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0059.tlg032.ffzghr-pos:"
       subdoc="115"
              span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -136,7 +136,7 @@
       <word id="10" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="2"
-      document_id="urn:cts:greekLit:tlg0059.tlg032.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0059.tlg032.ffzghr-pos:"
       subdoc="115"
              span="">
       <word id="1" form="νομὴ" lemma="νομή" postag="n-s---fn-" relation="" head=""/>
@@ -184,7 +184,7 @@
       <word id="43" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
    <sentence id="3"
-      document_id="urn:cts:greekLit:tlg0059.tlg032.perseus-grc2"
+      document_id="urn:cts:greekLit:tlg0059.tlg032.ffzghr-pos:"
       subdoc="115"
              span="">
       <word id="1" form="πρὸς" lemma="πρός" postag="r--------" relation="" head=""/>
