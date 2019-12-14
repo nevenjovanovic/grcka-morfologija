@@ -103,7 +103,7 @@
                             <data type="string"/>
                         </attribute>
                         <attribute name="lemma">
-                            <data type="string"/>
+                            <data type="string"><param name="pattern">.+</param></data>
                         </attribute>
                         <attribute name="postag">
                             <data type="string">
