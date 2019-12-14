@@ -66,50 +66,52 @@ urn:cite2:cite:grcmorfverbs.2019a:isLemmaOf#Is lexical unit of a form
 "
 };
 
-declare function local:makectsdataline($doc,$cts1,$tag){
+declare function local:makectsdataline($doc,$exemplar,$tag){
 for $s in $doc/*:sentence
-let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
+let $cts2 := replace($s/@document_id/string(), ":$", ("." || $exemplar)) || ":" || $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := $w/@*[name()=$tag]/string()
-return $cts1 || $cts2 || "." || $cts3 || "#" || $value
+return $cts2 || "." || $cts3 || "#" || $value
 };
 
-declare function local:makectspair($doc,$cts1,$cts1a){
+declare function local:makectspair($doc){
 for $s in $doc/*:sentence
-let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
+let $cts2 := replace($s/@document_id/string(),":$", ".token:") || $s/@subdoc/string() || "." || $s/@id/string()
+let $cts2a := replace($s/@document_id/string(),":$", ".postag:") || $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := "urn:cite2:cite:grcmorfverbs.2019a:hasProperty"
-return string-join(($cts1 || $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a || $cts2, $cts3),".")
+return string-join(($cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts2a, $cts3),".")
 };
 
-declare function local:makectspairlemma($doc,$cts1,$cts1a){
+declare function local:makectspairlemma($doc){
 for $s in $doc/*:sentence
-let $cts2 := $s/@subdoc/string() || "." || $s/@id/string()
+let $cts2 := replace($s/@document_id/string(),":$", ".token:") || $s/@subdoc/string() || "." || $s/@id/string()
+let $cts2a := replace($s/@document_id/string(),":$", ".lemma:") || $s/@subdoc/string() || "." || $s/@id/string()
   for $w in $s/*:word
   let $cts3 := $w/@id/string() 
   let $value := "urn:cite2:cite:grcmorfverbs.2019a:hasLemma"
-return string-join(($cts1 || $cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts1a || $cts2, $cts3),".")
+return string-join(($cts2, $cts3),".") || "#" || $value || "#" || string-join(($cts2a, $cts3),".")
 };
 
-declare function local:makeurn($doc, $cts1){
+declare function local:makeurn($doc, $exemplar){
   let $header := "#!ctsdata"
-  let $data := local:makectsdataline($doc,$cts1,"form")
+  let $data := local:makectsdataline($doc,$exemplar,"form")
 return ($header, $data)
 };
 
 
 
-declare function local:makeurnpostag($doc, $cts1){
+declare function local:makeurnpostag($doc, $exemplar){
   let $header := "#!ctsdata"
-  let $data := local:makectsdataline($doc,$cts1,"postag")
+  let $data := local:makectsdataline($doc,$exemplar,"postag")
 return ($header, $data)
 };
 
-declare function local:makeurnlemma($doc, $cts1){
+declare function local:makeurnlemma($doc, $exemplar){
   let $header := "#!ctsdata"
-  let $data := local:makectsdataline($doc,$cts1,"lemma")
+  let $data := local:makectsdataline($doc,$exemplar,"lemma")
 return ($header, $data)
 };
 
@@ -135,12 +137,9 @@ let $license := $doc/*:bibl/*:license/string()
 let $worktitle := $doc/*:bibl/*:worktitle/string()
 let $verlabel := $doc/*:bibl/*:verlabel/string()
 let $exemplarlabel := $doc/*:bibl/*:exemplarlabel/string()
-let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".token:")
-let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".postag:")
-let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":1.141.xml",".lemma:")
-let $cts1t := $cts1
-let $cts1p := $cts1a
-let $cts1l := $cts1b
+let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":[0-9\.]+\.xml",".token:")
+let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":[0-9\.]+\.xml",".postag:")
+let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":[0-9\.]+\.xml",".lemma:")
 let $urnword := local:urnstring(
   $cts1,
   $citsch,
@@ -174,11 +173,11 @@ local:makecitelibrary($name,$urn0,$license),
 local:makectscatalog(
   ( $urnword , $urnpostag , $urnlemma )
 ),
-local:makeurn($doc, $cts1),
-local:makeurnpostag($doc, $cts1a),
-local:makeurnlemma($doc, $cts1b),
+local:makeurn($doc, "token"),
+local:makeurnpostag($doc, "postag"),
+local:makeurnlemma($doc, "lemma"),
 local:makeciteblocks(),
 local:makerelations(),
-local:makectspair($doc, $cts1t, $cts1p),
-local:makectspairlemma($doc,$cts1t,$cts1l)
+local:makectspair($doc),
+local:makectspairlemma($doc)
 )
