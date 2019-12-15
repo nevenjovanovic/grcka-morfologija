@@ -10,9 +10,9 @@ license#Creative Commons Attribution 4.0 International (CC BY 4.0)  https://crea
 
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 
-urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:1393b.xml#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#tokenized#true#grc
-urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:1393b.xml#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#morphological properties#true#grc
-urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:1393b.xml#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#lemmatized#true#grc
+urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos.token:#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#tokenized#true#grc
+urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos.postag:#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#morphological properties#true#grc
+urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos.lemma:#pagina,sententia,membrum#Aristoteles#Rhetorica#Ex editione a W. D. Ross recognita (1959) in collectione OGL#lemmatized#true#grc
 #!ctsdata
 urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos.token:1393b.5.1#Στησίχορος
 urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos.token:1393b.5.2#μὲν
