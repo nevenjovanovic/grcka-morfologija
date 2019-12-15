@@ -136,9 +136,9 @@ let $license := $doc/*:bibl/*:license/string()
 let $worktitle := $doc/*:bibl/*:worktitle/string()
 let $verlabel := $doc/*:bibl/*:verlabel/string()
 let $exemplarlabel := $doc/*:bibl/*:exemplarlabel/string()
-let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":[a0-9\.\-]+\.xml",".token:")
-let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":[a0-9\.\-]+\.xml",".postag:")
-let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":[a0-9\.\-]+\.xml",".lemma:")
+let $cts1 := "urn:cts:greekLit:" || replace(db:path($doc),":[ab0-9\.\-]+\.xml",".token:")
+let $cts1a := "urn:cts:greekLit:" || replace(db:path($doc),":[ab0-9\.\-]+\.xml",".postag:")
+let $cts1b := "urn:cts:greekLit:" || replace(db:path($doc),":[ab0-9\.\-]+\.xml",".lemma:")
 let $urnword := local:urnstring(
   $cts1,
   $citsch,
