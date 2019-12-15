@@ -30,7 +30,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="1"
-      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos2:"
              subdoc="6.8"
              span="">
       <word id="1" form="τοῦ" lemma="ὁ" postag="l-s---ng-" relation="" head=""/>
@@ -71,7 +71,7 @@
       <word id="36" form="." lemma="punc1" postag="u--------" relation="" head=""/>
    </sentence>
    <sentence id="2"
-      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos:"
+      document_id="urn:cts:greekLit:tlg0003.tlg001.ffzghr-pos2:"
              subdoc="6.8"
              span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
