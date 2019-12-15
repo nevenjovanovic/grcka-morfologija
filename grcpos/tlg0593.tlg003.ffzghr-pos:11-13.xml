@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-01-28 19:03:10 UTC</date>
+   <date>2019-01-28T19:03:10Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Gorgiae Helenae encomium 3-6</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:gorgiasfragmenta</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>liber,caput,paragraphus,sententia,membrum</citscheme>
+      <grpname>Gorgias</grpname>
+      <worktitle>Fragmenta: Helenae encomium</worktitle>
+      <verlabel>Ex editione a Frederico Blass recognita (1892) in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="3" span="">
       <word id="1" form="Ὅτι" lemma="ὅτι2" postag="c--------" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="οὖν" lemma="οὖν" postag="d--------" relation="" head=""/>
@@ -57,7 +69,7 @@
       <word id="26" form="ὀλίγοις" lemma="ὀλίγος" postag="a-p---md-" relation="" head=""/>
       <word id="27" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="3" span="">
       <word id="1" form="δῆλον" lemma="δῆλος" postag="a-s---nn-" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="ὡς" lemma="ὡς" postag="c--------" relation="" head=""/>
@@ -108,7 +120,7 @@
       <word id="48" form="τύραννος" lemma="τύραννος" postag="n-s---mn-" relation="" head=""/>
       <word id="49" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="4" span="">
       <word id="1" form="ἐκ" lemma="ἐκ" postag="r--------" relation="" head=""/>
       <word id="2" form="τοιούτων" lemma="τοιοῦτος" postag="p-p---mg-" relation="" head=""/>
       <word id="3" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
@@ -126,7 +138,7 @@
       <word id="15" form="ἔσχε" lemma="ἔχω" postag="v3saia---" relation="" head=""/>
       <word id="16" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="4" span="">
       <word id="1" form="πλείστας" lemma="πλεῖστος" postag="a-p---fa-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="πλείστοις" lemma="πλεῖστος" postag="a-p---nd-" relation="" head=""/>
@@ -172,7 +184,7 @@
       <word id="43" form="ἔσχον" lemma="ἔχω" postag="v3paia---" relation="" head=""/>
       <word id="44" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="3" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="4" span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="ἧκον" lemma="ἥκω" postag="v3piia---" relation="" head=""/>
       <word id="3" form="ἅπαντες" lemma="ἅπας" postag="a-p---mn-" relation="" head=""/>
@@ -185,7 +197,7 @@
       <word id="11" form="ἀνικήτου" lemma="ἀνίκητος" postag="a-s---fg-" relation="" head=""/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="6" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="5" span="">
       <word id="1" form="ὅστις" lemma="ὅστις" postag="p-s---mn-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="οὖν" lemma="οὖν" postag="d--------" relation="" head=""/>
@@ -205,7 +217,7 @@
       <word id="18" form="λέξω" lemma="λέγω3" postag="v1sfia---" relation="" head=""/>
       <word id="19" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="7" document_id="" subdoc="" span="">
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="5" span="">
       <word id="1" form="τὸ" lemma="ὁ" postag="l-s---nn-" relation="" head=""/>
       <word id="2" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="τοῖς" lemma="ὁ" postag="l-p---md-" relation="" head=""/>
@@ -223,7 +235,7 @@
       <word id="15" form="φέρει" lemma="φέρω" postag="v3spia---" relation="" head=""/>
       <word id="16" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="8" document_id="" subdoc="" span="">
+   <sentence id="3" document_id="urn:cts:greekLit:tlg0593.tlg003.ffzghr-pos:" subdoc="5" span="">
       <word id="1" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="2" form="χρόνον" lemma="χρόνος" postag="n-s---ma-" relation="" head=""/>
       <word id="3" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
