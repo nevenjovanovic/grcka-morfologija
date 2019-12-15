@@ -41,7 +41,7 @@
         <online>true</online>
         <lang>grc</lang>
     </bibl>
-    <sentence id="1" document_id="urn:cts:greekLit:tlg0010.tlg011.ffzghr-pos:" subdoc="47-49" span="">
+    <sentence id="1" document_id="urn:cts:greekLit:tlg0010.tlg011.ffzghr-pos:" subdoc="47" span="">
       <word id="1" form="Φιλοσοφίαν" lemma="φιλοσοφία" postag="n-s---fa-" relation="" head=""/>
       <word id="2" form="τοίνυν" lemma="τοίνυν" postag="d--------" relation="" head=""/>
       <word id="3" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
