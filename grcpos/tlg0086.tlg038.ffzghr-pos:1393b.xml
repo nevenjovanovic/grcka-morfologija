@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2018-11-23 09:23:10 UTC</date>
+   <date>2018-11-23T09:23:10Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Aristotelis Rhetorica 1393b.5-9</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:aristotelesrhetorica</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>pagina,sententia,membrum</citscheme>
+      <grpname>Aristoteles</grpname>
+      <worktitle>Rhetorica</worktitle>
+      <verlabel>Ex editione a W. D. Ross recognita (1959) in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="5" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="Στησίχορος" lemma="Στησίχορος" postag="n-s---mn-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
@@ -59,7 +71,7 @@
       <word id="27" form="μόνος" lemma="μόνος" postag="a-s---mn-" relation="" head=""/>
       <word id="28" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="29" form="ἐλθόντος" lemma="ἔρχομαι" postag="v-sapamg-" relation="" head=""/>
-      <word id="30" form="δʼ" lemma="δέ" postag="d-------_" relation="" head=""/>
+      <word id="30" form="δʼ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="31" form="ἐλάφου" lemma="ἔλαφος" postag="n-s---mg-" relation="" head=""/>
       <word id="32" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="33" form="διαφθείροντος" lemma="διαφθείρω" postag="v-sppamg-" relation="" head=""/>
@@ -82,7 +94,7 @@
       <word id="50" form="ἔλαφον" lemma="ἔλαφος" postag="n-s---ma-" relation="" head=""/>
       <word id="51" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="52" form="ὁ" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
-      <word id="53" form="δʼ" lemma="δέ" postag="d-------_" relation="" head=""/>
+      <word id="53" form="δʼ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="54" form="ἔφησεν" lemma="φημί" postag="v3saia---" relation="" head=""/>
       <word id="55" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="56" form="ἐὰν" lemma="ἐάν" postag="c--------" relation="" head=""/>
@@ -97,7 +109,7 @@
       <word id="65" form="ἀκόντια" lemma="ἀκόντιον" postag="n-p---na-" relation="" head=""/>
       <word id="66" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="6" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="συνομολογήσας" lemma="συνομολογέω" postag="v-sapamn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -111,7 +123,7 @@
       <word id="11" form="ἀνθρώπῳ" lemma="ἄνθρωπος" postag="n-s---md-" relation="" head=""/>
       <word id="12" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="7" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="οὕτω" lemma="οὕτως" postag="d--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
@@ -132,7 +144,7 @@
       <word id="18" form="ἵππῳ" lemma="ἵππος" postag="n-s---md-" relation="" head=""/>
       <word id="19" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="4" document_id="" subdoc="" span="">
+   <sentence id="8" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="3" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
@@ -145,7 +157,7 @@
       <word id="10" form="αὐτοκράτορα" lemma="αὐτοκράτωρ" postag="n-s---ma-" relation="" head=""/>
       <word id="11" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="5" document_id="" subdoc="" span="">
+   <sentence id="9" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="ἑὰν" lemma="ἑὰν" postag="c--------" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="φυλακὴν" lemma="φυλακή" postag="n-s---fa-" relation="" head=""/>

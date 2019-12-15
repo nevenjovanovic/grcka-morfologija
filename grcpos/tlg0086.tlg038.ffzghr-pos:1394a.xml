@@ -4,7 +4,7 @@
           format="aldt"
           direction="ltr"
           version="1.5">
-   <date>2019-01-02 20:26:06 UTC</date>
+   <date>2019-01-02T20:26:06Z</date>
    <annotator>
       <short/>
       <name/>
@@ -29,7 +29,19 @@
       <address>filologanoga@gmail.com</address>
       <uri>http://data.perseus.org/sosol/users/nevenjovanovic</uri>
   </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <bibl>
+      <name>Aristotelis Rhetorica 1393b-1394a</name>
+      <urn>urn:cite2:tb:unizghr.ffzghrpos:aristotelesrhetorica</urn>
+      <license>Creative Commons Attribution 4.0 International (CC BY 4.0)  https://creativecommons.org/licenses/by/4.0/</license>
+      <citscheme>pagina,sententia,membrum</citscheme>
+      <grpname>Aristoteles</grpname>
+      <worktitle>Rhetorica</worktitle>
+      <verlabel>Ex editione a W. D. Ross recognita (1959) in collectione OGL</verlabel>
+      <exemplarlabel>tokenized</exemplarlabel>
+      <online>true</online>
+      <lang>grc</lang>
+   </bibl>
+   <sentence id="10" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="Αἴσωπος" lemma="Αἴσωπος" postag="n-s---mn-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="ἐν" lemma="ἐν" postag="r--------" relation="" head=""/>
@@ -82,7 +94,7 @@
       <word id="50" form="ἐᾶν" lemma="ἐάω" postag="v--pna---" relation="" head=""/>
       <word id="51" form="·" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="2" document_id="" subdoc="" span="">
+   <sentence id="11" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="ἐρομένου" lemma="ἔρομαι" postag="v-sapmmg-" relation="" head=""/>
       <word id="2" form="δὲ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="διὰ" lemma="διά" postag="r--------" relation="" head=""/>
@@ -120,7 +132,7 @@
       <word id="35" form="”" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="36" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
    </sentence>
-   <sentence id="3" document_id="" subdoc="" span="">
+   <sentence id="12" document_id="urn:cts:greekLit:tlg0086.tlg038.ffzghr-pos:" subdoc="1393b" span="">
       <word id="1" form="“" lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
       <word id="2" form="ἀτὰρ" lemma="ἀτάρ" postag="d--------" relation="" head=""/>
       <word id="3" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
