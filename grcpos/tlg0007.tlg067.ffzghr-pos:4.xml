@@ -42,7 +42,7 @@
       <lang>grc</lang>
    </bibl>
    <sentence id="8" document_id="urn:cts:greekLit:tlg0007.tlg067.ffzghr-pos:" subdoc="4" span="">
-      <word id="1" form="Εἰ" lemma="εἰ" postag="c--------" relation="SBJ" head=""/>
+      <word id="1" form="Εἰ" lemma="εἰ" postag="c--------" relation="" head=""/>
       <word id="2" form="δέ" lemma="δέ" postag="d--------" relation="" head=""/>
       <word id="3" form="τις" lemma="τις" postag="p-s---mn-" relation="" head=""/>
       <word id="4" form="οἴεται" lemma="οἴομαι" postag="v3spie---" relation="" head=""/>
@@ -193,7 +193,7 @@
    <sentence id="14" document_id="urn:cts:greekLit:tlg0007.tlg067.ffzghr-pos:" subdoc="4" span="">
       <word id="1" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="2" form="μόνα" lemma="μόνος" postag="a-p---nn-" relation="" head=""/>
-      <word id="3" form="ἆρα" lemma="ἆρα" postag="d--------" relation="PRED" head=""/>
+      <word id="3" form="ἆρα" lemma="ἆρα" postag="d--------" relation="" head=""/>
       <word id="4" form="ταῦτα" lemma="οὗτος" postag="p-p---nn-" relation="" head=""/>
       <word id="5" form="τὴν" lemma="ὁ" postag="l-s---fa-" relation="" head=""/>
       <word id="6" form="τῆς" lemma="ὁ" postag="l-s---fg-" relation="" head=""/>
