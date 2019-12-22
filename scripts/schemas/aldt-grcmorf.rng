@@ -83,7 +83,7 @@
                     </attribute>
                     <attribute name="document_id">
                         <data type="anyURI">
-                            <param name="pattern">urn:cts:greekLit:[a-zA-Z0-9.:\-]+ffzghr-pos:</param>
+                            <param name="pattern">urn:cts:greekLit:[a-zA-Z0-9.:\-]+ffzghr-pos2*:</param>
                         </data>
                     </attribute>
                     <attribute name="subdoc">
