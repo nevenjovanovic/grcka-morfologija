@@ -91,7 +91,7 @@
       <word id="4" form="ἄνθρωποι" lemma="ἄνθρωπος" postag="n-p---mn-" relation="" head=""/>
       <word id="5" form="διὰ" lemma="διά" postag="r--------" relation="" head=""/>
       <word id="6" form="τὸ" lemma="ὁ" postag="l-s---na-" relation="" head=""/>
-      <word id="7" form="αὑτῶν" lemma="punc1" postag="p-p---mg-" relation="" head=""/>
+      <word id="7" form="αὑτῶν" lemma="ἑαυτοῦ" postag="p-p---mg-" relation="" head=""/>
       <word id="8" form="δέος" lemma="δέος" postag="n-s---na-" relation="" head=""/>
       <word id="9" form="τοῦ" lemma="ὁ" postag="l-s---mg-" relation="" head=""/>
       <word id="10" form="θανάτου" lemma="θάνατος" postag="n-s---mg-" relation="" head=""/>
@@ -136,7 +136,7 @@
       <word id="49" form="χελιδὼν" lemma="χελιδών" postag="n-s---fn-" relation="" head=""/>
       <word id="50" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="51" form="ὁ" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
-      <word id="52" form="ἔποψ" lemma="punc1" postag="n-s---ng-" relation="" head=""/>
+      <word id="52" form="ἔποψ" lemma="ἔποψ" postag="n-s---ng-" relation="" head=""/>
       <word id="53" form="," lemma="punc1" postag="u--------" relation="" head=""/>
       <word id="54" form="ἃ" lemma="ὅς" postag="p-p---na-" relation="" head=""/>
       <word id="55" form="δή" lemma="δή" postag="d--------" relation="" head=""/>
@@ -226,7 +226,7 @@
       <word id="28" form="οὐδὲ" lemma="οὐδέ" postag="d--------" relation="" head=""/>
       <word id="29" form="δυσθυμότερον" lemma="δυσθυμότερον" postag="d-------c" relation="" head=""/>
       <word id="30" form="αὐτῶν" lemma="αὐτός" postag="p-p---mg-" relation="" head=""/>
-      <word id="31" form="τοῦ" lemma="punc1" postag="l-s---mg-" relation="" head=""/>
+      <word id="31" form="τοῦ" lemma="ὁ" postag="l-s---mg-" relation="" head=""/>
       <word id="32" form="βίου" lemma="βίος" postag="n-s---mg-" relation="" head=""/>
       <word id="33" form="ἀπαλλάττεσθαι" lemma="ἀπαλλάσσω" postag="v--pne---" relation="" head=""/>
       <word id="34" form="." lemma="punc1" postag="u--------" relation="" head=""/>

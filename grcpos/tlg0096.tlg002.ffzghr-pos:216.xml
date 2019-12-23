@@ -110,7 +110,7 @@
       <word id="1" form="ληφθεὶς" lemma="λαμβάνω" postag="v-sappmn-" relation="" head=""/>
       <word id="2" form="δέ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="3" form="ποτε" lemma="ποτέ" postag="d--------" relation="" head=""/>
-      <word id="4" form="καὶ" lemma="punc1" postag="d--------" relation="" head=""/>
+      <word id="4" form="καὶ" lemma="καί" postag="c--------" relation="" head=""/>
       <word id="5" form="περιαγκωνισθεὶς" lemma="περιαγκωνίζω" postag="v-sappmn-" relation="" head=""/>
       <word id="6" form="ἐπὶ" lemma="ἐπί" postag="r--------" relation="" head=""/>
       <word id="7" form="τὸν" lemma="ὁ" postag="l-s---ma-" relation="" head=""/>

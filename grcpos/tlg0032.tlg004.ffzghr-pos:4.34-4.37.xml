@@ -99,7 +99,7 @@
       <word id="36" form="τὰ" lemma="ὁ" postag="l-p---na-" relation="" head=""/>
       <word id="37" form="ἴσα" lemma="ἴσος" postag="a-p---na-" relation="" head=""/>
       <word id="38" form="λαχόντες" lemma="λαγχάνω" postag="v-papamn-" relation="" head=""/>
-      <word id="39" form="ὁ" lemma="punc1" postag="l-s---mn-" relation="" head=""/>
+      <word id="39" form="ὁ" lemma="ὁ" postag="l-s---mn-" relation="" head=""/>
       <word id="40" form="μὲν" lemma="μέν" postag="d--------" relation="" head=""/>
       <word id="41" form="αὐτῶν" lemma="αὐτός" postag="p-p---ng-" relation="" head=""/>
       <word id="42" form="τἀρκοῦντα" lemma="ἀρκέω" postag="v-pppana-" relation="" head=""/>

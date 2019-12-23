@@ -86,7 +86,7 @@
       <word id="8" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
       <word id="9" form="ἁλιέας" lemma="ἁλιεύς" postag="n-p---ma-" relation="" head=""/>
       <word id="10" form="περὶ" lemma="περί" postag="r--------" relation="" head=""/>
-      <word id="11" form="τοῦ" lemma="punc1" postag="l-s---mg-" relation="" head=""/>
+      <word id="11" form="τοῦ" lemma="ὁ" postag="l-s---mg-" relation="" head=""/>
       <word id="12" form="τρίποδος" lemma="τρίπους" postag="n-s---mg-" relation="" head=""/>
       <word id="13" form="," lemma="punc1" postag="u--------" relation="" head=""/>
       <word id="14" form="εἶτα" lemma="εἶτα" postag="d--------" relation="" head=""/>
