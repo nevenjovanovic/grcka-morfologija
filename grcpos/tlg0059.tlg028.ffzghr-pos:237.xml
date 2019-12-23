@@ -98,7 +98,10 @@
       <word id="10" form="γε" lemma="γε" postag="d--------" relation="" head=""/>
       <word id="11" form="συμπάντων" lemma="σύμπας" postag="a-p---mg-" relation="" head=""/>
       <word id="12" form="δικαία" lemma="δίκαιος" postag="a-s---fn-" relation="" head=""/>
-      <word id="13" form="ἐπαινεῖσθαι;" lemma="ἐπαινέω" postag="v--pne---" relation="" head=""/>
+      <word id="13" form="ἐπαινεῖσθαι" lemma="ἐπαινέω" postag="v--pne---" relation="" head=""/>
+      <word id="14" form=";" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+   <sentence id="12" document_id="urn:cts:greekLit:tlg0059.tlg028.ffzghr-pos:" subdoc="237" span="">
       <word id="14" form="δεύτερος" lemma="δεύτερος" postag="a-s---mn-" relation="" head=""/>
       <word id="15" form="δὲ" lemma="δέ" postag="c--------" relation="" head=""/>
       <word id="16" form="ἔπαινος" lemma="ἔπαινος" postag="n-s---mn-" relation="" head=""/>

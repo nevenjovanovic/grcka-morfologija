@@ -267,7 +267,10 @@
       <word id="32" form="βέλτιστα" lemma="βέλτιστος" postag="a-p---na-" relation="" head=""/>
       <word id="33" form="τῶν" lemma="ὁ" postag="l-p---mg-" relation="" head=""/>
       <word id="34" form="οἵων" lemma="οἷος" postag="a-p---mg-" relation="" head=""/>
-      <word id="35" form="ἡμῶν;" lemma="ἐγώ" postag="p-p---mg-" relation="" head=""/>
+      <word id="35" form="ἡμῶν" lemma="ἐγώ" postag="p-p---mg-" relation="" head=""/>
+      <word id="36" form=";" lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+   <sentence id="2" document_id="urn:cts:greekLit:tlg0540.tlg033.ffzghr-pos:" subdoc="4" span="">
       <word id="36" form="ὁρῶμεν" lemma="ὁράω" postag="v1ppia---" relation="" head=""/>
       <word id="37" form="γὰρ" lemma="γάρ" postag="d--------" relation="" head=""/>
       <word id="38" form="τοὺς" lemma="ὁ" postag="l-p---ma-" relation="" head=""/>
