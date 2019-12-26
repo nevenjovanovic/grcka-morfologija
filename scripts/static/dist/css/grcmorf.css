@@ -1,0 +1,372 @@
+@import url(http://fonts.googleapis.com/css?family=Trocchi&subset=latin-ext);
+body {
+  font-family: "Trocchi", serif;
+}
+
+citeaetas , citelemma { display: block; }
+
+s { text-decoration: none; }
+
+p.subtitle {
+        font-size: large;
+font-style:italic;
+color:#999966;
+}
+span.fin {
+	color:#999966;
+	font-size: small;
+	vertical-align: super;
+	}
+	
+	table, div.table {
+padding: 0.25em;
+margin: 0.25em;
+border: 1px solid silver;
+border-collapse: separate;
+border-spacing: 2px;
+font-family: monospace; 
+font-size: 1.2em;
+white-space: normal;
+line-height: normal;
+font-weight: normal;
+font-variant: normal;
+font-style: normal;
+color: -webkit-text;
+text-align: start;
+}
+
+td {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	display:table-cell;
+}
+
+td.clausula {
+    text-align:right;
+}
+
+td.croala , b.croala {
+	color: #566D7E;
+}
+
+citeaetas a , td.period a {
+    color: #2aa198;
+    text-decoration: none;
+}
+
+citeaetas a:hover, td.period a:hover {
+    color: #268bd2;
+    text-decoration: none;
+}
+	
+citelemma a, td.latty , td.cts_cite a {
+    color: maroon;
+    text-decoration: none;
+}
+
+citelemma a:hover, td.cts_cite a:hover {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
+tbody.cp-loci-index > tr > td:first-child > a {
+    color: maroon;
+    text-decoration: none;
+}
+
+tbody.cp-loci-index > tr > td:last-child > a {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
+tr.table-success a , td.cts a , td.lemma a {
+    color: #859900;
+    text-decoration: none;
+}
+
+tr.table-success a:hover , td.cts a:hover , td.lemma a:hover {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
+tr.total > td {
+    background-color: #fdf6e3;
+    color: #839496;
+}
+
+tr.total > td > b {
+    color: #cb4b16;
+}
+
+tr.individual > td:first-child {
+    color: #859900;
+}
+
+ /* unvisited link */
+th > a:link {
+    color:  #fdf6e3;
+    text-decoration: none;
+}
+
+/* visited link */
+th > a:visited {
+    color: #b58900;
+    text-decoration: none;
+}
+
+/* mouse over link */
+th > a:hover {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
+/* selected link */
+th > a:active {
+    color: #2aa198;
+    text-decoration: none;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #ddd;
+}
+
+thead th {
+        padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+thead td, thead th, div.thead {
+	background-color: maroon;
+	color: white;
+}
+
+nom.n {
+background-color: #EEC591;
+}
+nom.p {
+background-color: #FCE6C9;
+}
+.table {
+    display: table;
+    table-layout: fixed;
+                } 
+.table-centered
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+.table>* { 
+	background-color: #ddd;
+	display: table-row; 
+}
+
+.table>*>* { 
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	display: table-cell; 
+	text-overflow:ellipsis;
+                overflow:hidden;
+                white-space:nowrap;
+	}
+blockquote.croala {
+border-left: none;
+}
+blockquote.croalatext {
+border-left: none;
+font-family: Georgia, serif;
+font-size: 1.8em;
+}
+blockquote sic {
+    color:red;
+}
+
+blockquote l {
+    display:block;
+}
+
+caption {
+caption-side: bottom;
+}
+
+caption.heading {
+caption-side: top;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../../gfx/grc-ms-bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: maroon;
+}
+.footer {
+    margin-bottom: 0px;
+    background-image: url(../../gfx/grc-ms-bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: maroon;
+	bottom: 0;
+	width: 100%;
+}
+h1 {
+{
+  font-family: "News Cycle", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #000000;
+}
+}
+p > note {
+  background-color: #ededed;
+}
+
+l > note::before {
+content: "\00a0\0028" ;
+}
+
+l > note::after {
+content: "\0029\00a0" ;
+}
+
+l > note {
+color: red;
+}
+
+author {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  display: block;
+}
+
+title {
+  display: block;
+  color:maroon;
+}
+
+persName {
+  color:#859900;
+}
+
+form {
+  display: block;
+  color:maroon;
+}
+
+sense > usg {
+  display: block;
+  color:gray;
+}
+
+:not(date) > tr > td > thead, biblStruct > ref , p > ref {
+  display: block;
+  color:gray;
+}
+
+div > opener {
+  background-color: #FEE8D6;
+  display: block;
+}
+div > code {
+  white-space: normal;
+}
+
+div.table-responsive {
+    margin-bottom: 3em;
+}
+
+seg > s {
+display: block;
+color:#586e75;
+}
+
+table > caption {
+font-size: large;
+padding: 0.25em;
+color:maroon;
+background-color: #fdf6e3;
+}
+
+/* numbered rows in tables */
+table.numb {
+    counter-reset: rowNumber;
+}
+
+table.numb > tbody > tr {
+    counter-increment: rowNumber;
+}
+
+table.numb > tbody > tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+div.graph-inner {
+    margin-left: 15%;
+}
+
+div.graph-inner > h2 {
+    margin-left: -10%;
+}
+
+div.graph-inner > p {
+    color: #859900;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 0.6em;
+}
+
+ /* unvisited link */
+div.graph-inner > p > a:link {
+    color: #dc322f;
+    text-decoration: none;
+}
+
+/* visited link */
+div.graph-inner > p > a:visited {
+    color: #6c71c4;
+    text-decoration: none;
+}
+
+/* mouse over link */
+div.graph-inner > p > a:hover {
+    color: #d33682;
+    text-decoration: none;
+}
+
+/* selected link */
+div.graph-inner > p > a:active {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
+span.urn-row {
+  display:block;
+}
+
+span.word {
+  display:inline-block;
+  font-size: 1.7em;
+}
+span.punc1 {
+  display:inline-block;
+  font-size: 1.7em;
+  padding-left: -0.15em;
+  margin-left: -0.15em;
+}
