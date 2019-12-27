@@ -206,20 +206,23 @@ caption-side: top;
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../../gfx/grc-ms-bkg.jpg);
+    background: no-repeat center url(../gfx/grc-ms-bkg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     color: maroon;
+    background-color: #cccccc;
 }
 .footer {
     margin-bottom: 0px;
-    background-image: url(../../gfx/grc-ms-bkg.jpg);
+    background: no-repeat bottom url(../gfx/grc-ms-bkg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     color: maroon;
-	bottom: 0;
-	width: 100%;
+    background-color: #cccccc;
 }
+
 h1 {
 {
   font-family: "News Cycle", sans-serif;
