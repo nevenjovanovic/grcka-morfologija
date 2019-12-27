@@ -364,6 +364,12 @@ span.word {
   display:inline-block;
   font-size: 1.7em;
 }
+span.hit {
+  display:inline-block;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #F08080;
+}
 span.punc1 {
   display:inline-block;
   font-size: 1.7em;

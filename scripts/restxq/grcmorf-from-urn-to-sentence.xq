@@ -61,7 +61,11 @@ let $docurn := gm:docurn($anaurn)
 let $anaurnseq := gm:subdocseq($anaurn)
 let $subdocstring := gm:subdocstring($anaurn)
 let $sentence := db:open($db)/treebank/sentence[@document_id=$docurn and @subdoc=$subdocstring and @id=$anaurnseq[last() - 1]]
-return gm:format-sentence($sentence)
+let $word := $sentence/word[@id=$anaurnseq[last()]]
+return element div { 
+attribute class { "sententia" } , 
+element h1 { $urn || "#" || $word/@form/string() },
+gm:format-sentence($anaurnseq[last()], $sentence) }
 }
 </blockquote>
      <p/>

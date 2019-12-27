@@ -146,11 +146,15 @@ declare function gm:subdocstring($anaurn){
 $anaurn[5] , "\.[0-9]+\.[0-9]+$", "")
 };
 (: format the sentence with two span types: word and punctuation :)
-declare function gm:format-sentence($sentence){
+declare function gm:format-sentence($wordn,$sentence){
   for $s in $sentence/word
-let $w :=  $s/@form/string()
+let $w :=  $s/@form
+let $wn := $s/@id
 let $l := $s/@lemma
 return if ($l="punc1") then element span {
-  attribute class {"punc1"} , $w } else element span { 
+  attribute class {"punc1"} , $w } else 
+  if ($wn=$wordn) then element span { 
+  attribute class { "hit"} , $w/string() } else
+  element span { 
   attribute class {"word"} , $w }
 };
