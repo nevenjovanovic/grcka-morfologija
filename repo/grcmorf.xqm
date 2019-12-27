@@ -1,6 +1,5 @@
 (: XQuery module for GrcMorf 1 :)
 module namespace gm = 'http://croala.ffzg.unizg.hr/grcmorf';
-(: import module namespace functx = "http://www.functx.com" at "functx.xqm"; :)
 
 (: helper function for header, with meta :)
 declare function gm:htmlheadserver($title, $content, $keywords) {
@@ -152,9 +151,9 @@ let $w :=  $s/@form
 let $wn := $s/@id
 let $l := $s/@lemma
 return if ($l="punc1") then element span {
-  attribute class {"punc1"} , $w } else 
+  attribute class {"punc1"} , $w/string() } else 
   if ($wn=$wordn) then element span { 
   attribute class { "hit"} , $w/string() } else
   element span { 
-  attribute class {"word"} , $w }
+  attribute class {"word"} , $w/string() }
 };
