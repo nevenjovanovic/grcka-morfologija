@@ -1,0 +1,300 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[quiet]{polyglossia}
+\setdefaultlanguage{croatian}
+\setotherlanguage[variant=ancient]{greek}
+
+%\usepackage{fontspec}
+%\usepackage{verse}
+\defaultfontfeatures{Ligatures=TeX}
+
+\usepackage{import}
+\usepackage[small,sf,bf]{titlesec}
+\usepackage{tabto}
+\usepackage{ulem}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{dtk-logos}
+\usepackage[symbol]{footmisc}
+
+\usepackage{fancyhdr}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\itshape\nouppercase{Čitanka za Veze među grčkim rečenicama – parataksa i hipotaksa}}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+ 
+\setmainfont{Old Standard TT}
+\setsansfont{Old Standard TT}
+
+
+\hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
+
+\hyphenation{Ελ-λή-νων ξυν-έ-μει-νεν ἐ-πι-όντ-ων ἀνα-σκευ-α-σά-με-νοι ἀ-πω-σά-με-νοι Λα-κε-δαι-μό-νι-οι Ελ-λη-νες δι-ε-φά-νη}
+
+\hyphenation{εὐ-δο-κι-μή-σας ἐν-ταῦ-θα βα-σι-λεύ-εις ἐ-χρή-σα-το συλ-ληφ-θέν-τος}
+
+\hyphenation{θε-ρά-πον-τες ἡ-γοῦ-μαι}
+
+\hyphenation{ἐπι-φα-νέσ-τε-ρον το-σοῦ-τον ἔ-χον-τας συγ-γιγ-νο-μέ-νους μᾶλ-λον με-γίσ-την}
+
+\hyphenation{ἐπ-έσ-κηπ-τε Θε-μισ-το-κλῆς}
+
+\hyphenation{κοι-νω-νοῦ-σιν δη-λῶ-σαι δι-α-λε-γο-μέ-νους πλη-σι-ά-ζον-τας πα-ρα-λι-πεῖν}
+
+\hyphenation{καρ-πῶν ὀ-νο-μα-ζό-με-νον τηκ-τὰ ὅ-σα}
+
+\hyphenation{με-μά-θη-κας Μά-λισ-τα πο-λυ-μα-θής}
+
+\hyphenation{δι-α-βε-βλη-μέ-νος Α-ρι-στό-βου-λος Σω-κρά-τους Δı-α-τ
+ρι-βαί ἐξ-ελ-κύ-σαι Ἐγ-χει-ρί-δι-ον}
+
+\hyphenation{δά-μα-λιν δύ-να-μαι}
+
+\hyphenation{πυ-θο-μέ-νου ἀ-πο-κρί-νε-ται τρα-πέ-ζαις ἀ-πέσ-τει-λαν γρά-ψαν-τος με-τα-τί-θη-σι με-γά-λου Τισ-σα-φέρ-νῃ προσ-ε-πι-μετ-ρῆ-σαι Α-θη-ναί-οις Τισ-σα-φέρ-νην Αλ-κι-βι-ά-δην πα-τρί-δα}
+
+\hyphenation{ἡ-γοῦν-ται ἀ-πο-ρω-τά-των πό-λεις Ras-pra-va Ἀ-πο-λο-γί-α Λα-κε-δαı-μο-νί-ων Κυ-νη-γε-τι-κός}
+
+\hyphenation{πλε-όν-των γε-ωρ-γὸς ἕ-τε-ρον}
+
+\hyphenation{κα-θεῖ-ναι προ-ελ-θοῦ-σαν ἀ-πο-δοῦ-ναι ἀ-πο-φαί-νον-τος ἀ-πεσ-τά-λη ἅ-παν-τας τρί-πο-δα τρί-πο-δος κα-θι-ερώ-θη}
+
+\hyphenation{χρεί-αν παν-τὸς ἀν-επί-σκεπ-τον ἀ-πο-θα-νόν-των πα-ρα-σκευ-ά-ζον-τας φρον-τί-ζον-τας πολ-λοὺς κτω-μέ-νους ἐ-λατ-τοῦσ-θαι ἀ-με-λοῦν-τας ἀ-θε-ρά-πευ-τον κτη-μά-των πει-ρω-μέ-νους ὀ-λι-γω-ροῦν-τας δε-ο-μέ-νων ἐ-ῶν-τας ἔ-μοι-γε}
+
+\hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
+
+
+
+\begin{document}
+
+\title{Čitanka za Povijest grčkog jezika: Veze među grčkim rečenicama - parataksa i hipotaksa}
+%\subtitle{Vježbe 41–60}
+\author{Irena Bratičević, Nina Čengić, Neven Jovanović,\\Vlado Rezar, Petra Šoštarić, Ninoslav Zubović}
+\date{}
+\maketitle
+
+\clearpage
+
+\tableofcontents
+
+\thispagestyle{empty}
+
+
+%\frontmatter
+
+
+\chapter*{Predgovor}
+\label{chap:predgovor}
+\addcontentsline{toc}{chapter}{\nameref{chap:predgovor}}
+
+\section*{O ovoj čitanci}
+
+
+Ovaj izbor komentiranih tekstova čini propisanu literaturu obaveznog kolegija \textit{Povijest grčkog jezika: Veze među grčkim rečenicama – parataksa i hipotaksa}.
+
+U uvodu uz pojedini odlomak predstavljeni su autor (kada se susreće prvi put), tekst iz kojeg odlomak potječe, i kontekst samog odlomka. Nakon teksta slijedi kratak komentar.
+
+Zadatak je studenata da, uz pomoć komentara i referentne literature, kod kuće prirede svaki tekst, tako da ga na nastavi budu sposobni pročitati i prevesti na hrvatski, te analizirati i sintaktički opisati rečenice koje susreću.
+
+%\newpage
+
+Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Neven Jovanović, Vlado Rezar, Petra Šoštarić, Ninoslav Zubović.
+
+Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Github, na URL adresi \url{https://github.com/nevenjovanovic/grcka-morfologija}.
+
+\medskip
+
+U Zagrebu, veljače 2020.
+\newpage
+
+\section*{Referentna literatura}
+
+Georg Autenrieth, \textit{A Homeric Dictionary for Schools and Colleges}. New York, Harper and Brothers, 1891.\\
+Henry George Liddell, Robert Scott, \textit{An Intermediate Greek-English Lexicon. Founded upon the seventh edition of Liddell \& Scott's Greek-English Lexicon}. Oxford, Clarendon Press, 1889.\\
+\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi \url{http://logeion.uchicago.edu/}\\
+August Musić, Nikola Majnarić, \textit{Gramatika grčkoga jezika}, Zagreb (bilo koje izdanje)\\
+Oton Gorski, Niko Majnarić, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Stjepan Senc, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
+Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Library. Pristupljeno 23. prosinca 2018. na adresi \url{http://www.perseus.tufts.edu}\\
+
+
+\vspace*{\fill}
+
+\noindent Ovo djelo je ustupljeno pod Creative Commons licencom Imenovanje 3.0 nelokalizirana licenca. Da biste vidjeli primjerak te licence, posjetite \url{http://creativecommons.org/licenses/by/3.0/} ili pošaljite pismo na Creative Commons, PO Box 1866, Mountain View, CA 94042, SAD.
+
+\newpage
+
+
+%\mainmatter
+
+
+%\clearpage
+%\thispagestyle{empty}
+% start chapter numbering from 41:
+%\setcounter{chapter}{40}
+
+%1ok
+\chapter[Ἐπίκουρος Μενοικεῖ]{\textgreek[variant=ancient]{Ἐπιστολὴ Ἐπικούρου Μενοικεῖ,} 124–126}
+
+\import{parahipopoglavlja/}{tlg0537.tlg012:124-126.tex}
+
+%2ok
+\chapter[Ἀνδοκίδου Κατὰ Ἀλκιβιάδου]{\textgreek[variant=ancient]{Ἀνδοκίδου Κατὰ Ἀλκιβιάδου,} 1–2}
+
+\import{parahipopoglavlja/}{tlg0027.tlg004.perseus-grc1:1-2.tex}
+
+%3ok
+\chapter[Ξενοφῶντος Κύρου παιδεία]{\textgreek[variant=ancient]{Ξενοφῶντος Κύρου παιδεία Α} 2,8}
+
+\import{parahipopoglavlja/}{tlg0032.tlg007.perseus-grc2:1.2.8.tex}
+
+
+%4ok
+\chapter[Πλάτωνος Πρωταγόρας]{\textgreek[variant=ancient]{Πλάτωνος Πρωταγόρας} 325c-326a}
+
+\import{parahipopoglavlja/}{tlg0059.tlg022.perseus-grc2:325-326.tex}
+
+%5ok
+\chapter[Λουκιανοῦ Ἐνάλιος διάλογος]{\textgreek[variant=ancient]{Λουκιανοῦ Ἐνάλιος διάλογος} 2, 2}
+
+\import{parahipopoglavlja/}{tlg0062.tlg067.perseus-grc1:2.292-2.293.tex}
+
+%6ok
+\chapter[Μάρκου Ἀντωνίνου Τῶν εἰς ἑαυτὸν Δ]{\textgreek[variant=ancient]{Μάρκου Ἀντωνίνου αὐτοκράτορος \\Τῶν εἰς ἑαυτὸν βιβλίον Δ} 48}
+
+\import{parahipopoglavlja/}{tlg0562.tlg001.perseus-grc1:4.48.tex}
+
+%7ok
+\chapter[Διοδώρου Βιβλιοθήκης ἱστορικής ΙΕ]{\textgreek[variant=ancient]{Διοδώρου Σικελιώτου \\Βιβλιοθήκης ἱστορικής ΙΕ,} 6, 1–2}
+
+\import{parahipopoglavlja/}{tlg0060.tlg001.perseus-grc3:15.6.1-15.6.2.tex}
+
+%8ok
+\chapter[Ἀριστοτέλους Ἠθικῶν Νικομαχείων Ι]{\textgreek[variant=ancient]{Ἀριστοτέλους \\Ἠθικῶν Νικομαχείων Ι,} 1169b (9, 9)}
+
+\import{parahipopoglavlja/}{tlg0086.tlg010.perseus-grc1:1169b.tex}
+
+%9ok
+\chapter[Αἰσώπειος μῦθος 279]{\textgreek[variant=ancient]{Αἰσώπειος μῦθος} 279 (349)}
+
+\import{parahipopoglavlja/}{tlg0096.tlg002.First1K-grc1:349.tex}
+
+%10ok
+\chapter[Ἀνδοκίδου Περὶ τῶν μυστηρίων]{\textgreek[variant=ancient]{Ἀνδοκίδου Περὶ τῶν μυστηρίων,} 97}
+
+\import{parahipopoglavlja/}{tlg0027.tlg001.perseus-grc1:97.tex}
+
+%11ok
+\chapter[Πολυβίου Ἱστορίων ΛΗ]{\textgreek[variant=ancient]{Πολυβίου ἱστορίων ΛΗ,} 22.1–22.3}
+
+\import{parahipopoglavlja/}{tlg0543.tlg001:38.22.1-22.3.tex}
+
+%12ok
+\chapter[Ἐγχειρίδιον Ἐπικτήτου 29]{\textgreek[variant=ancient]{Ἐγχειρίδιον Ἐπικτήτου} 29}
+
+\import{parahipopoglavlja/}{tlg0557.tlg002.perseus-grc1:29.tex}
+
+%13ok
+\chapter[Ξενοφῶντος Ἀπομνημονεύματα Σωκράτους]{\textgreek[variant=ancient]{Ξενοφῶντος \\Ἀπομνημονεύματα Σωκράτους Δ} 3,3–3,6}
+
+\import{parahipopoglavlja/}{tlg0032.tlg002.perseus-grc2:4.3.3-4.3.6.tex}
+
+%14ok
+\chapter[Ἀππιανοῦ Ῥωμαϊκῶν ΙΔ]{\textgreek[variant=ancient]{Ἀππιανοῦ Ἀλεξανδρέως Ῥωμαϊκῶν \\βιβλίον ΙΔ, Ἐμφυλίων Α} 116–117}
+
+\import{parahipopoglavlja/}{tlg0551.tlg017.perseus-grc2:1.14.116-1.14.117.tex}
+
+%15ok
+\chapter[Ἀντιφῶντος Κατὰ τῆς μητρυιᾶς]{\textgreek[variant=ancient]{Ἀντιφῶντος Φαρμακείας \\κατὰ τῆς μητρυιᾶς} 26–27}
+
+\import{parahipopoglavlja/}{tlg0028.tlg001.perseus-grc1:26-27.tex}
+
+%16ok
+\chapter[Πλουτάρχου Ἀλκιβιάδης]{\textgreek[variant=ancient]{Πλουτάρχου Βίοι παράλληλοι, \\Ἀλκιβιάδης} 2.1–2.3}
+
+\import{parahipopoglavlja/}{tlg0007.tlg015.perseus-grc2:2.1-2.3.tex}
+
+%17ok
+\chapter[Λυσίου Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων]{\textgreek[variant=ancient]{Λυσίου Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων} 14–17}
+
+\import{parahipopoglavlja/}{tlg0540.tlg019.perseus-grc2:14-17.tex}
+
+%18ok
+\chapter[Δημοσθένους Ὀλυνθιακός Γ]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Γ,} 24–26}
+
+\import{parahipopoglavlja/}{tlg0014.tlg003.perseus-grc1:24-26.tex}
+
+%19ok
+\chapter[Ἱπποκράτους Περὶ ἱερῆς νούσου]{\textgreek[variant=ancient]{Ἱπποκράτους Περὶ ἱερῆς νούσου} 1}
+
+\import{parahipopoglavlja/}{tlg0627.tlg027.1st1K-grc1:1.tex}
+
+%20ok
+\chapter[Ἀρριανοῦ Ἀναβάσεως Ἀλεξάνδρου Ζ]{\textgreek[variant=ancient]{Ἀρριανοῦ \\Ἀναβάσεως Ἀλεξάνδρου Ζ α,} 4–6}
+
+\import{parahipopoglavlja/}{tlg0074.tlg001.perseus-grc1:7.1.4-7.1.6.tex}
+
+%21ok
+\chapter[Πλάτωνος Συμπόσιον]{\textgreek[variant=ancient]{Πλάτωνος Συμπόσιον} 203b–203e}
+
+\import{parahipopoglavlja/}{tlg0059.tlg011.perseus-grc2:203.tex}
+
+%22ok
+\chapter[Λόγγου Τῶν κατὰ Δάφνιν καὶ Χλόην]{\textgreek[variant=ancient]{Λόγγου Τῶν κατὰ Δάφνιν καὶ Χλόην \\λόγος Α} 13.4–6}
+
+\import{parahipopoglavlja/}{tlg0561.tlg001.perseus-grc2:1.13.4-1.13.6.tex}
+
+%23ok
+\chapter[Ἀριστοτέλους Ῥητορική Γ]{\textgreek[variant=ancient]{Ἀριστοτέλους Ῥητορική Γ} 1408b}
+
+\import{parahipopoglavlja/}{tlg0086.tlg038.perseus-grc1:1408b.tex}
+
+%24ok
+\chapter[Θουκυδίδου Ἱστορίαι Ζ]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Ζ} 5, 1–4}
+
+\import{parahipopoglavlja/}{tlg0003.tlg001.perseus-grc2:7.5.1-7.5.4.tex}
+
+%25ok
+\chapter[Ἡλιοδώρου Αἰϑιοπικὰ Ι]{\textgreek[variant=ancient]{Ἡλιοδώρου Αἰϑιοπικὰ Ι} 27}
+
+\import{parahipopoglavlja/}{tlg0658.tlg001.perseus-grc1:10.27.tex}
+
+%26ok
+\chapter[Λυσίου Ἐπιτάφιος]{\textgreek[variant=ancient]{Λυσίου Ἐπιτάφιος} 4–6}
+
+\import{parahipopoglavlja/}{tlg0540.tlg002.perseus-grc2:4-6.tex}
+
+%27ok
+\chapter[Χαρίτωνος Τὰ περὶ Χαιρέαν καὶ Καλλιρόην]{\textgreek[variant=ancient]{Χαρίτωνος Ἀφροδισιέως Τῶν περὶ Χαιρέαν καὶ Καλλιρόην ἐρωτικῶν διηγημάτων λόγοι ὀκτώ} 2.2}
+
+\import{parahipopoglavlja/}{tlg0554.tlg001.perseus-grc1:2.2.1-2.2.4.tex}
+
+%28ok
+\chapter[Δίωνος Κασσίου Ῥωμαϊκὴ ἱστορία ΞΒ 16]{\textgreek[variant=ancient]{Δίωνος Κασσίου Κοκκηιανοῦ\\Ῥωμαϊκὴ ἱστορία ΞΒ} 16}
+
+\import{parahipopoglavlja/}{tlg0385.tlg001.perseus-grc1:62b.16.tex}
+
+%29ok
+\chapter[Πολυβίου Ἱστορίων Δ]{\textgreek[variant=ancient]{Πολυβίου ἱστορίων Δ,} 31}
+
+\import{parahipopoglavlja/}{tlg0543.tlg001.perseus-grc2:4.31.3-4.31.8.tex}
+
+%30
+\chapter[Πλουτάρχου Πομπήϊος]{\textgreek[variant=ancient]{Πλουτάρχου Πομπήϊος} 40}
+
+\import{parahipopoglavlja/}{tlg0007.tlg045.perseus-grc2:40.1-40.3.tex}
+
+
+\end{document}
+
+% kraj
