@@ -18,7 +18,7 @@ latexmk -xelatex grc_morf_0"${NUMBER}"_citanka_2018-1.tex
 
 # Run pdftk on files
 
-pdftk A=naslovnica"${NUMBER}".pdf B=grc_morf_secondpage.pdf C=main"${NUMBER}".pdf D=grc_morf_0"${NUMBER}"_citanka_2018-1.pdf cat A B1 C D2-end output citankagrcmorf0"${NUMBER}".pdf
+pdftk A=naslovnica"${NUMBER}".pdf B=grc_morf_secondpage.pdf C=main"${NUMBER}".pdf D=texput.pdf E=grc_morf_0"${NUMBER}"_citanka_2018-1.pdf cat A B1 C D E output citankagrcmorf0"${NUMBER}".pdf
 
 # Run rsync on result
 
