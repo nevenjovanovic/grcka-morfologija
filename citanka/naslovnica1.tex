@@ -4,8 +4,9 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{times,multicol,graphicx}
+\graphicspath{ {./slike/} }
 \usepackage{xcoffins}
-\usepackage{times,color}
+\usepackage{times,xcolor}
 \newcommand\cbox[2][.8]{{\setlength\fboxsep{0pt}\colorbox[gray]{#1}{#2}}}
 \pagestyle{empty}
 \begin{document}
@@ -14,7 +15,7 @@
   \NewCoffin \bbb
 %  \NewCoffin \ccc
   \NewCoffin \ddd
-%  \NewCoffin \eee
+  \NewCoffin \eee
   \NewCoffin \fff
   \NewCoffin \rulei
   \NewCoffin \ruleii
@@ -24,16 +25,16 @@
 \SetHorizontalCoffin \aaa {\fontsize{52}{50}\sffamily\bfseries morfologiju}
 \SetHorizontalCoffin \bbb {\fontsize{52}{50}\sffamily\bfseries čitanka za grčku}
 \SetHorizontalCoffin \ddd {\fontsize{102}{100}\sffamily\bfseries 1}
-
+\SetHorizontalCoffin \eee {\includegraphics[scale=0.20]{manualia.png}}
 \SetVerticalCoffin \fff {140pt}
-                 {\raggedright \fontsize{13}{14}\sffamily\bfseries
+                 {\raggedright {\color{gray} \fontsize{13}{14}\sffamily\bfseries
                  irena bratičević\\
                  nina čengić\\
                  neven jovanović\\
                  vlado rezar\\
                  petra šoštarić\\
                  ninoslav zubović\\
-                 }
+                 }}
 
 \RotateCoffin \bbb {90}
 
@@ -48,10 +49,10 @@
 \JoinCoffins \result[\aaa-t,\aaa-r] \rulei   [b,r](0pt,2mm)
 \JoinCoffins \result[\aaa-b,\aaa-l] \bbb     [B,r](2pt,0pt)
 \JoinCoffins \result[\bbb-t,\bbb-r] \ruleii  [t,r](-2mm,0pt)
-%\JoinCoffins \result[\aaa-B,\aaa-r] \ccc     [B,l](66pt,14pc)
 \JoinCoffins \result[\bbb-l,\aaa-r] \fff     [t,r](-2mm,0pt)
 \JoinCoffins \result[\fff-b,\fff-r] \ruleiii [b,l](2mm,0pt)
 %\JoinCoffins \result[\fff-l] \eee     [B,r]
 \JoinCoffins \result[\fff-r,\bbb-hc] \ddd     [B,r](0mm,0mm)
+\JoinCoffins \result[\fff-b,\fff-r] \eee    [t,r](2mm,-30mm)
 \TypesetCoffin \result
 \end{document}
