@@ -1,11 +1,18 @@
 \documentclass[a4paper,12pt,twoside]{report}
-\usepackage[quiet]{polyglossia}
-\setdefaultlanguage{croatian}
+\usepackage{polyglossia}
+\setmainlanguage{croatian}
 \setotherlanguage[variant=ancient]{greek}
 
-%\usepackage{fontspec}
 %\usepackage{verse}
 \defaultfontfeatures{Ligatures=TeX}
+\setmainfont{GFS Didot}
+\newfontfamily\greekfont[Mapping=TeX]{GFS Didot}
+\newfontfamily\greekfontsf[Script=Greek]{GFS Didot}
+\newfontfamily\greekfontbf[Script=Greek]{GFS Didot}
+%\setmainfont{GFS Didot}
+%\newfontfamily\greekfont[Mapping=TeX]{GFS Didot}
+%\newfontfamily\greekfontsf[Script=Greek]{GFS Didot}
+%\newfontfamily\greekfontbf[Script=Greek]{GFS Didot}
 
 \usepackage{import}
 \usepackage[small,sf,bf]{titlesec}
@@ -13,7 +20,7 @@
 \usepackage{ulem}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage{dtk-logos}
+%\usepackage{dtk-logos}
 \usepackage[symbol]{footmisc}
 
 \usepackage{fancyhdr}
@@ -33,9 +40,6 @@
     \begin{center}\large#1\end{center}
     \vskip0.5em}%
 }
- 
-\setmainfont{Old Standard TT}
-\setsansfont{Old Standard TT}
 
 
 \hyphenation{δυσ-σέ-βει-αν βού-λεσ-θαί κα-τη-γο-ρού-σης τα-χέ-ως πε-πλημ-μέ-λη-κε νε-α-νί-ας αὐ-τῇ ἀ-φε-λό-με-νος ἀ-πή-γε-το ἐ-πέ-πληξ-άς ἠ-γό-μην ἤ-νεγ-κεν νο-μί-ζει ἄν-θρω-πον παν-το-δα-πά Αἰ-θί-οψ-ιν ἀν-έρ-χε-ται φρον-τί-δων αὐ-τὸς δι-ῃ-ρη-μέ-νος κλέπ-τον-τας ἑ-κα-τόμ-βῃ μέ-γισ-τον κιν-δύ-νου}
@@ -73,13 +77,13 @@
 
 \hyphenation{αὐ-το-κρά-το-ρας Λά-μα-χον ποι-ή-σαν-τες ἑξή-κον-τα Σε-λι-νουν-τί-ους χρη-μά-των μισ-θόν Νι-κη-ρά-του πε-ρι-γίγ-νη-ται}
 
-
+\renewcommand{\baselinestretch}{1.1} 
 
 \begin{document}
 
 \title{Čitanka za Grčku morfologiju 2}
 %\subtitle{Vježbe 41–60}
-\author{Irena Bratičević, Nina Čengić, Neven Jovanović,\\Vlado Rezar, Petra Šoštarić, Ninoslav Zubović}
+\author{Irena Bratičević, Nina Čengić, Petra Matović, Neven Jovanović,\\Vlado Rezar, Ninoslav Zubović}
 \date{}
 \maketitle
 
@@ -94,37 +98,31 @@
 
 
 \chapter*{Predgovor}
-
-\section*{O ovoj čitanci}
 \label{chap:predgovor}
 
-Ovaj izbor komentiranih tekstova čini propisanu literaturu obaveznog kolegija \textit{Grčka morfologija 2}.
-
-Kao i u kolegiju \textit{Grčka morfologija 1}, kratkim su odlomcima dodane tri vrste komentara. U uvodu su predstavljeni autor (kada se susreće prvi put), tekst iz kojeg odlomak potječe, i kontekst samog odlomka. Nakon teksta slijede rečenice, raščlanjene i složene tako da povećaju sintaktičku i semantičku preglednost, te gramatički komentar. Potonji je komentar, opet, dvojak. U skladu sa sadržajem ovog kolegija, za glagolske oblike donose se samo brojevi paragrafa koji upućuju studenta na relevantne dijelove \textit{Grčke gramatike} Augusta Musića i Nikole Majnarića, standardni školski priručnik za opis grčkog jezika. Ostatak komentara objašnjava gramatičke, sintaktičke i stvarne aspekte koji tekst čine teže razumljivima.
+Ovaj izbor komentiranih tekstova čini propisanu literaturu obaveznog kolegija \textit{Grčka morfologija 2}. Kao i u kolegiju \textit{Grčka morfologija 1}, kratkim su odlomcima dodane tri vrste komentara. U uvodu su predstavljeni autor (kada se susreće prvi put), tekst iz kojeg odlomak potječe, i kontekst samog odlomka. Nakon teksta slijede rečenice, raščlanjene i složene tako da povećaju sintaktičku i semantičku preglednost, te gramatički komentar. Potonji je komentar, opet, dvojak. U skladu sa sadržajem ovog kolegija, za glagolske oblike donose se samo brojevi paragrafa koji upućuju studenta na relevantne dijelove \textit{Grčke gramatike} Augusta Musića i Nikole Majnarića, standardni školski priručnik za opis grčkog jezika. Ostatak komentara objašnjava gramatičke, sintaktičke i stvarne aspekte koji tekst čine teže razumljivima.
 
 Zadatak je studenata da, uz pomoć komentara i referentne literature, kod kuće prirede svaki tekst, tako da ga na nastavi budu sposobni pročitati i prevesti na hrvatski, te identificirati i morfološki opisati glagolske oblike koje susreću. Također, očekuje se i da studenti nauče određeni broj riječi iz ovih tekstova, uz pomoć popisa i vježbi koje će naći na stranicama kolegija \textit{Grčka morfologija 2} Sustava učenja na daljinu Omega (Filozofski fakultet Sveučilišta u Zagrebu).
 
-\newpage
+%\newpage
 
-Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Neven Jovanović, Vlado Rezar, Petra Šoštarić, Ninoslav Zubović.
+Izbor su sastavili i komentare priredili nastavnici Odsjeka za klasičnu filologiju Filozofskog fakulteta Sveučilišta u Zagrebu (abecednim redom): Irena Bratičević, Nina Čengić, Petra Matović, Neven Jovanović, Vlado Rezar, Ninoslav Zubović. Čitanka je priređena računalnim programima za slaganje teksta LaTeX i XeLaTeX. Izvorni kod dostupan je u repozitoriju Github, na URL adresi \url{https://github.com/nevenjovanovic/grcka-morfologija}.
 
-Čitanka je priređena računalnim programima za slaganje teksta \LaTeX\ i \XeLaTeX. Izvorni kod dostupan je u repozitoriju Github, na URL adresi \href{https://github.com/nevenjovanovic/grcka-morfologija}.
+%\medskip
 
-\medskip
-
-U Zagrebu, veljače 2020.
+U Zagrebu, siječnja 2022.
 
 \section*{Referentna literatura}
 
-Georg Autenrieth, \textit{A Homeric Dictionary for Schools and Colleges}. New York, Harper and Brothers, 1891.\\
+Georg Autenrieth, \textit{A Homeric Dictionary for Schools and Colleges}. New York, Harper and Brothers, 1891. (Dostupno i u zbirci \emph{Logeion})\\
+F. R. Adrados et al., \textit{Diccionario Griego-Español}, Instituto de Lenguas y Culturas del Mediterráneo y Oriente Próximo (ILC) del Centro de Ciencias Humanas y Sociales (CCHS) del CSIC (Madrid). (DGE; dostupno i u zbirci \textit{Logeion})\\
 \textit{Grčka morfologija 2}, elektronska verzija kolegija, Sustav učenja na daljinu Omega, Zagreb: Filozofski fakultet Sveučilišta u Zagrebu, pristupljeno 23. kolovoza 2018. na adresi \url{https://omega.ffzg.hr/course/view.php?id=1615}\\
-Henry George Liddell, Robert Scott, \textit{An Intermediate Greek-English Lexicon. Founded upon the seventh edition of Liddell \& Scott's Greek-English Lexicon}. Oxford, Clarendon Press, 1889.\\
-\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi \url{http://logeion.uchicago.edu/}\\
+Henry George Liddell, Robert Scott, \textit{An Intermediate Greek-English Lexicon. Founded upon the seventh edition of Liddell \& Scott's Greek-English Lexicon}. Oxford, Clarendon Press, 1889. (LSJ; dostupno i u zbirci \textit{Logeion})\\
+\textit{Logeion}. Pristupljeno 23. kolovoza 2018. na adresi: \\ \url{http://logeion.uchicago.edu/}\\
 August Musić, Nikola Majnarić, \textit{Gramatika grčkoga jezika}, Zagreb (bilo koje izdanje)\\
 Oton Gorski, Niko Majnarić, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
 Stjepan Senc, \textit{Grčko-hrvatski rječnik}, Zagreb (bilo koje izdanje)\\
 Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Library. Pristupljeno 23. prosinca 2018. na adresi \url{http://www.perseus.tufts.edu}\\
-
 
 \vspace*{\fill}
 
@@ -153,8 +151,6 @@ Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Libra
 %3
 \import{grcmorf2poglavlja/}{tlg0032.tlg007.perseus-grc2:1.2.8.tex}
 
-
-
 \chapter[Πλάτωνος Πρωταγόρας]{\textgreek[variant=ancient]{Πλάτωνος Πρωταγόρας} 325c-326a}
 %4
 \import{grcmorf2poglavlja/}{tlg0059.tlg022.perseus-grc2:325-326.tex}
@@ -182,10 +178,6 @@ Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Libra
 \chapter[Ἀνδοκίδου Περὶ τῶν μυστηρίων]{\textgreek[variant=ancient]{Ἀνδοκίδου Περὶ τῶν μυστηρίων,} 97}
 %10
 \import{grcmorf2poglavlja/}{tlg0027.tlg001.perseus-grc1:97.tex}
-
-%\chapter[Δημοσθένους Ὀλυνθιακός Α]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Α,} 14–15}
-
-%\import{grcmorf2poglavlja/}{tlg0014.tlg001.perseus-grc1:14-15.tex}
 
 \chapter[Πολυβίου Ἱστορίων ΛΗ]{\textgreek[variant=ancient]{Πολυβίου ἱστορίων ΛΗ,} 22.1–22.3}
 %11
@@ -319,10 +311,11 @@ Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Libra
 
 \chapter[Θουκυδίδου Ἱστορίαι Α]{\textgreek[variant=ancient]{Θουκυδίδου Ἱστορίαι Α} 22, 1–4}
 %43
+
 \import{grcmorf2poglavlja/}{tlg0003.tlg001.perseus-grc2:1.22.1-1.22.4.tex}
 
 \chapter[Πλουτάρχου Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ\dots]{\textgreek[variant=ancient]{Πλουτάρχου Πῶς ἄν τις αἴσθοιτο ἑαυτοῦ προκόπτοντος ἐπ' ἀρετῇ} 77D}
-%44
+%44 studentima je loše sjeo ovaj odlomak VR
 \import{grcmorf2poglavlja/}{tlg0007.tlg071.perseus-grc1:77d.tex}
 
 \chapter[Ἰσοκράτους Ἑλένης ἐγκώμιον 27]{\textgreek[variant=ancient]{Ἰσοκράτους Ἑλένης ἐγκώμιον} 27–28}
@@ -404,12 +397,19 @@ Herbert Weir Smyth, \textit{A Greek Grammar for Colleges}, Perseus Digital Libra
 
 %\import{grcmorf2poglavlja/}{tlg0032.tlg004.perseus-grc2:4.30-4.32.tex}
 
+
+% 59 nedovršeno -- nema ništa
+%\chapter[Δημοσθένους Ὀλυνθιακός Α]{\textgreek[variant=ancient]{Δημοσθένους Ὀλυνθιακός Α,} 14–15}
+
+%\import{grcmorf2poglavlja/}{tlg0014.tlg001.perseus-grc1:14-15.tex}
+
+
 % dodaj tekstove NZ
 
+% 60
+%\chapter[Διοδώρου Βιβλιοθήκης ἱστορικής ΙΒ]{\textgreek[variant=ancient]{Διοδώρου Σικελιώτου \\Βιβλιοθήκης ἱστορικῆς ΙΒ,} 53, 1–5}
 
-%\backmatter
-
-%\tableofcontents
+%\import{grcmorf2poglavlja/}{tlg0060.tlg001.perseus-grc3:12.53.1-12.53.5.tex}
 
 \end{document}
 
